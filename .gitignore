@@ -1,0 +1,12 @@
+# Ambiente virtuale (troppo pesante, si ricrea con requirements.txt)
+venv/
+
+# Chiavi segrete (NON caricarle mai su internet!)
+.env
+
+# Database locale (sono dati, non codice)
+chroma_db_local/
+
+# Cartelle Python temporanee
+__pycache__/
+*.pyc

@@ -1,0 +1,15 @@
+DOMANDA: Buongiorno, possiedo un iphone e non riesco ad impostare il face id
+RISPOSTA: Buongiorno, grazie per averci contattato. Per impostare il Face ID sul tuo iPhone, assicurati di avere un modello compatibile con questa funzionalità. Se il tuo dispositivo supporta il Face ID, segui questi passaggi:
+
+1. Vai alle "Impostazioni" del tuo iPhone.
+2. Seleziona "Face ID e Codice" o "Face ID" a seconda della versione del tuo sistema operativo.
+3. Seleziona "Imposta Face ID".
+4. Segui le istruzioni sullo schermo per registrare il tuo volto. Ti verrà chiesto di posizionare il tuo volto all'interno di un cerchio sullo schermo e di ruotarlo lentamente per catturare diverse angolazioni.
+
+Se riscontri problemi durante l'impostazione del Face ID, assicurati che:
+
+- Il tuo viso sia ben illuminato e non ci siano ombre sul tuo volto.
+- Non indossi occhiali da sole o altri accessori che potrebbero interferire con la scansione del viso.
+- Il tuo iPhone sia aggiornato con l'ultima versione del software.
+
+Se dopo aver seguito questi passaggi non riesci ancora a impostare il Face ID, potresti voler considerare di visitare un Apple Store o un rivenditore autorizzato per ulteriore assistenza. Spero che questo ti sia stato utile. Se hai altre domande, non esitare a chiedere.

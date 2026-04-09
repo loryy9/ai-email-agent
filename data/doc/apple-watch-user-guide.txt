@@ -1,0 +1,2468 @@
+Versione 1.0
+orologio Apple
+Guida utente
+Machine Translated by Google
+15 Capitolo 2: Nozioni di base
+27 Rispondi alle notifiche in tempo reale
+10 Regola la luminosità, le dimensioni del testo, i suoni e il feedback tattile
+18 Localizza il tuo iPhone
+36 Usa un timer
+39 Capitolo 7: Messaggi
+32 Controllare l'ora in altri luoghi
+8 L'app Apple Watch su iPhone
+17 Entra in contatto con gli amici
+27 Capitolo 4: Notifiche
+15 Utilizzare e organizzare le app
+Icone di stato
+21 Personalizza il quadrante dell'orologio
+31 Organizza i tuoi sguardi
+5 Una rapida occhiata all'Apple Watch 6
+39 Leggere e rispondere ai messaggi
+14 Visualizza questa guida per l'utente
+20 Quando si vola
+30 Dai una rapida occhiata alle informazioni utili
+37 Cronometra gli eventi con un cronometro
+18 Usa Apple Watch senza l'iPhone abbinato
+12 Cambia lingua e orientamento
+28 Rispondere alle notifiche non lette
+18 Usa Handof per spostarti tra Apple Watch e iPhone
+8 Accendi, riattiva e sblocca
+27 Notifiche su Apple Watch
+34 Imposta allarmi
+21 Capitolo 3: Watch Faces
+23 Quadranti e funzioni dell'orologio
+7
+16 icone delle app
+30 Controlla i tuoi sguardi
+32 Capitolo 6: Cronometraggio
+30 Capitolo 5: Sguardi
+5 Capitolo 1: Per iniziare
+13 Ricarica Apple Watch
+19 Siri su Apple Watch
+Configura e accoppia con iPhone
+2
+Contenuti
+Machine Translated by Google
+Contenuti 3
+52 Impostare e rispondere ai promemoria
+65 Riproduci musica su Apple Watch
+48 Rispondere alle telefonate
+57 Mantieni i tuoi dati accurati
+70 Usa mirino e otturatore remoti
+72 Capitolo 19: Azioni
+69 Gestisci archivio foto
+46 Gestire la posta
+55 Monitora i tuoi allenamenti
+64 Capitolo 15: Musica
+53 Capitolo 12: Salute e forma fisica
+45 Capitolo 9: Posta
+Esplora la mappa
+68 Visualizza le foto su Apple Watch
+43 Informazioni sul tocco digitale
+61
+72 Tieni traccia delle scorte
+50 Controlla e aggiorna il tuo calendario
+60 Usa Libretto
+67 Controlla Apple TV
+71 Utilizzare il timer dell'otturatore
+66 Capitolo 16: Telecomando
+58 Capitolo 13: Apple Pay e Passbook
+40 Inviare e gestire messaggi
+49 Telefonate
+57 Controlla la tua frequenza cardiaca
+48 Capitolo 10: Telefonate
+64 Riproduci musica su iPhone
+70 Capitolo 18: Telecomando della fotocamera
+61 Capitolo 14: Mappe e indicazioni
+62 Ottieni indicazioni stradali
+45 Leggere la posta
+53 Tieni traccia dell'attività quotidiana
+68 Capitolo 17: Foto
+69 Scegli il tuo album
+73 Controlla un titolo a colpo d'occhio
+66 Controlla la musica su Mac o PC
+43 Capitolo 8: Tocco digitale
+50 Capitolo 11: Calendari e promemoria
+58 Fai acquisti con Apple Pay
+44 Invia un tocco digitale
+Machine Translated by Google
+79 Etichette dei pulsanti On/Off
+87 Rimuovere, sostituire e allacciare i cinturini
+91 Ulteriori informazioni, assistenza e supporto
+90 Ripristina Apple Watch da un backup
+95 Apple e l'ambiente
+78 Nozioni di base su Apple Watch con VoiceOver
+84 Informazioni importanti sulla gestione
+76 VoiceOver
+81 Capitolo 22: Sicurezza, movimentazione e supporto
+90 Ripristina Apple Watch
+93 segni distintivi e marchi di finezza per Apple Watch Edition
+92 Dichiarazione normativa canadese per Apple Watch, cavo di ricarica magnetico per Apple Watch e
+76 Capitolo 21: Accessibilità e impostazioni correlate
+80 Dimensioni del testo
+89 Ripristina le impostazioni di Apple Watch
+79 Audio Mono e Bilanciamento Audio
+89 Sito di supporto per Apple Watch
+92 Dichiarazione di conformità FCC per Apple Watch, cavo di ricarica magnetico per Apple Watch e
+74 Controlla il meteo
+73 Aggiungi informazioni sulle azioni al quadrante dell'orologio
+90 Vendi, regala o perdi Apple Watch
+86 Informazioni sulla cura del cinturino
+79 Zoom
+81 Informazioni importanti sulla sicurezza
+90 Aggiorna il software dell'Apple Watch
+93 Informazioni sullo smaltimento e sul riciclaggio
+77 Configura Apple Watch utilizzando VoiceOver
+76 La scorciatoia per l'accessibilità
+89 Ottieni informazioni sul tuo Apple Watch
+80 Siri
+Custodia di ricarica magnetica per Apple Watch
+89 Riavvia Apple Watch
+Custodia di ricarica magnetica per Apple Watch
+75 Visualizza il meteo sul quadrante dell'orologio
+79 Testo in grassetto
+74 Capitolo 20: Meteo
+Contenuti 4
+Machine Translated by Google
+Premere per mostrare o
+nascondere gli amici.
+spento o acceso.
+Tenere premuto per girare
+Ruota per ingrandire, scorrere
+o regolare.
+Microfono
+Tieni premuto per Siri.
+Sensore di frequenza cardiaca
+Fare doppio clic per
+Apple Pay.
+Fare doppio clic per tornare
+all'ultima app.
+Altoparlante
+Una rapida occhiata all'Apple Watch
+1
+5
+Pulsanti di rilascio del cinturino
+Premere per estrarre il cinturino.
+Digital Crown/
+Pulsante Home
+Premere per visualizzare il quadrante
+o la schermata Home.
+Bottone laterale
+Display
+Premere con decisione
+per cambiare il quadrante
+dell'orologio o visualizzare le
+opzioni in un'app.
+Iniziare
+Machine Translated by Google
+Ecco i gesti necessari per utilizzare Apple Watch e le sue app. Il display dell'Apple Watch non solo risponde
+ai gesti basati sul tocco come il tocco e lo scorrimento, ma utilizza anche la tecnologia Force Touch per
+rispondere alla pressione del dito.
+Configura e accoppia. Aggiorna il tuo iPhone alla versione software iOS 8.2 o successiva (vai su
+Impostazioni > Generali > Aggiornamento software), che include l'app Apple Watch complementare. Quindi apri
+l'app Apple Watch su iPhone.
+Configurare e accoppiare con iPhone Un
+assistente alla configurazione ti guida attraverso alcuni semplici passaggi per accoppiare Apple Watch con il tuo
+iPhone e personalizzarlo.
+· AVVERTENZA: per evitare lesioni, leggere Informazioni importanti sulla sicurezza a pagina 81 prima dell'uso
+Orologio Apple.
+Se hai difficoltà a vedere lo schermo dell'Apple Watch o dell'iPhone per configurarlo, VoiceOver o Zoom possono
+aiutarti. Consulta Configurare Apple Watch utilizzando VoiceOver a pagina 77 o Zoom a pagina 79.
+orologio Apple
+Rubinetto. Premi con decisione il
+display, non limitarti a toccare.
+Scorri verso l'alto, verso il Lagna.
+basso, a sinistra o a destra.
+Capitolo 1 Per iniziare 6
+Machine Translated by Google
+Le icone di stato nella parte superiore dello schermo forniscono informazioni su Apple Watch:
+Quando richiesto, posiziona il tuo iPhone in modo che Apple Watch appaia nel mirino della fotocamera sullo schermo
+dell'iPhone. Segui le istruzioni su iPhone e Apple Watch per completare la configurazione. Durante la configurazione,
+sceglierai la lingua, l'orientamento dell'orologio e il passcode. Per informazioni su come modificarli in un secondo
+momento, vedere Modifica della lingua e dell'orientamento a pagina 12 e Accensione, riattivazione e sblocco a pagina 8.
+Potrebbe essere necessario caricare Apple Watch prima di associarlo a iPhone. Per informazioni sulla ricarica,
+consulta Ricaricare Apple Watch a pagina 13.
+Notifica: hai una notifica non letta.
+In carica: Apple Watch è in carica.
+Modalità aereo: il wireless è disattivato ma le funzionalità non wireless sono ancora disponibili.
+Cambia o pulisci il cinturino. Per prestazioni ottimali, l'Apple Watch deve essere vicino ma comodo al polso. Regola
+la banda di conseguenza. Per informazioni sulla rimozione e la sostituzione del cinturino su Apple Watch o per
+assistenza con la pulizia, consulta Rimuovere, sostituire e allacciare i cinturini a pagina 87 e Informazioni sulla cura del
+cinturino a pagina 86.
+Disconnesso dal tuo iPhone: Apple Watch ha perso la connessione con il suo iPhone associato.
+Blocca: Apple Watch è bloccato con un passcode.
+Caricamento in corso: è in corso un'attività wireless o un processo attivo.
+Metti Apple Watch al polso, quindi tieni premuto il pulsante laterale finché non vedi il logo Apple.
+Non disturbare: le chiamate e gli avvisi non suoneranno né illumineranno lo schermo, ma gli allarmi sono
+ancora attivi.
+Icone di stato
+Capitolo 1 Per iniziare 7
+Machine Translated by Google
+Apri l'app Apple Watch. Su iPhone, tocca l'icona dell'app Apple Watch, quindi tocca Il mio orologio per
+aprire le impostazioni di Apple Watch.
+Spegni l'Apple Watch. Puoi spegnere Apple Watch: tieni premuto il pulsante laterale finché non viene
+visualizzato il cursore, quindi trascinalo verso destra.
+Se Apple Watch non si riattiva quando alzi il polso, assicurati di aver selezionato l'orientamento corretto del
+polso e della Digital Crown. Apri l'app Impostazioni (se stai guardando il quadrante dell'orologio, premi la
+Digital Crown per accedere alla schermata Home, quindi tocca ), vai su Generali > Orientamento, quindi
+assicurati che l'Orientamento sia impostato sul polso su cui indossi l'Apple Watch . È anche possibile che la
+batteria debba essere ricaricata. Consulta Ricaricare Apple Watch a pagina 13.
+L'app Apple Watch su iPhone L'app Apple Watch
+su iPhone ti consente di personalizzare le impostazioni e le opzioni dell'orologio e configurare Apple
+Pay per Apple Watch. Ti dà accesso all'App Store, dove puoi scaricare e installare app per Apple Watch.
+Per informazioni sull'App Store, consulta Utilizzare e organizzare le app a pagina 15.
+Accendi , riattiva e sblocca Accendi Apple
+Watch. Se Apple Watch è spento, tieni premuto il pulsante laterale finché non viene visualizzato il logo
+Apple (potresti vedere una schermata nera per un breve periodo di tempo), quindi attendi il quadrante.
+Riattiva l'Apple Watch. Basta alzare il polso o toccare il display. Apple Watch va in standby quando abbassi
+il polso. Puoi anche riattivare Apple Watch premendo la corona digitale, utile se non lo indossi.
+Dal quadrante
+dell'orologio, premi per
+visualizzare la schermata Home.
+Tocca per aprire un'app.
+Capitolo 1 Per iniziare 8
+Machine Translated by Google
+Cambia il codice di accesso. Su Apple Watch, apri Impostazioni , scorri verso il basso, tocca Codice, quindi tocca
+Modifica codice e segui le istruzioni sullo schermo. Inserisci un nuovo passcode di 4 cifre, quindi confermalo. In alternativa,
+apri l'app Apple Watch su iPhone, tocca Apple Watch, tocca Codice, quindi tocca Cambia codice e segui le istruzioni sullo
+schermo.
+Nota: se disattivi il codice, non puoi utilizzare Apple Pay su Apple Watch.
+Sblocca con iPhone. Per sbloccare Apple Watch inserendo il passcode dell'iPhone su iPhone, apri l'app Apple Watch su
+iPhone, tocca Apple Watch, tocca Passcode, quindi tocca Sblocca con iPhone. In alternativa, su Apple Watch, apri
+Impostazioni , scorri verso il basso, tocca Codice, quindi attiva Sblocca con iPhone.
+Bloccalo automaticamente. Attiva il rilevamento del polso per bloccare automaticamente l'orologio quando non lo
+indossi. Apri l'app Apple Watch su iPhone, tocca Apple Watch, tocca Generali, quindi tocca Rilevamento polso. Se attivi
+Rilevamento polso, puoi anche vedere l'ora quando alzi il polso. Se disattivi Rilevamento polso, non puoi utilizzare Apple
+Pay.
+Nota: il passcode del tuo Apple Watch può essere diverso dal passcode del tuo iPhone, infatti, per motivi di
+sicurezza, è meglio rendere i passcode diversi.
+Bloccalo manualmente. Tieni premuto il pulsante laterale finché non vengono visualizzati i cursori, quindi trascina il
+cursore Blocca dispositivo verso destra. Ti verrà richiesto di inserire il tuo passcode la prossima volta che proverai a
+utilizzare Apple Watch.
+Inserisci un codice più lungo. Per utilizzare un codice più lungo di quattro cifre, apri l'app Apple Watch su iPhone, tocca
+Apple Watch, tocca Codice, quindi disattiva Codice semplice. Un passcode semplice è un numero di 4 cifre. Con questa
+opzione puoi impostare un passcode più lungo su Apple Watch.
+Inserisci il tuo codice di accesso. Se prendi l'Apple Watch dal polso o lo indossi molto liberamente, ti chiederà il passcode
+la prossima volta che proverai a usarlo. Quando viene visualizzato il tastierino numerico, tocca semplicemente il tuo passcode.
+Disattiva il codice di accesso. Apri Impostazioni , tocca Codice, quindi tocca Disabilita codice. In alternativa, apri l'app
+Apple Watch su iPhone, tocca Apple Watch, tocca Codice, quindi tocca Disattiva codice.
+Svegliati con il quadrante o la tua ultima attività. Puoi impostare Apple Watch in modo che mostri il quadrante
+dell'orologio quando si riattiva o ti riporti al punto in cui eri prima che andasse in stop. L'impostazione predefinita è svegliarsi
+con il quadrante dell'orologio. Per scegliere di tornare all'ultima app utilizzata, apri Impostazioni , tocca Generali > Attiva al
+sollevamento del polso e assicurati che la funzione Alza il polso sia attivata. Quindi scorri verso il basso per scegliere
+l'apertura all'ultima app utilizzata. Puoi farlo anche utilizzando l'app Apple Watch su iPhone: tocca Il mio orologio, vai su
+Generali > Attiva al sollevamento del polso, quindi scegli Riprendi attività precedente.
+Attiva il sollevamento
+del polso e imposta
+l'attività di attivazione
+predefinita.
+Disattiva il
+codice di accesso.
+Cambia il codice
+di accesso.
+Capitolo 1 Per iniziare 9
+Machine Translated by Google
+Cancella i dati di Apple Watch. Puoi impostare Apple Watch in modo che cancelli i suoi dati se la password errata viene
+inserita 10 volte. Questo protegge il contenuto del tuo orologio in caso di smarrimento o furto. Apri l'app Apple Watch su
+iPhone, tocca Apple Watch, tocca Codice, quindi tocca Cancella dati.
+Se dimentichi il codice di accesso. Disaccoppia Apple Watch dal suo iPhone associato per cancellare le
+impostazioni e il passcode di Apple Watch. Puoi anche ripristinare Apple Watch e associarlo nuovamente al tuo iPhone.
+Consulta Ripristinare le impostazioni di Apple Watch a pagina 89.
+Quando attivi il testo in grassetto da Apple Watch o dall'iPhone associato, Apple Watch deve reimpostarsi per applicare la
+modifica. Tocca Continua.
+Regola la luminosità, la dimensione del testo, i suoni e l'aspetto tattile Regola la
+luminosità. Apri l'app Impostazioni , quindi scorri verso il basso dimensioni e tocca Luminosità del testo. e
+Ingrandisci il testo. Apri Impostazioni , quindi scorri verso il basso e tocca Luminosità e dimensioni del testo. Tocca Dimensione
+testo, quindi tocca le lettere o scorri la Digital Crown per aumentare o diminuire la dimensione del testo. Oppure apri l'app Apple
+Watch su iPhone, tocca Il mio orologio, tocca Luminosità e dimensione del testo e trascina il cursore Dimensione testo.
+Tocca un simbolo di luminosità, quindi ruota la corona digitale o tocca i simboli di luminosità per regolare. In alternativa, apri
+l'app Apple Watch su iPhone, tocca Apple Watch, tocca Luminosità e dimensione testo, quindi trascina il cursore Luminosità.
+Puoi anche mettere l'orologio in modalità Riserva di carica da questa schermata. Consulta Ricaricare Apple
+Watch a pagina 13.
+Rendi il testo in grassetto. Apri Impostazioni , quindi scorri verso il basso e tocca Luminosità e dimensioni del testo. Attiva il
+testo in grassetto. In alternativa, apri l'app Apple Watch su iPhone, tocca Apple Watch, tocca Luminosità e dimensioni testo,
+quindi attiva Testo in grassetto.
+Regola la dimensione del testo.
+Rendi il testo in grassetto.
+Tocca i simboli della
+luminosità.
+Capitolo 1 Per iniziare 10
+Machine Translated by Google
+Regola il suono. Apri Impostazioni , quindi scorri verso il basso e tocca Suoni e feedback aptico. Tocca i pulsanti del
+volume sotto Suoneria e suoni di avviso o tocca una volta il dispositivo di scorrimento per selezionarlo, quindi ruota la
+Digital Crown per regolare il volume. In alternativa, apri l'app Apple Watch su iPhone, tocca Apple Watch, tocca Suoni e
+feedback aptico, quindi trascina il cursore Suoneria e suoni di avviso.
+Puoi anche disattivare rapidamente i nuovi suoni di avviso e notifica appoggiando il palmo della mano sul display dell'orologio e
+tenendolo premuto per almeno tre secondi. Sentirai un tocco per confermare che l'audio è attivo. Devi prima attivare l'opzione
+nell'app Apple Watch su iPhone. Tocca Il mio orologio, tocca Suoni e feedback aptico, quindi attiva Copri per disattivare l'audio.
+Disattiva Apple Watch. Apri Impostazioni , scorri verso il basso e tocca Suoni e feedback aptico, quindi attiva Muto.
+Non disturbare è un modo semplice per silenziare Apple Watch. Impedisce alle chiamate e agli avvisi (ad eccezione degli
+allarmi) di emettere suoni o illuminare lo schermo.
+Regola l'intensità tattile. Apple Watch tocca il tuo polso per determinate notifiche e avvisi e puoi regolare l'intensità di queste
+sensazioni tattili. Apri Impostazioni , quindi scorri verso il basso e tocca Suoni Suoneria e feedback e Avvisi aptico. aptici Tocca o tocca i pulsanti il dispositivo aptici sotto di
+scorrimento una volta per selezionarlo, quindi ruota la Digital Crown per regolare l'intensità aptica. In alternativa, apri l'app
+Apple Watch su iPhone, tocca Apple Watch, tocca Suoni e feedback aptico, quindi trascina il cursore Suoneria e feedback
+aptico.
+Oppure scorri verso l'alto sul quadrante dell'orologio, scorri fino allo sguardo Impostazioni, quindi tocca il pulsante Disattiva
+audio. Puoi anche aprire l'app Apple Watch su iPhone, toccare Apple Watch, toccare Suoni e feedback aptico, quindi attivare
+Muto.
+Tocca per
+disattivare i suoni.
+Tocca i simboli
+tattili.
+Apple Watch è
+connesso al suo
+iPhone compagno.
+Tocca i simboli
+del volume.
+Attiva Muto.
+Capitolo 1 Per iniziare 11
+Machine Translated by Google
+Per silenziare sia Apple Watch che iPhone, apri l'app Apple Watch su iPhone, tocca Il mio orologio e attiva Non
+disturbare > Mirror iPhone. Quindi, ogni volta che modifichi Non disturbare su uno, l'altro cambierà di conseguenza.
+Attiva Non disturbare. Scorri verso l'alto sul quadrante dell'orologio, scorri verso sinistra o verso destra fino allo
+sguardo Impostazioni, quindi tocca il pulsante Non disturbare . In alternativa, apri Impostazioni , tocca Non disturbare,
+quindi attiva Non disturbare. Quando la modalità Non disturbare è attiva, vedrai nella parte superiore dello schermo.
+Apri l'app Impostazioni , quindi vai su Generali > Orientamento. Per modificare le impostazioni nell'app Apple
+Watch su iPhone, tocca My Watch, quindi vai su Generali > Orientamento orologio.
+Cambia lingua e orientamento Cambia la lingua o il
+formato della regione. Apri l'app Apple Watch su iPhone, tocca My Watch, quindi vai su Generali > Lingua e Zona.
+Cambia polso o cambia l'orientamento della Digital Crown. Se desideri cambiare polso o preferisci orientare la
+Digital Crown in modo diverso, regola le impostazioni di orientamento in modo che sollevando il polso si riattivi Apple
+Watch e ruotando la Digital Crown si spostino le cose nella direzione prevista.
+Tocca per cambiare Tocca per
+cambiare la lingua. la lingua.
+Imposta le opzioni di orientamento su Apple Watch
+o nell'app Apple Watch.
+Tocca per attivare Non disturbare.
+Capitolo 1 Per iniziare 12
+Machine Translated by Google
+Puoi anche aggiungere l'indicatore della batteria a molti quadranti, tra cui Modular, Color, Utility, Simple,
+Chronograph e Mickey Mouse. Con il quadrante dell'orologio visualizzato, premi con decisione il display, tocca
+Personalizza, quindi scorri verso sinistra finché non puoi scegliere le posizioni delle singole funzioni.
+Carica Apple Watch Carica Apple
+Watch. In un'area ben ventilata, posiziona il cavo di ricarica magnetico per Apple Watch o la custodia di ricarica
+magnetica per Apple Watch su una superficie piana, collegalo all'alimentatore incluso o a un alimentatore che
+utilizzi con iPhone o iPad, quindi collegalo a una presa di corrente. Quando utilizzi la custodia di ricarica magnetica per
+Apple Watch, tienila aperta.
+Controllare la carica residua. Su Apple Watch, scorri verso l'alto sul quadrante dell'orologio, quindi scorri fino
+allo sguardo Batteria.
+Tocca una posizione, ruota la Digital Crown per scegliere Batteria, quindi premi la Digital Crown per uscire.
+Usa la riserva di carica per allungare la potenza disponibile. Puoi mettere Apple Watch in modalità Riserva di
+carica per risparmiare energia quando la batteria è scarica. Apple Watch continua a tenere e visualizzare l'ora, ma altre
+app non sono disponibili per l'uso. Scorri verso l'alto sul quadrante dell'orologio, scorri fino allo sguardo Energia, tocca
+Riserva di carica, quindi tocca Procedi. Puoi anche premere il pulsante laterale finché non viene visualizzato il cursore,
+quindi trascinarlo verso destra.
+Posiziona il retro dell'Apple Watch sul caricabatteria. I magneti sul caricabatterie allineano correttamente Apple Watch e
+sentirai un segnale acustico (a meno che Apple Watch non sia disattivato) e vedrai un simbolo di ricarica sul quadrante.
+Il simbolo è rosso quando Apple Watch necessita di alimentazione e diventa verde quando Apple Watch è in carica.
+ATTENZIONE: per importanti informazioni sulla sicurezza relative alla batteria e alla ricarica di Apple Watch, consulta
+Importanti informazioni sulla sicurezza a pagina 81.
+Visualizza
+la percentuale
+di durata residua
+della batteria.
+Capitolo 1 Per iniziare 13
+Machine Translated by Google
+Ritorna alla modalità di alimentazione normale. Tieni premuto il pulsante laterale per riavviare Apple Watch. Ci
+deve essere una carica sufficiente nella batteria perché funzioni.
+Visualizza un PDF della guida per l'utente. Vai su support.apple.com/manuals/watch, Trova l'ultima guida
+per l'utente di Apple Watch e fai clic su PDF. (Puoi anche trovare iBooks e le versioni web della guida per l'utente qui.)
+Visualizza la guida per l'utente in Safari. Vai su help.apple.com/watch.
+Controlla il tempo trascorso dall'ultima ricarica. Apri l'app Apple Watch su iPhone, tocca My Watch, quindi vai
+su Generali > Utilizzo, dove puoi visualizzare i valori di Utilizzo e Standby. Questi valori, sommati insieme, danno il
+tempo trascorso dall'ultima carica completa. Al di sotto di questo, puoi vedere il valore della riserva di carica.
+• Aggiungere un'icona per la guida utente alla schermata Home di iPhone: tocca , quindi tocca Aggiungi a schermata
+Home. • Visualizzare la guida dell'utente in un'altra lingua: toccare Cambia lingua nella parte inferiore della
+pagina iniziale.
+Visualizza questo manuale utente
+Puoi visualizzare il Manuale utente di Apple Watch su iPhone all'interno dell'app Apple Watch, in Safari o in iBooks. È
+inoltre possibile aprire e stampare un PDF della guida per l'utente.
+Nota: Apple Watch entra automaticamente in modalità Riserva di carica se la percentuale di carica residua della batteria
+scende al di sotto del 10% circa.
+Visualizza la guida per l'utente in iBooks. Apri iBooks, quindi cerca "Guida per l'utente di Apple Watch" nell'iBooks
+Store.
+Visualizza la guida per l'utente dall'app Apple Watch. Apri l'app Apple Watch su iPhone, tocca My Watch, vai
+su Generali > Informazioni, quindi scorri verso il basso e tocca Visualizza il manuale utente di Apple Watch.
+Visualizza i valori di potenza.
+Capitolo 1 Per iniziare 14
+Machine Translated by Google
+2
+Utilizzare e organizzare le app
+Apple Watch include app per una varietà di attività di comunicazione, informazione e cronometraggio.
+Tocca e
+trascina per
+spostare le app.
+Tocca e tieni premuta
+un'app, quindi trascinala
+in una nuova posizione.
+Nozioni di base
+Torna al quadrante dell'orologio. Tocca l'icona dell'orologio nella schermata Home per tornare al quadrante. Oppure
+premi la Digital Crown.
+Riorganizza le tue app. Su Apple Watch, premi la Digital Crown per andare alla schermata Home. Tocca e tieni premuta
+un'app fino a quando le app oscillano e le icone delle app hanno le stesse dimensioni, quindi trascina l'app che desideri
+spostare in una nuova posizione. Premi la corona digitale quando hai finito.
+Torna all'ultima app. Fai doppio clic sulla corona digitale.
+Sono su un'unica schermata Home, dove puoi disporli come preferisci.
+In alternativa, apri l'app Apple Watch su iPhone, tocca Apple Watch, quindi tocca Layout app. Tocca e tieni premuta l'icona
+di un'app, quindi trascinala in una nuova posizione. Tocca Ripristina per ripristinare il layout originale.
+Apri un'app. Dal quadrante dell'orologio, premi la corona digitale per accedere alla schermata Home, quindi tocca
+l'icona dell'app. Oppure ruota la Digital Crown per aprire l'app che si trova al centro della schermata Home.
+15
+Machine Translated by Google
+Trova e installa app dall'App Store. Apri l'app Apple Watch su iPhone, quindi tocca App Store per trovare le
+app per Apple Watch. Acquista, scarica e installa app sul tuo iPhone.
+Controlla lo spazio di archiviazione utilizzato dalle app. Apri l'app Apple Watch su iPhone, tocca My Watch, quindi vai
+su Generali > Utilizzo. Visualizza lo spazio di archiviazione utilizzato da ciascuna app e lo spazio di archiviazione disponibile
+rimasto su Apple Watch.
+Icone delle app
+Ecco le icone delle app fornite con Apple Watch, con link per saperne di più.
+Su Apple Watch, vedrai un messaggio che ti chiede di installare l'app. Tocca Sì.
+Nascondi un'app installata da Apple Watch. Nella schermata Home, tocca e tieni premuta l'icona dell'app finché
+non vedi una X sul bordo. Tocca la X per rimuovere l'app da Apple Watch. Rimane installato sul tuo iPhone
+associato, a meno che non lo elimini da lì. Per mostrare o nascondere le app installate su Apple Watch, apri l'app
+Apple Watch su iPhone, tocca My Watch, scorri verso il basso per vedere le app che hai installato, tocca il nome
+dell'app, quindi tocca Mostra app su Apple Watch. Non puoi nascondere le app fornite con Apple Watch. Per
+informazioni su come mostrare o nascondere gli sguardi, vedere Controllare gli sguardi a pagina 30.
+Regola le impostazioni per le app installate. Apri l'app Apple Watch su iPhone, tocca My Watch e scorri verso
+il basso per visualizzare le tue app. Tocca il nome di un'app per modificarne le impostazioni.
+Ulteriori informazioni su Apple Watch.
+App Apple Watch
+nell'App Store.
+Apri Vedi in primo piano le impostazioni
+per Apple Watch.
+Telecamera
+Vedere Controllare e aggiornare il calendario a pagina 50.
+Consulta Visualizzare le foto su Apple Watch a pagina 68.
+Consulta Controllare Apple TV a pagina 67.
+Calendario
+Consulta Tenere traccia dell'attività quotidiana a pagina 53.
+Vedere Impostare allarmi a pagina 34.
+Vedere Rispondere alle chiamate a pagina 48.
+Allarme
+Attività
+Per maggiori informazioni
+Consulta Effettuare acquisti con Apple Pay a pagina 58 e Utilizzare Passbook a pagina 60.
+App e icona
+Libretto
+Consulta Riprodurre musica su Apple Watch a pagina 65.
+Capitolo 2 Nozioni di base 16
+Musica
+Vedere Esplora la mappa a pagina 61.
+Vedere Leggere e rispondere ai messaggi a pagina 39.
+A distanza
+Messaggi
+Mappe
+Vedere Leggere la posta a pagina 45.
+Fotografie
+Posta
+Vedere Utilizzo di mirino e otturatore remoti a pagina 70.
+Telefono
+Machine Translated by Google
+Vedere gli amici su Apple Watch. Premi il pulsante laterale per vedere fino a 12 dei tuoi amici. Ruota
+la corona digitale per evidenziare ogni amico. Tocca l'immagine o le iniziali di un amico, quindi scegli
+come vuoi metterti in contatto.
+Aggiungi amici ad Apple Watch su iPhone. Apple Watch aggiunge automaticamente fino a 12 dei tuoi
+contatti preferiti da iPhone. Per modificare l'elenco di amici visualizzato su Apple Watch, apri l'app Apple Watch,
+tocca Apple Watch, quindi tocca Amici. Nell'elenco degli amici, tocca Aggiungi amico, quindi tocca il tuo amico
+nell'elenco dei contatti visualizzato. Se il tuo amico non è nell'elenco, apri l'app Contatti su iPhone e aggiungilo,
+quindi riprova.
+Vedere Cronometraggio degli eventi con un cronometro a pagina 37.
+Allenamento
+Vedere Tenere traccia delle scorte a pagina 72.
+Tempo metereologico
+Capitolo 2 Nozioni di base 17
+Timer
+Cerca l'icona per vedere i riferimenti alle impostazioni pertinenti in tutta la guida.
+Cronometro
+Per maggiori informazioni
+Impostazioni
+Azioni
+App e icona
+Vedere Controllare l'ora in altre località a pagina 32.
+Vedere Monitorare gli allenamenti a pagina 55.
+Vedere Controllare il meteo a pagina 74.
+Vedere Utilizzare un timer a pagina 36.
+Orologio mondiale
+Entra in contatto con gli amici Il pulsante
+laterale su Apple Watch ti consente di accedere rapidamente alle persone con cui rimani in contatto più
+spesso. Premi il pulsante laterale, scegli un amico, quindi chiama, invia un messaggio o usa Digital Touch. Ma
+prima, aggiungi i tuoi amici all'Apple Watch.
+Tocca un amico.
+Tocca per
+aggiungere
+un amico dai
+tuoi Contatti.
+Machine Translated by Google
+Scorri verso l'alto per
+leggere la posta su iPhone.
+Apri il messaggio da
+leggere su Apple Watch.
+Trova il tuo iPhone Hai
+smarrito il tuo iPhone? Apple Watch può aiutarti a trovarlo se è nelle vicinanze.
+Usa Handof per spostarti tra Apple Watch e iPhone La funzione Handof su Apple
+Watch e iPhone ti consente di spostarti da un dispositivo all'altro senza perdere la concentrazione su
+ciò che stai facendo. Ad esempio, puoi facilmente controllare la posta elettronica su Apple Watch, ma
+potresti voler passare a iPhone per digitare una risposta utilizzando la tastiera su schermo. Basta riattivare
+iPhone e vedrai un'icona nell'angolo in basso a sinistra della schermata di blocco che corrisponde all'app
+che stai utilizzando su Apple Watch, ad esempio Mail. Scorri verso l'alto sull'icona per aprire la stessa email su iPhone, quindi completa la risposta.
+Usa Apple Watch senza l'iPhone associato Sebbene tu abbia
+bisogno di un iPhone per fare la maggior parte delle cose con Apple Watch, puoi comunque fare
+diverse cose con Apple Watch senza avere un iPhone a portata di mano.
+Capitolo 2 Nozioni di base 18
+Puoi utilizzare Handof con queste app: Mail, Mappe, Messaggi, Telefono, Promemoria e Calendario, oltre a Siri. Affinché Handof
+funzioni, il tuo Apple Watch deve trovarsi nelle immediate vicinanze del tuo iPhone.
+• Tieni traccia degli allenamenti
+Se l'iPhone non è nel raggio d'azione di Apple Watch, puoi anche provare a trovarlo utilizzando Trova il mio iPhone da
+iCloud.com.
+• Riproduci musica da una playlist sincronizzata su Apple Watch • Usa
+l'orologio, le sveglie, i timer e il cronometro • Tieni traccia della tua
+attività (alzati, muoviti, fai esercizio) con l'app Attività
+Attiva o disattiva Handof. Apri l'app Apple Watch su iPhone, tocca Apple Watch, quindi attiva Generali > Abilita Handof.
+Esegui il ping del tuo iPhone. Scorri verso l'alto sul quadrante dell'orologio, scorri fino allo sguardo Impostazioni, quindi tocca
+il pulsante Ping iPhone.
+Machine Translated by Google
+• Usa Siri
+"Che genere di cose posso chiederti?"
+Apple Watch utilizza la tecnologia wireless Bluetooth® per connettersi all'iPhone associato e utilizza l'iPhone per
+molte funzioni wireless. Apple Watch non può configurare da solo nuove reti Wi-Fi, ma può connettersi alle reti WiFi che hai configurato sull'iPhone associato.
+Fai una domanda a Siri. Basta sollevare Apple Watch o toccare lo schermo. Quando si sveglia, pronuncia
+"Ehi, Siri" seguito dalla tua richiesta. Puoi anche tenere premuta la Digital Crown finché non visualizzi
+l'indicatore di ascolto nella parte inferiore dello schermo, quindi pronunciare la tua richiesta e rilasciare la
+Digital Crown. Per rispondere a una domanda di Siri o semplicemente continuare la conversazione, tieni premuta
+la Digital Crown e parla. Oppure dì semplicemente "Ehi, Siri" e la tua richiesta.
+Troverai suggerimenti su cose che puoi chiedere a Siri in questa guida per l'utente: hanno questo aspetto:
+• Visualizza foto da album fotografici sincronizzati •
+Usa Apple Pay per fare acquisti. Consulta Effettuare acquisti con Apple Pay a pagina 58.
+Se Apple Watch e iPhone sono sulla stessa rete ma non sono connessi tramite Bluetooth, puoi anche eseguire le
+seguenti operazioni su Apple Watch senza iPhone: • Inviare e ricevere messaggi utilizzando iMessage • Inviare e
+ricevere messaggi Digital Touch
+Siri su Apple Watch Siri può
+eseguire attività e fornire molte informazioni direttamente su Apple Watch.
+Tieni premuto per attivare Siri.
+Capitolo 2 Nozioni di base 19
+Machine Translated by Google
+"Attiva la modalità aereo".
+Lo stato Connesso nella parte superiore dello schermo cambia in
+Disconnesso. In alternativa, apri l'app Impostazioni , quindi aereo tocca è attiva, Modalità vedraiaereo. Quando la Modalità
+Per mettere Apple Watch e iPhone in modalità aereo, apri l'app Apple Watch su iPhone, tocca Il mio orologio e attiva
+Modalità aereo > Mirror iPhone. Quindi, ogni volta che passi alla modalità aereo su un dispositivo, l'altro passerà alla
+corrispondenza. Per disattivare la modalità aereo, devi farlo su ciascun dispositivo separatamente.
+Attiva la modalità aereo. Scorri verso l'alto sul quadrante dell'orologio, scorri fino allo sguardo Impostazioni,
+quindi tocca il pulsante Modalità aereo .
+nella parte superiore dello schermo.
+Nota: per disattivare Wi-Fi e Bluetooth, imposta Apple Watch in modalità aereo.
+Capitolo 2 Nozioni di base 20
+Quando voli Alcune
+compagnie aeree potrebbero consentirti di volare con Apple Watch (e iPhone) accesi se li metti in modalità
+aereo in modo che non possano interferire con i sistemi dell'aeromobile.
+Machine Translated by Google
+Tocca per aggiungere
+funzionalità al quadrante dell'orologio.
+Ruota la Digital Crown
+per regolare le funzioni.
+Scorri per vedere altri
+quadranti.
+Premi il display e
+tocca Personalizza.
+Personalizzare il quadrante dell'orologio
+Puoi personalizzare il quadrante dell'Apple Watch in modo che appaia come desideri e fornisca le funzioni di cui
+hai bisogno. Scegli tra una varietà di design di quadranti, regola colori, caratteristiche e altri dettagli, quindi
+aggiungili alla tua collezione in modo da poter cambiare quando hai bisogno degli strumenti di cronometraggio
+giusti o ogni volta che desideri un cambiamento.
+3
+21
+Puoi aggiungere funzioni speciali, a volte chiamate complicazioni, al quadrante dell'orologio, in modo da poter controllare
+istantaneamente cose come i prezzi delle azioni o il bollettino meteorologico.
+Cambia il quadrante dell'orologio. Con il quadrante dell'orologio visualizzato, premi con decisione il display, quindi
+scorri per visualizzare i quadranti nella tua raccolta. Quando trovi il volto che desideri, toccalo.
+Aggiungi funzioni al quadrante dell'orologio. Con il quadrante dell'orologio visualizzato, premi con decisione il display,
+quindi tocca Personalizza. Scorri per selezionare una funzione, quindi ruota la Digital Crown per regolarla. Su alcuni
+volti, devi toccare una caratteristica per selezionarla. Al termine, premi la Digital Crown per salvare le modifiche. Tocca
+la faccia per passare ad essa. Per ulteriori informazioni su ciascun quadrante dell'orologio, vedere Quadranti e funzioni
+dell'orologio a pagina 23.
+Guarda i volti
+Machine Translated by Google
+Questa impostazione cambia solo l'ora mostrata sul quadrante dell'orologio, non influisce su allarmi, orari nelle
+notifiche o altri orari (come l'orologio mondiale).
+Aggiungi un quadrante alla tua collezione. Assembla la tua collezione di volti personalizzati, anche versioni
+diverse dello stesso design. Con il quadrante dell'orologio visualizzato, premi con decisione il display, scorri
+completamente verso destra, quindi tocca il pulsante Nuovo (+). Scorri verso l'alto e verso il basso per sfogliare i
+design, quindi tocca quello che desideri aggiungere. Dopo averlo aggiunto, puoi personalizzarlo.
+Elimina un volto dalla tua raccolta. Non usi più molto una faccia? Con l'attuale quadrante dell'orologio visualizzato,
+premi con decisione il display, scorri fino al quadrante che non desideri, quindi scorri verso l'alto e tocca Elimina. Puoi
+sempre aggiungere nuovamente il quadrante in un secondo momento.
+Fai avanzare il tempo di visualizzazione. Ti piace portare avanti l'orologio? Apri l'app Impostazioni , tocca Ora,
+tocca +0 min, quindi ruota la corona digitale per impostare l'orologio avanti fino a 59 minuti.
+Girare per far avanzare
+il tempo.
+Scorri verso l'alto per
+eliminare un quadrante.
+Tocca, scorri verso l'alto
+o verso il basso per
+sfogliare i quadranti,
+quindi tocca un quadrante
+per aggiungerlo.
+Capitolo 3 Quadranti dell'orologio 22
+Machine Translated by Google
+Capitolo 3 Quadranti dell'orologio 23
+Tocca la Luna per vedere la sua fase attuale.
+Mentre osservi la
+Terra, la Luna o il
+sistema solare, ruota la
+Digital Crown per andare
+avanti o indietro nel tempo.
+Tocca per vedere la
+posizione attuale dei
+pianeti nel sistema solare.
+Astronomia
+Questo quadrante di Astronomia mostra il sistema solare e la posizione esatta dei pianeti, del sole e della luna e mostra
+il giorno, la data e l'ora corrente.
+Cronografo
+Questo quadrante misura il tempo in incrementi precisi, come un classico cronometro analogico. Include un cronometro, che
+può essere attivato direttamente dal quadrante.
+Riepilogo attività • Sveglia • Timer • Carica batteria • Orologio mondiale
+• Regola le caratteristiche di base: Colore
+quadrante • Aggiungi al quadrante dell'orologio: Data • Fasi lunari • Alba/tramonto • Meteo • Riepilogo attività •
+Sveglia • Timer • Cronometro • Carica della batteria • Orologio mondiale • Il tuo monogramma (mostra le iniziali
+sopra il centro; le iniziali sono prese dalle informazioni dei tuoi Contatti)
+• Regola le caratteristiche di base: Dettagli del quadrante • Colore
+del quadrante • Aggiungi al quadrante dell'orologio: Data • Calendario • Fasi lunari • Alba/Tramonto • Meteo • Borsa •
+Colore
+Questo quadrante dell'orologio mostra l'ora e tutte le funzioni che aggiungi nella tua scelta di colori vivaci.
+Quadranti e funzionalità Apple Watch
+include una varietà di quadranti, ognuno dei quali puoi personalizzare in base alle tue esigenze. Controlla
+frequentemente gli aggiornamenti del software; il set di quadranti che segue potrebbe differire da quello
+che vedi sul tuo Apple Watch.
+Machine Translated by Google
+• Regola le caratteristiche di base: la farfalla, il fiore o la medusa animati • Aggiungi al
+quadrante dell'orologio: data (con o senza giorno)
+Modulare
+Il quadrante dell'orologio Modular ha un design a griglia flessibile che ti consente di aggiungere molte funzioni per darti una
+visione completa della tua giornata.
+• Aggiungere al quadrante dell'orologio: Data • Calendario • Fasi lunari • Alba/tramonto • Meteo • Attività
+Motion Il
+quadrante Motion mostra un bellissimo tema animato: farfalle, fiori o meduse.
+riepilogo • Sveglia • Timer • Cronometro • Carica della batteria • Orologio mondiale • Viste espanse di tutte le funzioni
+precedenti più Azioni
+Topolino Lascia
+che Topolino ti dia una visione stravagante del tempo e guarda i suoi piedi che battono i secondi.
+Riepilogo attività • Sveglia • Timer • Cronometro • Carica della batteria • Orologio mondiale • Viste espanse di Calendario,
+Meteo, Borsa, Attività, Sveglia, Timer, Cronometro e Orologio mondiale
+• Regola le caratteristiche di base: Colore •
+Aggiungi al quadrante dell'orologio: Data • Calendario • Fasi lunari • Alba/Tramonto • Meteo • Borsa •
+Capitolo 24 3 Quadranti dell'orologio
+Machine Translated by Google
+Solare
+In base alla posizione corrente e all'ora del giorno, il quadrante dell'orologio solare mostra la posizione del sole nel
+cielo, nonché il giorno, la data e l'ora corrente.
+Semplice
+Questo quadrante minimalista ed elegante ti consente di aggiungere dettagli al quadrante e caratteristiche
+agli angoli.
+• Regolare le caratteristiche di base: Colore della lancetta dei secondi • Dettaglio e numero del quadrante
+• Aggiungere al quadrante dell'orologio: Data • Calendario • Fasi lunari • Alba/Tramonto • Meteo • Attività
+riepilogo • Sveglia • Timer • Cronometro • Carica della batteria • Orologio mondiale • Viste espanse di tutte le
+funzioni precedenti più Azioni
+• Regola le caratteristiche di base: Colore della lancetta centrale • Dettaglio e numerazione del quadrante •
+Aggiungi al quadrante dell'orologio: Data • Calendario • Fasi lunari • Alba/Tramonto • Meteo • Riepilogo attività
+• Sveglia • Timer • Cronometro • Carica della batteria • Mondo Orologio
+Utilità
+Questo quadrante è pratico e funzionale; aggiungi fino a tre funzioni per visualizzare ciò che vuoi vedere a colpo
+d'occhio.
+Ruota la corona
+digitale per
+spostare il sole al
+tramonto, all'alba,
+allo zenit, al
+tramonto e all'oscurità.
+Capitolo 3 Quadranti dell'orologio 25
+Machine Translated by Google
+X-Grande
+• Regolare le caratteristiche di base: Colore
+Capitolo 3 Quadranti dell'orologio 26
+Machine Translated by Google
+Tocca per aprire
+l'app completa.
+Scorri verso il basso
+sul quadrante per
+visualizzare le
+notifiche non lette.
+Le notifiche sulle app di Apple Watch
+inviano notifiche per tenerti informato: inviti a riunioni, messaggi e promemoria di esercizi
+sono solo alcuni esempi. Le notifiche vengono visualizzate su Apple Watch non appena
+arrivano. Se non li leggi subito, vengono salvati in modo da poterli controllare in seguito.
+4
+27
+Rispondi alle notifiche in tempo reale Rispondi
+a una notifica quando arriva. Se senti o percepisci una notifica, solleva l'Apple Watch per visualizzarla. Ruota
+la Digital Crown per scorrere fino alla fine della notifica, quindi tocca un pulsante lì.
+Ignorare una notifica. Scorri verso il basso sulla notifica che stai leggendo o scorri fino alla fine della notifica e
+tocca Ignora.
+Oppure tocca l'icona dell'app nella notifica per aprire l'app corrispondente.
+AVVERTENZA: per informazioni importanti su come evitare distrazioni che potrebbero portare a situazioni
+pericolose, vedere Informazioni importanti sulla sicurezza a pagina 81.
+Notifiche
+Machine Translated by Google
+Rispondi alle notifiche non lette Visualizza le notifiche
+a cui non hai risposto. Se non rispondi a una notifica quando arriva, viene salvata nel Centro notifiche. Un punto
+rosso nella parte superiore del quadrante indica che hai una notifica non letta: scorri verso il basso per visualizzarla. Per
+scorrere l'elenco delle notifiche, scorri verso l'alto o verso il basso oppure ruota la Digital Crown.
+Notifiche silenziose. Per disattivare l'audio delle notifiche su Apple Watch, scorri verso l'alto sul quadrante dell'orologio,
+scorri fino allo sguardo Impostazioni, quindi tocca Modalità silenziosa. Sentirai ancora un tocco quando arriva una notifica.
+Per impedire l'audio o il tocco, tocca Non disturbare.
+Scegli quali notifiche ricevere. Su iPhone, vai su Impostazioni > Notifiche per specificare quali app ed eventi generano
+notifiche. Quindi, apri l'app Apple Watch su iPhone, tocca My Watch, tocca Notifiche, tocca l'app (ad esempio, Messaggi),
+quindi scegli Mirror my iPhone.
+Mantienilo privato. Quando alzi il polso per vedere una notifica, ricevi un breve riepilogo, quindi i dettagli
+completi pochi secondi dopo. Ad esempio, quando arriva un messaggio, prima vedi da chi proviene, quindi viene
+visualizzato il messaggio. Per interrompere la visualizzazione della notifica completa a meno che non la tocchi, apri
+l'app Apple Watch su iPhone, tocca Apple Watch, tocca Notifiche, quindi attiva Privacy delle notifiche.
+Oppure, per scegliere impostazioni di notifica diverse da quelle su iPhone, scegli Personalizzato.
+Scegli quali notifiche
+visualizzare su Apple
+Watch.
+Scorri verso il basso per
+visualizzare le notifiche non lette.
+Capitolo 4 Notifiche 28
+Machine Translated by Google
+Rispondere a una notifica nell'elenco. Tocca la notifica.
+Notifiche chiare. Apple Watch rimuove le notifiche dall'elenco quando tocchi per leggerle. Per eliminare
+una notifica senza leggerla, falla scorrere verso sinistra, quindi tocca Cancella. Per cancellare tutte le
+notifiche, premere con decisione il display, quindi toccare Cancella tutto.
+Tocca una notifica per
+rispondere.
+Toccare per
+cancellare una
+notifica o premere
+il display per
+cancellare tutte le notifiche.
+Capitolo 4 Notifiche 29
+Machine Translated by Google
+Scorri verso l'alto
+per vedere gli sguardi.
+Scorri verso sinistra o destra per visualizzare tutti gli sguardi.
+Scorri verso l'alto
+sul quadrante per
+vedere gli sguardi.
+Controlla i tuoi sguardi
+5
+30
+Controlla i tuoi sguardi. Scorri verso l'alto sul quadrante dell'orologio per vedere l'ultimo sguardo che hai visualizzato, quindi scorri
+verso sinistra o destra per vedere altri sguardi. Scorri verso il basso per tornare al quadrante dell'orologio.
+Quando uno sguardo non basta. Per aprire l'app correlata, basta toccare lo sguardo.
+AVVERTENZA: per informazioni importanti su come evitare distrazioni che potrebbero portare a situazioni pericolose, vedere
+Informazioni importanti sulla sicurezza a pagina 81.
+Dai una rapida occhiata alle informazioni utili Dal quadrante dell'orologio, puoi
+accedere rapidamente a Sguardi, riepiloghi scansionabili delle informazioni che visualizzi più di frequente. Scorri verso l'alto sul
+quadrante dell'orologio per vedere gli sguardi, quindi scorri verso sinistra o destra per vedere diversi sguardi.
+Sguardi
+Machine Translated by Google
+Organizza i tuoi sguardi Vedi
+solo quello che vuoi vedere. Per scegliere i tuoi sguardi, apri l'app Apple Watch su iPhone, tocca
+Apple Watch, tocca Sguardi, quindi rimuovi o includi sguardi. (Non puoi rimuovere lo sguardo Impostazioni.)
+Mettili in ordine. Apri l'app Apple Watch su iPhone, tocca Apple Watch, tocca Sguardi, quindi trascina
+i pulsanti di riordino.
+Tocca per rimuovere
+uno sguardo.
+Trascina per modificare
+l'ordine di occhiata.
+Capitolo 5 Sguardi 31
+Machine Translated by Google
+"Che ore sono ad Auckland?"
+Con le funzioni di cronometraggio di Apple Watch, puoi vedere l'ora in altre città del mondo, impostare sveglie,
+utilizzare timer e utilizzare un cronometro. Puoi aggiungere questi elementi al quadrante dell'orologio per vederli
+rapidamente quando ne hai bisogno. Consulta Personalizzazione del quadrante dell'orologio a pagina 21 per
+ulteriori informazioni.
+quindi ruota la corona digitale o fai scorrere il dito
+Controllare l'ora in altre località L'app MondOra su Apple
+Watch ti consente di controllare l'ora nelle città di tutto il mondo. Apri l'app per controllare gli orari di altri luoghi o
+aggiungi città al quadrante per una rapida consultazione.
+Controlla l'ora in un'altra città. Aprire la schermata World
+Clock per scorrere l'elenco. Se c'è una città di cui vorresti sempre vedere l'ora, puoi aggiungere l'orologio mondiale al
+quadrante dell'orologio e scegliere la città da visualizzare.
+6
+,
+Ruotare per
+scorrere le città.
+32
+Cronometraggio
+Machine Translated by Google
+Aggiungi una città all'orologio mondiale. Le città che aggiungi su iPhone vengono visualizzate in
+MondOra su Apple Watch. Apri l'app Orologio su iPhone, tocca MondOra, quindi tocca il pulsante Aggiungi (+).
+Aggiungi un orologio mondiale al quadrante. Puoi aggiungere un orologio mondiale a diversi quadranti: alcuni
+quadranti ti consentono di aggiungerne più di uno. Premi con decisione il display, quindi tocca Personalizza. Scorri
+verso sinistra finché non puoi selezionare le singole caratteristiche del viso, tocca quella che desideri utilizzare per
+l'orologio mondiale, quindi ruota la Digital Crown per scegliere una città. Quando hai finito, premi la Digital Crown.
+Puoi aggiungere un orologio mondiale a questi quadranti: Cronografo, Colore, Topolino, Modulare, Semplice e Utilità.
+Vedere informazioni aggiuntive. Per visualizzare ulteriori informazioni su una città, inclusa l'ora dell'alba e
+del tramonto, toccare la città nell'elenco dell'orologio mondiale. Al termine, tocca < in alto a sinistra o scorri verso
+destra per tornare all'elenco delle città. Come sempre, puoi premere la corona digitale per tornare al quadrante.
+Premi per tornare indietro
+Passa alla città che desideri,
+quindi premi la Digital Crown.
+Digitare il nome di una città o
+scorrere l'elenco.
+per guardare il viso.
+Toccare per tornare all'elenco delle città.
+Il quadrante dell'orologio
+mostra l'ora nella città che hai
+scelto.
+Capitolo 6 Cronometraggio 33
+Machine Translated by Google
+Capitolo 6 Cronometraggio 34
+Imposta l'ora della sveglia. Seleziona le opzioni.
+Cambia questa abbreviazione nell'app
+Apple Watch.
+Tocca per modificare la sveglia.
+Aggiungi allarme.
+,
+"Imposta la sveglia ripetuta per le 18:00."
+«Disattiva la sveglia delle sette e mezzo.»
+Cambia le abbreviazioni delle città. Se desideri modificare l'abbreviazione di una città utilizzata su Apple Watch, apri l'app
+Apple Watch su iPhone, tocca Apple Watch, quindi vai su Orologio > Abbreviazioni città. Tocca qualsiasi città per modificarne
+l'abbreviazione.
+Impostare le
+sveglie Usa l'app Sveglia per riprodurre un suono o far vibrare Apple Watch al momento giusto. Puoi anche aggiungere
+una sveglia al quadrante dell'orologio, così puoi vedere le prossime sveglie a colpo d'occhio e aprire l'app Sveglia con un
+tocco.
+Imposta o regola una sveglia. Aprire la sveglia
+Toccare accanto alla sveglia per attivarla o disattivarla.
+quindi toccare la sveglia nell'elenco per modificarne le impostazioni.
+Aggiungi un allarme. Aprire Sveglia , premere con decisione il display, quindi toccare Nuovo +. Tocca Cambia ora, tocca AM
+o PM, tocca le ore o i minuti, ruota la Digital Crown per regolare, quindi tocca Imposta. Tocca < in alto a sinistra per tornare
+alle impostazioni della sveglia, quindi imposta la ripetizione, l'etichetta e la ripetizione in base alle tue esigenze.
+Machine Translated by Google
+Visualizza la
+sveglia sul quadrante
+dell'orologio.
+Disattiva Posticipa.
+Scegli una funzione di
+allarme da visualizzare.
+Elimina questo allarme.
+Tocca per posticipare.
+Capitolo 6 Cronometraggio 35
+Elimina un allarme. Apri Sveglia tocca
+Elimina.
+Visualizza la prossima sveglia sul quadrante dell'orologio. Con il quadrante dell'orologio visualizzato,
+premi con decisione il display, quindi tocca Personalizza. Scorri verso sinistra finché non puoi selezionare le
+singole caratteristiche del viso, tocca quella che desideri utilizzare per le sveglie, quindi ruota la corona digitale
+per scegliere la sveglia. Quando hai finito, premi la Digital Crown. Puoi aggiungere allarmi a questi quadranti:
+Cronografo, Colore, Topolino, Modulare, Semplice e Utilità.
+Non lasciarti sonnecchiare. Quando suona una sveglia, puoi toccare Posponi per attendere alcuni minuti prima
+che la sveglia suoni di nuovo. Se non vuoi consentire la ripetizione, tocca la sveglia nell'elenco delle sveglie,
+quindi disattiva Posponi.
+, tocca la sveglia nell'elenco, scorri fino in fondo, quindi
+Machine Translated by Google
+Capitolo 6 Cronometraggio 36
+"Imposta il timer per 20 minuti."
+Aggiungi un timer al quadrante. Se usi spesso un timer, aggiungi un timer al quadrante. Con il quadrante dell'orologio
+visualizzato, premi con decisione il display, quindi tocca Personalizza. Scorri verso sinistra finché non puoi selezionare
+le singole caratteristiche del viso, tocca quella che desideri utilizzare per il timer, quindi ruota la Digital Crown per
+scegliere il timer. Quando hai finito, premi la Digital Crown. Puoi aggiungere un timer a questi quadranti: Cronografo,
+Colore, Topolino, Modulare, Semplice e Utilità.
+, tocca ore o minuti, ruota la Digital Crown per regolare, quindi tocca Avvia.
+Impostare un timer per più di 12 ore. Durante la regolazione del timer, premere con decisione il display, quindi
+toccare 24.
+Imposta un timer. Apri il timer
+Tocca ore o
+minuti, quindi
+ruota la Digital
+Crown.
+Aumenta
+la durata del timer.
+Scegli il timer
+Scorri per vedere
+caratteristica da visualizzare.
+Visualizza il timer sul
+quadrante dell'orologio.
+più opzioni.
+Utilizzare un
+timer L'app Timer su Apple Watch può aiutarti a tenere traccia del tempo. Imposta timer fino a 24 ore.
+Machine Translated by Google
+Cronometro analogico
+Controlli del
+cronometro sul
+Registra i tempi sul giro.
+Avvia o arresta il cronometro.
+Cronometro digitale
+Quadrante
+cronografo
+Avvia, ferma e ripristina. Tocca il pulsante Avvia. Tocca il pulsante Giro per registrare un giro o una frazione. Tocca il
+pulsante Stop per registrare l'ora fnale. Il cronometraggio continua mentre torni al quadrante dell'orologio o apri altre app.
+Al termine, toccare il pulsante Reset o il pulsante Lap per reimpostare.
+Passa al cronometro. Apri l'app Cronometro o tocca il cronometro sul quadrante dell'orologio (se l'hai aggiunto o se stai
+utilizzando il quadrante Cronografo).
+Scegli il formato del cronometro. È possibile modificare il formato della visualizzazione del cronometraggio prima, dopo
+o durante il cronometraggio. Premi con decisione il display mentre viene visualizzato il cronometro, quindi tocca Analogico,
+Digitale, Grafico o Ibrido.
+Capitolo 6 Cronometraggio 37
+Cronometra gli eventi con un cronometro
+Cronometra gli eventi con precisione e facilità. Apple Watch può cronometrare eventi completi
+(fino a 11 ore e 55 minuti) e tenere traccia dei tempi di giro o parziali, quindi mostrare i risultati sotto
+forma di elenco, grafico o live sul quadrante. Il quadrante Cronografo ha il cronometro integrato e puoi
+aggiungere un cronometro a questi quadranti: Colore, Topolino, Modulare, Semplice e Utilità.
+Machine Translated by Google
+Monitorare i tempi dal quadrante dell'orologio. Per tenere d'occhio una sessione di cronometraggio mentre
+visualizzi il tuo normale quadrante, aggiungi un cronometro al quadrante. Il tuo tempo trascorso corrente sarà
+visibile sul quadrante e puoi toccarlo per passare all'app Cronometro e controllare i tuoi tempi sul giro.
+Smetti di usare il cronometro. Se utilizzi l'app Cronometro , premi la Digital Crown. Se utilizzi il quadrante
+Cronografo, i controlli del cronometro sono sempre sul quadrante: tocca il pulsante Giro per reimpostare.
+Esaminare i risultati. Rivedi i risultati sul display che hai utilizzato per il cronometraggio o cambia display per
+analizzare i tuoi tempi sul giro e i giri più veloci/più lenti (contrassegnati con verde e rosso) nel formato che
+preferisci. Se il display include un elenco di tempi sul giro, ruota la Digital Crown per scorrere.
+Passa dalla modalità analogica a 1 quadrante a quella a 3 quadranti con suddivisioni. Scorri verso l'alto sul display del cronometro
+analogico a 1 quadrante per visualizzare i quadranti separati dei minuti, dei secondi e dei decimi sopra un elenco a scorrimento dei tempi sul giro.
+Apri l'app Cronometro.
+Tempo sul giro più lento
+Tempo sul giro più veloce
+Capitolo 6 Cronometraggio 38
+Machine Translated by Google
+39
+Leggere e rispondere ai messaggi Puoi
+leggere i messaggi di testo in arrivo direttamente su Apple Watch. Puoi anche rispondere
+da Apple Watch, dettando o scegliendo una risposta già pronta, oppure passare a iPhone per digitare
+7
+Vedere una foto nel messaggio. Tocca la foto per visualizzarla, toccala due volte per riempire lo schermo e
+trascinala per eseguire la panoramica. Quando hai finito, scorri verso sinistra dal bordo della schermata della foto
+per tornare alla conversazione. Se vuoi salvare la foto, apri il messaggio nell'app Messaggi su iPhone e salvalo lì.
+una risposta.
+Salta all'inizio di un lungo messaggio. In Messaggi , tocca la parte superiore del display.
+Apri una conversazione nell'app Messaggi. Tocca l'icona Messaggi nella notifica.
+Visualizza un video in un messaggio. Nell'app Messaggi , tocca un video in un messaggio per avviare la riproduzione
+del video a schermo intero. Toccare una volta per visualizzare i controlli di riproduzione. Tocca due volte per ridurre lo
+zoom e ruota la Digital Crown per regolare il volume. Scorri o tocca il pulsante Indietro per tornare alla conversazione.
+Leggi un messaggio. Sentirai un tocco di notifica o sentirai un suono di avviso quando arriva un messaggio:
+solleva Apple Watch per leggerlo. Ruota la Digital Crown per scorrere.
+Ascolta un clip audio in un messaggio. Tocca la clip per ascoltarla. Il clip viene eliminato dopo due minuti per
+risparmiare spazio: se vuoi conservarlo, tocca Mantieni sotto il clip. L'audio rimarrà per 30 giorni e puoi impostarlo in
+modo che rimanga più a lungo su iPhone: vai su Impostazioni > Messaggi, scorri fino a Messaggi audio, tocca
+Scadenza, quindi tocca un valore.
+AVVERTENZA: per informazioni importanti su come evitare distrazioni che potrebbero portare a situazioni pericolose,
+vedere Informazioni importanti sulla sicurezza a pagina 81.
+Messaggi
+Machine Translated by Google
+• Dettare nuovo testo
+un messaggio.
+• Utilizzare risposte preimpostate
+Decidi come ricevere la notifica. Apri l'app Apple Watch su iPhone, tocca Apple Watch, quindi tocca
+Messaggi. Tocca Personalizzato per impostare le opzioni su come desideri essere avvisato quando ricevi
+Rispondi a un messaggio. Se il messaggio è appena arrivato, tocca la relativa notifica, ruota la Digital Crown
+per scorrere fino alla fine del messaggio, quindi tocca Rispondi. Se è arrivato qualche tempo fa, scorri verso il
+basso sul quadrante dell'orologio per visualizzare la notifica del messaggio, toccalo, quindi scorri fino in fondo e
+tocca il pulsante Rispondi. Per contrassegnare il messaggio come letto, tocca Ignora o scorri il messaggio. Premi
+la corona digitale per ignorare la notifica senza contrassegnare il messaggio come letto.
+Invia una risposta predefinita. Quando rispondi a un messaggio, viene visualizzato un elenco di frasi utili
+che puoi utilizzare: basta toccarne una per inviarla. Le frasi includono risposte contestuali basate sull'ultimo
+messaggio ricevuto e sei frasi predefinite che è possibile modificare. Per sostituire le tue frasi, apri l'app Apple
+Watch su iPhone, tocca My Watch, vai su Messaggi > Risposte predefinite, quindi tocca una risposta predefinita per
+modificarla.
+Invia e gestisci messaggi Invia un nuovo
+messaggio. Apri Messaggi , premi con decisione l'elenco delle conversazioni, quindi tocca l'icona Nuovo messaggio.
+Tocca un contatto nell'elenco delle conversazioni recenti visualizzato, tocca + in basso a sinistra per scegliere
+dall'elenco completo dei contatti oppure tocca il pulsante Microfono per cercare qualcuno nei tuoi contatti o per
+dettare un numero di telefono. Ci sono diversi modi per comporre il tuo messaggio:
+• Registra un clip audio •
+Invia un'emoji animata • Invia
+una mappa che mostra la tua posizione (se hai l'iPhone con te) • Passa a iPhone e usa
+la tastiera completa per digitare un messaggio
+Scorri verso il basso e tocca
+Rispondi per rispondere.
+Imposta come vuoi
+essere avvisato.
+Capitolo 7 Messaggi 40
+Machine Translated by Google
+Capitolo 7 Messaggi 41
+Scorri per
+vedere più varianti.
+Detta o invia invece
+un'animazione.
+Invia una
+risposta predefinita.
+,
+Se le risposte preimpostate non sono nella lingua che desideri utilizzare, puoi modificarle passando alla tastiera
+per quella lingua nella stessa conversazione in Messaggi su iPhone. Annulla la risposta originale su Apple Watch,
+quindi rispondi di nuovo per visualizzare le risposte nella nuova lingua. Se non vuoi cambiare tastiera, puoi dettare
+e inviare una clip audio nella lingua che preferisci.
+Se usi più di una lingua e la tua dettatura non è trascritta nella lingua giusta per una conversazione, puoi comunque
+inviarla come clip audio. Per cambiare la lingua di dettatura, cambia la lingua di Siri su iPhone in Impostazioni >
+Generali > Siri, quindi avvia una nuova conversazione.
+Includi emoji animati. Durante la creazione di un messaggio o di una risposta, tocca il pulsante Emoji, quindi scorri
+per sfogliare le immagini disponibili. Ruota la Digital Crown per scorrere e modificare l'immagine (per trasformare il
+sorriso in un cipiglio, per esempio). Sui volti, trascina verso sinistra o destra sugli occhi o sulla bocca per modificare
+ulteriormente l'espressione. Per vedere altri tipi di immagini, scorri fino alle pagine successive. L'ultima pagina elenca
+le emoji tradizionali. Quando trovi il simbolo giusto, toccalo per aggiungerlo al tuo messaggio, quindi tocca Invia.
+Dettare il testo. Mentre crei un messaggio o rispondi, tocca il pulsante Microfono , pronuncia quello che vuoi dire,
+quindi tocca Fine. Non dimenticare che puoi pronunciare anche la punteggiatura (ad esempio, "è arrivato il punto
+interrogativo"). Puoi scegliere di inviare il messaggio come messaggio di testo o clip audio: basta toccare la tua scelta.
+Se scegli la clip audio, il destinatario riceve un messaggio vocale da ascoltare, non un messaggio di testo da leggere.
+Invia sempre il testo dettato come clip audio. Se desideri inviare tutto il testo dettato come clip audio, non è
+necessario sceglierlo ogni volta: apri l'app Apple Watch su iPhone, tocca Apple Watch, vai su Messaggi > Messaggi
+audio, quindi tocca un'opzione.
+Machine Translated by Google
+Condividi la tua posizione. Per inviare a qualcuno una mappa che mostra la tua posizione attuale, premi con decisione il
+display mentre visualizzi la conversazione, quindi tocca Invia posizione.
+Nota: sul tuo iPhone associato, assicurati che Condividi la mia posizione sia attivato in Impostazioni > iCloud > Condividi la mia
+posizione.
+Visualizza i dettagli del messaggio. Premi con decisione il display mentre visualizzi la conversazione, quindi tocca Dettagli per
+visualizzare le informazioni di contatto degli altri partecipanti alla conversazione. Oppure scorri verso sinistra sulla conversazione,
+quindi tocca Dettagli.
+Vedere quando sono stati inviati i messaggi. Scorri verso sinistra sulla conversazione nell'elenco delle
+conversazioni di Messaggi.
+Elimina una conversazione. Scorri verso sinistra sulla conversazione, tocca Cestino, quindi tocca Cestino per confermare.
+Condividi la tua posizione
+in un messaggio.
+Capitolo 7 Messaggi 42
+Machine Translated by Google
+Tocca un amico.
+Ottieni consigli
+e fai pratica con
+Digital Touch.
+Tocca per il tocco digitale. Tocca per il tocco digitale.
+Cambia il colore.
+8
+43
+Informazioni su Digital Touch Con
+Digital Touch, puoi inviare schizzi, tocchi o persino il tuo battito cardiaco a qualsiasi amico con un
+Apple Watch. Per informazioni sull'aggiunta di amici ad Apple Watch, consulta Entrare in contatto
+con gli amici a pagina 17.
+Apri tocco digitale. Premi il pulsante laterale per vedere i tuoi amici, quindi tocca un amico e tocca
+il pulsante Digital Touch sotto la foto. Vedi l'icona Digital Touch solo se il tuo amico ha un Apple Watch.
+Pratica il tocco digitale. Tocca lo schermo Digital Touch per suggerimenti e per
+esercitarti prima di inviare.
+Tocco digitale
+Machine Translated by Google
+Riproduci lo schema del tocco.
+Cambia colore.
+Invia uno schizzo. Disegna sullo schermo.
+Invia un tocco. Toccare lo schermo per inviare un singolo tocco o toccare ripetutamente per inviare una sequenza di tocco.
+Condividi il tuo battito cardiaco. Posiziona due dita sul display finché non senti il battito del tuo cuore e lo vedi animato sullo
+schermo.
+Per sperimentare un Digital Touch inviato da qualcuno, basta toccare una notifica.
+Capitolo 8 Tocco digitale 44
+Invia un tocco digitale Invia
+uno schizzo, uno schema di tocchi o il tuo battito cardiaco. Nelle illustrazioni che seguono, l'immagine
+a sinistra mostra ciò che viene inviato, mentre l'immagine a destra mostra la notifica ricevuta.
+Machine Translated by Google
+Scorri verso l'alto per
+leggere la posta su iPhone.
+Apri il messaggio da
+leggere su Apple Watch.
+9
+45
+Leggi la posta
+Leggi la posta nell'app Mail. Su Apple Watch, apri l'app Mail , ruota la Digital Crown per scorrere l'elenco dei
+messaggi, quindi tocca un messaggio. Per leggere il messaggio o rispondere su iPhone, scorri verso l'alto sull'icona
+Mail nell'angolo in basso a sinistra della schermata di blocco dell'iPhone.
+Se non ricevi le notifiche per la posta, vai su Impostazioni > Notifiche su iPhone e controlla se hai attivato le
+notifiche per la posta.
+Passa all'iPhone. Alcuni messaggi sono più facili da leggere per intero su iPhone: riattiva iPhone, quindi scorri verso
+l'alto sull'icona Mail nell'angolo in basso a sinistra della schermata di blocco.
+Leggi la posta in una notifica. Se imposti Apple Watch per mostrare le notifiche e-mail, puoi leggere un nuovo
+messaggio direttamente nella notifica. Tocca la notifica quando appare per la prima volta o scorri verso il basso sul
+quadrante dell'orologio in un secondo momento per vedere le notifiche che hai ricevuto, quindi tocca una notifica email. Per eliminare la notifica, scorri verso il basso dall'alto o tocca Ignora alla fine del messaggio.
+Nota: Apple Watch supporta la maggior parte degli stili di testo e alcuni formati; il testo citato appare in un
+colore diverso piuttosto che come un rientro. Se ricevi un messaggio HTML con elementi complessi, Apple
+Watch tenta di visualizzare un testo alternativo al messaggio. Prova invece a leggere il messaggio sul tuo iPhone.
+Posta
+Machine Translated by Google
+rapidamente o
+toccare la parte
+superiore del display
+per tornare all'inizio del
+messaggio.
+Girare per scorrere
+,
+Capitolo 9 Posta 46
+o un indirizzo
+Rispondi all'e-mail. Devi utilizzare iPhone per comporre una risposta: riattiva iPhone e scorri verso l'alto sull'icona della
+posta nell'angolo in basso a sinistra della schermata di blocco.
+Elimina e-mail. Se stai leggendo il messaggio in Mail su Apple Watch, premi con decisione il display, quindi tocca Cestino.
+Se stai guardando l'elenco dei messaggi, scorri verso sinistra sul messaggio, quindi tocca Cestino.
+Gestisci posta
+Contrassegna un messaggio di posta. Se stai leggendo il messaggio in Mail su Apple Watch, premi con decisione il
+display, quindi tocca Contrassegna. Se stai guardando l'elenco dei messaggi, scorri verso sinistra sul messaggio, quindi
+tocca Altro. Puoi anche contrassegnare il messaggio quando lo visualizzi in anteprima in una notifica: scorri fino al pulsante
+Contrassegna nella parte inferiore del messaggio. Puoi annullare la fagging di un messaggio che è già stato faggato.
+Puoi anche eliminare un messaggio dalla relativa notifica: scorri fino alla fine del messaggio, quindi tocca Cestino.
+Torna all'inizio di un lungo messaggio di posta. Ruota la corona digitale per scorrere rapidamente o tocca semplicemente
+la parte superiore del display.
+Nota: se scorri verso sinistra su un thread di messaggi, l'azione scelta (Contrassegna, Segna come non letto o Elimina)
+si applica all'intero thread.
+Visualizza l'intero indirizzo o la riga dell'oggetto. Toccare ••• nel campo A o nella riga dell'oggetto. Apple Watch
+apre il messaggio di posta nella sua finestra, così puoi vedere tutti i dettagli.
+Cambia lo stile frocio. Apri l'app Apple Watch su iPhone, tocca Apple Watch, quindi vai su Mail > Personalizza > Stile
+contrassegno.
+Apri Telefono o Mappe. Tocca un numero di telefono in un messaggio di posta per aprire Telefono
+per aprire Mappe .
+Contrassegna l'e-mail come letta o non letta. Se stai leggendo un messaggio in Mail su Apple Watch, premi con
+decisione il display, quindi tocca Non letto o Letto. Se stai guardando l'elenco dei messaggi, scorri verso sinistra sul
+messaggio, quindi tocca Altro.
+Machine Translated by Google
+Personalizza gli avvisi
+per account o VIP.
+Visualizza 0, 1 o 2 righe
+di un messaggio.
+Capitolo 9 Posta 47
+Personalizza gli avvisi. Apri l'app Apple Watch su iPhone, tocca Apple Watch, quindi attiva Mail > Mostra
+avvisi. Tocca ciascun account o gruppo, attiva l'opzione per essere avvisato, quindi scegli Suono o Haptic.
+Nota: se il tuo account è impostato per archiviare i messaggi, vedrai un pulsante Archivia anziché un
+pulsante Cestino.
+Scegli quale casella di posta visualizzare su Apple Watch. Apri l'app Apple Watch su iPhone, tocca Apple
+Watch, quindi vai su Mail > Includi posta. Puoi specificare solo una casella di posta, anche se se non scegli una
+casella di posta, vedrai il contenuto di tutte le caselle di posta.
+Se l'elenco dei messaggi è troppo lungo. Per rendere più compatto il tuo elenco di posta, puoi ridurre
+il numero di righe di testo di anteprima mostrate per ogni e-mail nell'elenco. Apri l'app Apple Watch su
+iPhone, tocca Apple Watch, vai su Mail > Anteprima messaggio, quindi scegli di mostrare 2 righe del
+messaggio, 1 riga o nessuna.
+Machine Translated by Google
+Metti la chiamata in
+attesa.
+Ruotare per scorrere per visualizzare
+ulteriori opzioni. più opzioni.
+Invia la chiamata alla
+segreteria telefonica.
+Rispondere a una chiamata. Rispondere a una chiamata.
+Invia un messaggio Invia un messaggio
+al chiamante. al chiamante.
+Rispondi alle telefonate
+10
+48
+Passa una chiamata da Apple Watch a iPhone. Mentre parli su Apple Watch, scorri verso l'alto sull'icona Telefono
+nell'angolo in basso a sinistra della schermata di blocco dell'iPhone. Oppure, se iPhone è sbloccato, tocca la barra verde
+nella parte superiore dello schermo.
+AVVERTENZA: per informazioni importanti su come evitare distrazioni che potrebbero portare a situazioni pericolose,
+vedere Informazioni importanti sulla sicurezza a pagina 81.
+Tieni una chiamata. Tocca "Rispondi su iPhone" per mettere in attesa la chiamata fino a quando non puoi continuarla
+sul tuo iPhone associato. Il chiamante sente un suono ripetuto finché non si risponde alla chiamata. Se non riesci a
+trovare il tuo iPhone, tocca il pulsante ping iPhone su Apple Watch per individuarlo.
+Rispondere a una chiamata. Quando senti la notifica della chiamata in arrivo, alza il polso per riattivare Apple Watch e
+vedere chi sta chiamando. Tocca il pulsante Rispondi su Apple Watch per parlare utilizzando il microfono e l'altoparlante
+su Apple Watch. Per scorrere per rispondere alla chiamata utilizzando iPhone o inviare invece un messaggio di testo,
+ruota la Digital Crown per scorrere verso il basso, quindi scegli un'opzione.
+Chiamate telefoniche
+Machine Translated by Google
+Capitolo 10 Telefonate 49
+Fare delle telefonate
+Regola il volume.
+Disattiva la chiamata.
+Chiama un amico.
+«Chiama Max.»
+Regola il volume della chiamata. Per regolare il volume dell'altoparlante mentre parli su Apple Watch, ruota la Digital Crown
+durante la chiamata o tocca i simboli del volume sullo schermo. Tocca il pulsante Mute per silenziare la fine della chiamata (se
+stai ascoltando una chiamata in conferenza, ad esempio).
+Ascolta la segreteria telefonica. Se un chiamante lascia un messaggio vocale, ricevi una notifica: tocca il pulsante Riproduci
+nella notifica per ascoltare. Per ascoltare i messaggi vocali in un secondo momento, apri l'app Telefono , quindi tocca Segreteria.
+Puoi anche disattivare rapidamente l'audio di una chiamata in arrivo premendo il palmo della mano sul display dell'orologio
+e tenendolo premuto per tre secondi. Devi prima attivare l'opzione nell'app Apple Watch su iPhone. Vai su Il mio orologio >
+Suoni e feedback aptico e attiva Copri per disattivare l'audio.
+Visualizza le informazioni sulle chiamate su Apple Watch. Mentre parli su iPhone, puoi visualizzare le informazioni sulle
+chiamate su Apple Watch nell'app Telefono . Puoi anche terminare la chiamata da Apple Watch (ad esempio, se utilizzi
+auricolari o cuffie).
+Effettua una chiamata. Se la persona che stai chiamando è una delle tue preferite, premi il pulsante laterale, ruota la Digital
+Crown o tocca le sue iniziali, quindi tocca il pulsante di chiamata. Se non sono nel tuo elenco di amici, apri l'app Telefono , quindi
+tocca Preferiti o Contatti. Ruota la Digital Crown per scorrere, quindi tocca il nome che desideri chiamare.
+Invia una chiamata alla segreteria telefonica. Tocca il pulsante rosso Rifiuta nella notifica della chiamata in arrivo.
+Machine Translated by Google
+50
+Calendari e promemoria
+"Qual è il mio prossimo evento?"
+,
+Girare per
+scorrere gli eventi.
+Visualizza un calendario mensile.
+Premere con decisione
+per passare dalla
+visualizzazione giornaliera
+a quella elenco.
+Visualizza un giorno diverso. Nella vista Giorno, scorri verso sinistra sul calendario di oggi per vedere il giorno
+successivo. Scorri verso destra per tornare indietro. (Non puoi vedere nessun giorno prima di oggi o più di sette giorni in
+totale.) Per tornare al giorno e all'ora correnti, premi con decisione il display, quindi tocca Oggi. Nella visualizzazione
+Elenco, ruota la Digital Crown.
+Passa dalla sequenza temporale giornaliera a un unico elenco di eventi. Premi con decisione il display mentre
+visualizzi un calendario giornaliero, quindi tocca Elenco o Giorno.
+Rivedi gli eventi di oggi. Apri Calendario, quindi ruota la corona digitale per scorrere. Scorri verso destra sulla cronologia
+odierna (vista Giorno) per passare all'ora corrente. Per visualizzare i dettagli dell'evento, inclusi ora, luogo, stato
+dell'invitato e note, tocca l'evento.
+Visualizza il tuo calendario. Apri Calendario dalla schermata Home oppure scorri verso l'alto sul quadrante dell'orologio,
+scorri fino allo sguardo Calendario, quindi tocca. Puoi anche toccare la data odierna sul quadrante dell'orologio se hai
+aggiunto il calendario al quadrante.
+11
+Controlla e aggiorna il tuo calendario L'app
+Calendario su Apple Watch mostra gli eventi che hai programmato o a cui sei stato invitato oggi e
+per la prossima settimana. Apple Watch mostra gli eventi per tutti i calendari che utilizzi sul tuo iPhone.
+Machine Translated by Google
+"Crea un evento del calendario intitolato Palestra per il 20 maggio alle 16:00."
+Scorri verso l'alto per
+rispondere a un invito.
+Tocca per tornare
+agli nts di oggi.
+Capitolo 11 Calendari e promemoria 51
+Aggiungi o modifica un evento. Passa all'app Calendario su iPhone, quindi aggiungi l'evento lì. Se stai guardando il
+tuo calendario su Apple Watch, riattiva iPhone e scorri verso l'alto sull'icona Calendario nell'angolo in basso a sinistra della
+schermata di blocco per aprire Calendario.
+Visualizza un calendario completo del mese. Toccare < in alto a sinistra di qualsiasi calendario giornaliero. Tocca il calendario
+mensile per tornare alla visualizzazione Giorno.
+Rispondi a un invito. Se vedi l'invito quando arriva, scorri (o ruota la Digital Crown per scorrere) fino alla fine della notifica,
+quindi tocca Accetta, Forse o Rifiuta. Se scopri la notifica in un secondo momento, toccala nell'elenco delle notifiche, quindi
+scorri e rispondi. Se sei già nell'app Calendario, tocca l'evento per rispondere.
+evento che crei. Apri l'app Calendario su iPhone, tocca l'evento, tocca Modifica, tocca Tempo di viaggio e attivalo. Riceverai
+un avviso che tiene conto del tempo di viaggio.
+Ora di andare. Puoi programmare un avviso "vattene ora" in base al tempo di viaggio stimato per un
+Visualizza la data o un evento imminente sul quadrante dell'orologio. Puoi aggiungere una combinazione di giorno
+e data a molti dei quadranti dell'orologio: ad esempio, Modulare, Colore, Utilità, Semplice o Cronografo. I volti Modular,
+Chronograph e Mickey Mouse possono mostrare il prossimo evento in arrivo. Premi con decisione il display mentre visualizzi
+il quadrante dell'orologio, scorri fino a un quadrante, quindi tocca Personalizza.
+Regola le impostazioni. Apri l'app Apple Watch su iPhone, tocca Apple Watch, quindi tocca Calendario.
+Contatta un organizzatore di eventi. Per inviare un'e-mail all'organizzatore dell'evento, premi con decisione il display
+mentre visualizzi i dettagli dell'evento. Per inviare un messaggio vocale o una chiamata, tocca il nome dell'organizzatore
+nei dettagli dell'evento.
+Ottieni indicazioni per un evento. Vedere Ottenere indicazioni a pagina 62.
+Machine Translated by Google
+"Imposta un promemoria per le cinque."
+Rispondere a un promemoria. Se vedi la notifica del promemoria quando arriva, scorri (o ruota la Digital
+Crown per scorrere) fino alla fine del promemoria, quindi tocca Posticipa, Completato o Ignora. Se scopri la notifica
+in un secondo momento, toccala nell'elenco delle notifiche, quindi scorri e rispondi.
+Imposta un promemoria. Usa Siri su Apple Watch. Tieni premuta la Digital Crown, quindi parla. Oppure alza
+semplicemente il polso e dì "Ehi Siri, imposta un promemoria". Puoi anche impostare promemoria su iPhone o su
+un altro dispositivo iOS o Mac che ha effettuato l'accesso utilizzando il tuo ID Apple.
+Capitolo 11 Calendari e promemoria 52
+Imposta e rispondi ai promemoria Non c'è
+l'app Promemoria su Apple Watch, ma Apple Watch ti avvisa dei promemoria che crei nell'app
+Promemoria sul tuo iPhone e su qualsiasi altro dispositivo iOS o Mac su cui hai effettuato l'accesso
+utilizzando il tuo ID Apple. Inoltre, puoi creare promemoria utilizzando Siri su Apple Watch.
+Machine Translated by Google
+Inserisci le informazioni
+personali e imposta il
+tuo obiettivo.
+Tieni traccia dell'attività
+quotidiana L'app Attività su Apple Watch tiene traccia dei tuoi movimenti durante il giorno e ti
+incoraggia a raggiungere i tuoi obiettivi di fitness. L'app tiene traccia della frequenza con cui ti
+alzi, quanto ti muovi e quanti minuti di esercizio fai e fornisce un anello grafico semplice e potente
+della tua attività quotidiana. L'obiettivo è sedersi di meno, muoversi di più e fare un po' di esercizio
+completando ogni anello ogni giorno. L'app Attività su iPhone tiene un registro a lungo termine di
+tutte le tue attività.
+12
+53
+Iniziare. La prima volta che apri Attività su Apple Watch, scorri verso sinistra per leggere le descrizioni di
+Movimento, Esercizio e In piedi, quindi tocca Inizia. Inserisci le informazioni richieste toccando Sesso, Età,
+Peso e Altezza, quindi ruota la Digital Crown per impostare e tocca Continua. Infine, tocca Inizia a muoverti.
+Nota: puoi anche inserire data di nascita, sesso, altezza e peso nell'app Apple Watch su iPhone.
+Nell'app Apple Watch, tocca Apple Watch, quindi tocca Salute.
+ATTENZIONE: Apple Watch, il sensore di frequenza cardiaca e le app Apple Watch incluse non sono
+dispositivi medici e sono destinati esclusivamente a scopi di fitness. Per informazioni importanti sull'utilizzo
+sicuro delle app ftness, vedere Importanti informazioni sulla sicurezza a pagina 81.
+Salute e fitness
+Machine Translated by Google
+Un anello parziale mostra
+i progressi verso il tuo
+obiettivo. Gli anelli
+completati indicano che hai
+raggiunto il tuo obiettivo.
+Capitolo 12 Salute e forma fisica 54
+Regola i tuoi obiettivi. Apri Attività su Apple Watch e premi con decisione il display finché non visualizzi la
+richiesta di modificare il tuo obiettivo Move.
+Un anello sovrapposto significa che hai superato il tuo obiettivo. Guarda i premi per i risultati, se hai attivato
+quella funzione.
+Ogni lunedì riceverai anche una notifica sui risultati della settimana precedente e potrai modificare il tuo
+obiettivo di movimento giornaliero per la settimana successiva. Apple Watch suggerisce obiettivi basati sulle
+tue prestazioni precedenti.
+Controlla la cronologia delle tue attività e visualizza tutti i tuoi risultati. Apri l'app Attività su iPhone,
+quindi tocca una data nel calendario per vedere un'analisi per quel giorno. Vedrai quanti passi hai fatto e la
+distanza percorsa, oltre alle informazioni su movimento, esercizio e posizione in piedi.
+Verifica i tuoi progressi. Scorri verso l'alto sul quadrante dell'orologio, quindi passa allo sguardo Attività
+in qualsiasi momento per vedere come stai. Tocca lo sguardo per aprire l'app Attività e scorri per vedere le
+singole attività. L'anello Move mostra quante calorie attive hai bruciato. L'anello degli esercizi mostra quanti
+minuti di attività intensa hai svolto. L'anello Stand mostra quante volte al giorno sei rimasto in piedi per almeno
+un minuto ogni ora. Scorri verso l'alto su un'attività o ruota la Digital Crown per vedere i tuoi progressi sotto
+forma di grafico.
+Machine Translated by Google
+Capitolo 12 Salute e forma fisica 55
+Scorri per
+visualizzare altri allenamenti.
+Attiva le
+notifiche che
+desideri.
+Tocca per
+selezionare il tuo allenamento.
+,
+"Inizia un allenamento".
+Inizia un allenamento. Apri l'app
+Allenamento e scegli gli allenamenti, l'ordine degli allenamenti rispecchierà le tue preferenze.
+Monitora i tuoi allenamenti L'app
+Allenamento su Apple Watch ti offre gli strumenti per gestire le tue sessioni di allenamento individuali.
+Ti consente di impostare obiettivi specifici, come tempo, distanza o calorie, quindi tiene traccia dei tuoi progressi,
+ti guida lungo il percorso e riassume i risultati. Puoi utilizzare l'app Attività su iPhone per rivedere la cronologia
+completa degli allenamenti. Consulta Mantieni i tuoi dati accurati a pagina 57 per informazioni su come viene
+calibrato Apple Watch.
+quindi tocca il tipo di allenamento che stai cercando. Mentre usi il
+Controlla le notifiche di attività. I promemoria possono aiutare quando si tratta di raggiungere gli obiettivi.
+Apple Watch può farti sapere se sei sulla buona strada o se sei in ritardo rispetto ai tuoi obiettivi di attività. Può
+anche avvisarti se sei stato seduto troppo a lungo. Per scegliere quali promemoria e avvisi desideri visualizzare,
+apri l'app Apple Watch su iPhone, tocca Apple Watch, quindi tocca Attività.
+Machine Translated by Google
+Tocca per modificare
+il tuo obiettivo.
+L'anello ti dà una rapida
+indicazione dei progressi del tuo
+allenamento.
+Capitolo 12 Salute e forma fisica 56
+Termina l'allenamento. Quando raggiungi il tuo obiettivo, sentirai un allarme. Se ti senti bene e vuoi continuare, vai avanti: Apple
+Watch continua a raccogliere dati finché non gli dici di smettere.
+Verifica i tuoi progressi. Controlla l'anello di completamento durante l'allenamento per una rapida indicazione dei tuoi progressi.
+Scorri sulla metà inferiore dello schermo per rivedere il tempo trascorso, l'andatura media, la distanza percorsa, le calorie
+consumate e la frequenza cardiaca. Invece di visualizzare gli anelli di avanzamento, puoi scegliere di visualizzare numericamente i
+valori di distanza, calorie o tempo. Apri l'app Apple Watch su iPhone, tocca Apple Watch, quindi attiva Allenamento > Mostra metrica
+obiettivo.
+Nota: la camminata/corsa/bicicletta all'aperto e al chiuso sono allenamenti distinti perché Apple Watch calcola le calorie bruciate in
+modo diverso per ciascuno. Per gli allenamenti indoor, Apple Watch si basa principalmente sulle letture della frequenza cardiaca per le
+stime delle calorie, ma per gli allenamenti all'aperto, Apple Watch funziona in combinazione con iPhone (che dispone di GPS) per
+calcolare velocità e distanza. Questi valori, insieme alla frequenza cardiaca, vengono utilizzati per stimare il numero di calorie bruciate.
+Risparmia energia durante un allenamento lungo. Puoi risparmiare energia disattivando il sensore della frequenza
+cardiaca durante lunghi allenamenti di camminata e corsa. Le tue stime sulle calorie bruciate potrebbero non essere così accurate.
+Apri l'app Apple Watch su iPhone, tocca Apple Watch, quindi attiva Allenamento > Modalità risparmio energetico.
+Nella schermata dell'obiettivo, scorri verso sinistra e verso destra per scegliere un obiettivo di calorie, tempo o distanza (o nessun
+obiettivo), quindi ruota la Digital Crown o tocca + / – per impostare. Quando sei pronto per iniziare, tocca Avvia. Se stai misurando le
+calorie o il tempo, puoi lasciarti alle spalle iPhone e allenarti solo con Apple Watch. Ma per misurazioni della distanza più accurate
+all'aperto, porta con te l'iPhone.
+Rivedi la cronologia dei tuoi allenamenti. Apri l'app Attività su iPhone, quindi tocca una data. Scorri verso il basso per vedere i tuoi
+allenamenti elencati sotto i riepiloghi Movimento/Alzati/Esercizi. Scorri verso sinistra su un allenamento per visualizzarne i dettagli.
+Metti in pausa e riprendi. Per mettere in pausa l'allenamento in qualsiasi momento, premi con decisione il display, quindi tocca Pausa.
+Per continuare, premere di nuovo con decisione il display, quindi toccare Riprendi.
+Quando sei pronto, premi con decisione il display, quindi tocca Fine. Ruota la Digital Crown per scorrere il riepilogo dei risultati, quindi
+tocca Salva o Elimina in basso.
+Machine Translated by Google
+Fai un'altra lettura.
+Aggiorna altezza e peso. Apri l'app Apple Watch su iPhone, tocca My Watch, tocca Salute, Peso o Altezza e regola.
+Controlla la tua frequenza cardiaca durante un allenamento. Scorri sulla metà inferiore della schermata di
+avanzamento dell'allenamento.
+Il GPS del tuo iPhone consente ad Apple Watch di ottenere una precisione ancora maggiore della distanza. Ad esempio, se porti
+l'iPhone mentre usi l'app Allenamento durante una corsa, Apple Watch utilizza il GPS dell'iPhone per calibrare la tua andatura.
+Successivamente, se non porti con te l'iPhone o se ti alleni dove il GPS non è disponibile (ad esempio, al chiuso), Apple Watch utilizza
+le informazioni memorizzate sulla tua andatura per misurare la distanza.
+Visualizza la tua frequenza cardiaca attuale. Scorri verso l'alto sul quadrante dell'orologio, quindi scorri fino allo sguardo Battito
+cardiaco per misurare la frequenza cardiaca e visualizzare l'ultima lettura. Tocca il cuore nello sguardo per fare una nuova lettura.
+Capitolo 12 Salute e forma fisica 57
+Mantieni i tuoi dati accurati Apple
+Watch utilizza le informazioni che fornisci su altezza, peso, sesso ed età per calcolare quante calorie bruci,
+la distanza percorsa e altri dati. Inoltre, più corri con l'app Allenamento, più Apple Watch apprende il tuo livello
+di fitness e più accuratamente può stimare le calorie che hai bruciato durante l'attività aerobica.
+Controlla la tua frequenza cardiaca
+Per ottenere i migliori risultati, il retro di Apple Watch ha bisogno del contatto con la pelle per funzioni
+come il rilevamento del polso, le notifiche tattili e il sensore della frequenza cardiaca. Indossare Apple Watch
+con i piedi giusti, non troppo stretti, non troppo larghi e con spazio per far respirare la pelle, ti manterrà comodo
+e lascerà che i sensori facciano il loro lavoro. Potresti voler stringere l'Apple Watch per gli allenamenti, quindi
+allentare il cinturino quando hai finito. Inoltre, i sensori funzioneranno solo quando indossi Apple Watch sulla
+parte superiore del polso.
+Machine Translated by Google
+Le carte di pagamento
+vengono visualizzate per prime.
+Scorri fino a
+vedi passaggi.
+Effettuare acquisti con Apple Pay Puoi
+utilizzare Apple Pay su Apple Watch per effettuare acquisti nei negozi che accettano
+pagamenti contactless. Basta configurare Apple Pay nell'app Apple Watch su iPhone e
+sei pronto per fare acquisti, anche se non hai iPhone con te.
+13
+58
+Se annulli l'abbinamento con Apple Watch, disattivi il codice o disattivi il rilevamento del polso, non puoi utilizzare
+Apple Pay.
+Nota: molte carte di credito e di debito statunitensi possono essere utilizzate con Apple Pay. Per informazioni
+sulla disponibilità di Apple Pay e sugli attuali emittenti di carte, visita support.apple.com/kb/HT6288.
+Puoi aggiungere fino a otto carte di credito o di debito; appariranno in cima alla pila nella tua app Passbook ,
+sopra i tuoi pass. Le ultime vsualizzate quattro sulla o cinque parte cifre anteriore del numero di una della carta tua di pagamento. carta di credito o di debito vengono
+Apple Pay e Libretto
+Machine Translated by Google
+Scegli la tua carta predefinita. Nell'app Apple Watch su iPhone, tocca Apple Watch, tocca Passbook e Apple Pay, tocca Carta
+predefinita, quindi seleziona la carta desiderata.
+Configura Apple Pay su Apple Watch. Anche se hai già configurato Apple Pay su iPhone utilizzando l'app Passbook, devi
+aggiungere le carte di credito o di debito da utilizzare su Apple Watch. Tieni a portata di mano la tua carta di credito o di debito, quindi
+apri l'app Apple Watch su iPhone. Tocca My Watch, tocca Passbook e Apple Pay, tocca Aggiungi carta di credito o di debito, quindi
+tocca Avanti. Se disponi di una carta di credito o di debito supportata su file con iTunes o App Store, inserisci il codice di sicurezza
+della carta. Altrimenti, utilizza la fotocamera dell'iPhone per acquisire le informazioni sulla tua carta di credito o di debito, quindi
+inserisci tutte le informazioni aggiuntive necessarie, incluso il codice di sicurezza della carta. Tieni presente che l'emittente della tua
+carta potrebbe richiedere passaggi aggiuntivi per verificare la tua identità. In tal caso, scegli un'opzione di verifica, tocca Verifica,
+quindi tocca Inserisci codice per completare la verifica.
+Aggiungi un'altra carta di credito o di debito. Nell'app Apple Watch su iPhone, tocca Apple Watch, tocca Passbook e
+Apple Pay, tocca Aggiungi carta di credito o di debito, quindi segui le istruzioni sullo schermo.
+Paga per un acquisto. Fai doppio clic sul pulsante laterale, scorri per cambiare le carte, quindi tieni Apple Watch a pochi centimetri
+dal lettore di carte contactless, con il display rivolto verso il lettore.
+Un leggero impulso e un tono confermano che le informazioni di pagamento sono state inviate.
+Trova il numero di account del dispositivo per una carta. Quando effettui un pagamento con Apple Watch, il Device Account
+Number della carta viene inviato con il pagamento al commerciante. Per trovare le ultime quattro o cinque cifre di questo numero,
+apri l'app Apple Watch su iPhone, tocca Apple Watch, tocca Passbook e Apple Pay, quindi tocca una carta.
+Rimuovi una carta da Apple Pay. Apri Passbook su Apple Watch, tocca per selezionare una carta, premi con decisione la carta,
+quindi tocca Elimina. In alternativa, apri l'app Apple Watch su iPhone, tocca Apple Watch, tocca Passbook e Apple Pay, tocca la
+carta, quindi tocca Rimuovi.
+lo farai
+Aggiungi una
+nuova carta di
+credito o di debito.
+Inserisci il
+tuo codice
+di verifica.
+la ntl puls e aa
+ton n tu ad ino as n snt.
+Capitolo 13 Apple Pay e Passbook 59
+Machine Translated by Google
+Visualizza un passaggio.
+,
+Capitolo 13 Apple Pay e Passbook 60
+selezionare il passaggio, quindi
+Riorganizza i passaggi. Su iPhone, apri l'app Passbook e trascina per riordinare i biglietti. L'ordine verrà riflesso su
+Apple Watch.
+Usa Passbook Usa
+l'app Passbook su Apple Watch per conservare le carte d'imbarco, i biglietti del cinema, le carte fedeltà e altro ancora
+in un unico posto. I tuoi biglietti in Passbook su iPhone si sincronizzano automaticamente con Apple Watch (se hai
+attivato Mirror iPhone nell'app Apple Watch). Scansiona un biglietto su Apple Watch per fare il check-in per un
+combattimento, entrare in un film o riscattare un coupon. Per impostare le opzioni per i tuoi biglietti su Apple Watch,
+apri l'app Apple Watch su iPhone, tocca Apple Watch, quindi tocca Passbook e Apple Pay.
+Fatto con un passaggio? Elimina il pass su iPhone. Apri l'app Passbook, tocca il pass, tocca , quindi tocca Elimina.
+Usa un passaggio. Se su Apple Watch viene visualizzata una notifica per un biglietto, tocca la notifica per visualizzare
+il biglietto. Potrebbe essere necessario scorrere per arrivare al codice a barre. Oppure apri Passbook presenta il codice
+a barre sul pass allo scanner.
+Se l'Apple Watch viene smarrito o rubato. Se il tuo Apple Watch viene smarrito o rubato, accedi al tuo account su
+iCloud.com e rimuovi le tue carte. Vai su Impostazioni > I miei dispositivi, scegli il dispositivo e fai clic su Rimuovi tutto.
+Puoi anche chiamare gli emittenti delle tue carte.
+Machine Translated by Google
+“Mostra Berlino sulla mappa.”
+Esplora la mappa Apple
+Watch ha uno sguardo a Maps per una rapida occhiata alla tua posizione e ai dintorni e un'app Maps
+completa per esplorare e ottenere indicazioni stradali.
+14
+61
+Tocca per centrare la
+posizione corrente.
+Tu sei qui.
+AVVERTENZA: per informazioni importanti su come evitare distrazioni che potrebbero portare a situazioni pericolose, vedere
+Informazioni importanti sulla sicurezza a pagina 81.
+Ottieni informazioni su un punto di riferimento o una posizione. Tocca la posizione sulla mappa, quindi ruota la Digital Crown
+per scorrere le informazioni. Tocca < in alto a sinistra per tornare alla mappa.
+Cerca sulla mappa. Durante la visualizzazione della mappa, premi con decisione il display, tocca Cerca, quindi tocca Detta o
+tocca una posizione nell'elenco dei luoghi che hai esplorato di recente.
+Panoramica e zoom. Per eseguire la panoramica della mappa, trascina con un dito. Per ingrandire o ridurre, ruota la Digital Crown.
+Vedi una mappa. Apri l'app Mappe su Apple Watch. Oppure, per una rapida occhiata alla tua posizione, scorri verso l'alto sul
+quadrante dell'orologio, quindi scorri fino allo sguardo di Maps. Tocca lo sguardo di Maps per aprire l'app completa di Maps.
+Puoi anche toccare due volte la mappa per ingrandire il punto che tocchi. Tocca il pulsante Tracking in basso a sinistra per tornare
+alla posizione corrente.
+Mappe e indicazioni
+Machine Translated by Google
+Capitolo 14 Mappe e indicazioni 62
+Ottenere indicazioni
+Ottieni informazioni
+sull'indirizzo o usalo
+come punto di partenza.
+"Indicazioni per la stazione di servizio più vicina?"
+Sentirai una vibrazione quando sarai sull'ultima tappa, e di nuovo quando arriverai.
+Ottieni indicazioni per un punto di riferimento o un segnaposto sulla mappa. Apri Mappe , quindi tocca il punto di riferimento della
+destinazione o il segnaposto sulla mappa. Scorri le informazioni sulla posizione fino a visualizzare Indicazioni, quindi tocca A piedi o In auto.
+Chiama una posizione. Tocca il numero di telefono nelle informazioni sulla posizione. Per passare a iPhone, scorri verso l'alto
+sull'icona Telefono nell'angolo in basso a sinistra della schermata di blocco, quindi tocca la barra verde nella parte superiore dello schermo.
+Chiedi indicazioni a Siri. Dì a Siri dove vorresti andare.
+Segui le indicazioni. Dopo aver toccato Inizio e partenza all'andata, Apple Watch usa i tocchi per farti sapere quando svoltare. Una
+serie costante di 12 tocchi significa girare a destra all'incrocio a cui ti stai avvicinando; tre coppie di due colpetti significa girare a sinistra.
+Non sei sicuro di come sia la tua destinazione?
+Trova l'indirizzo approssimativo di qualsiasi punto sulla mappa. Trascina un segnaposto sulla posizione, quindi tocca il segnaposto per
+visualizzare le informazioni sull'indirizzo.
+Attacca uno spillo. Tocca e tieni premuta la mappa in cui vuoi posizionare il segnaposto, attendi che il segnaposto cada, quindi
+rilascia. Ora puoi toccare il segnaposto per le informazioni sull'indirizzo o utilizzarlo come punto di partenza o destinazione per le
+indicazioni stradali. Per spostare il segnaposto, rilasciane uno nuovo nella nuova posizione.
+Ottieni indicazioni per un risultato di ricerca o un contatto. Durante la visualizzazione della mappa, premi con decisione il display,
+quindi tocca Cerca o Contatti.
+Visualizza la tua posizione attuale e i dintorni. Apri Mappe , quindi tocca la freccia della posizione corrente in basso a sinistra. Oppure scorri
+fino allo sguardo di Maps, che mostra sempre dove ti trovi. Se hai un evento di calendario imminente, lo sguardo di Maps mostra le indicazioni
+per raggiungerlo.
+Quando sei pronto per partire, tocca Avvia, quindi segui le indicazioni.
+Visualizza l'indirizzo di un contatto sulla mappa. Durante la visualizzazione della mappa, premi con decisione il display, tocca
+Contatti, ruota la Digital Crown per scorrere, quindi tocca il contatto.
+Machine Translated by Google
+Verifica i tuoi progressi. Scorri verso sinistra sul passaggio corrente delle indicazioni stradali o tocca i punti nella parte
+inferiore dello schermo per visualizzare una vista mappa.
+Termina le indicazioni stradali prima di arrivarci. Premi con decisione il display, quindi tocca Interrompi indicazioni stradali.
+Scopri quando ci arrivi. Cerca nell'angolo in alto a sinistra l'orario di arrivo previsto.
+L'ora corrente è in alto a destra.
+Premere con decisione per
+interrompere le indicazioni stradali.
+Orario previsto di
+arrivo
+Capitolo 14 Mappe e indicazioni 63
+Machine Translated by Google
+"Gioca a Panda Bear".
+Riprodurre musica su iPhone Puoi
+utilizzare l'app Musica o lo sguardo “In riproduzione” su Apple Watch per controllare la riproduzione
+della musica su iPhone.
+15
+64
+Passa alla traccia
+precedente o successiva.
+Tocca per vedere la
+copertina dell'album.
+Tocca -/+ o ruota la Digital Crown
+per regolare il volume.
+Premere con decisione
+per le opzioni di riproduzione.
+Torna all'elenco dei brani.
+Se non vedi la musica che ti aspetti, assicurati che iPhone, non Apple Watch, sia la tua sorgente: premi con decisione il
+display, tocca Sorgente, quindi tocca iPhone.
+Invia l'audio a un altro dispositivo con AirPlay. Durante la visualizzazione dei controlli di riproduzione, premi con
+decisione il display, tocca AirPlay, quindi scegli una destinazione.
+Vedere la copertina dell'album per il brano corrente. Tocca il nome dell'album sopra i controlli di riproduzione. Tocca di
+nuovo per tornare ai controlli.
+Controlla la riproduzione con lo sguardo. Usa lo sguardo In riproduzione per un controllo rapido. Scorri verso l'alto
+sul quadrante dell'orologio, quindi scorri fino ai controlli di riproduzione.
+Riproduci musica su iPhone. Apri Musica su Apple Watch. Sfoglia playlist, album, artisti o brani fino a visualizzare un
+elenco di brani, quindi tocca un brano per riprodurlo.
+Mescola o ripeti i brani. Durante la visualizzazione dei controlli di riproduzione, premi con decisione il display, quindi
+tocca Shufe o Ripeti.
+Se non vedi lo sguardo In riproduzione, apri l'app Apple Watch su iPhone, tocca Apple Watch, quindi attiva Musica >
+Mostra in Sguardi.
+Musica
+Machine Translated by Google
+Riprodurre musica su Apple Watch Puoi
+archiviare musica direttamente su Apple Watch, quindi ascoltarla su cuffie o altoparlanti Bluetooth
+senza il tuo iPhone nelle vicinanze.
+Riproduci brani memorizzati su Apple Watch. Apri Musica su Apple Watch, premi con decisione il display, tocca Sorgente, quindi
+scegli Orologio.
+Quando la musica è stata sincronizzata, apri l'app Impostazioni su Apple Watch, vai su Generali > Informazioni e cerca in Brani
+per vedere il numero di brani copiati.
+Memorizza brani su Apple Watch. Apri l'app Apple Watch su iPhone, tocca My Watch, vai su Musica > Playlist
+sincronizzata, quindi scegli la playlist dei brani che desideri spostare su Apple Watch.
+Scopri quanta musica è memorizzata su Apple Watch. Su Apple Watch, apri l'app Impostazioni , vai su Generali >
+Informazioni e cerca in Brani.
+AVVERTENZA: per informazioni importanti su come evitare la perdita dell'udito, vedere Importanti informazioni sulla
+sicurezza a pagina 81.
+Quindi, posiziona Apple Watch sul caricabatterie per completare la sincronizzazione.
+Limita i brani memorizzati su Apple Watch. Apri l'app Apple Watch su iPhone, tocca Apple Watch, vai su Musica > Limite
+playlist, quindi scegli un limite di archiviazione o il numero massimo di brani da archiviare su Apple Watch.
+Accoppia le cuffie o gli altoparlanti Bluetooth. Segui le istruzioni fornite con le cuffie o gli altoparlanti per metterli in modalità
+rilevamento. Quando il dispositivo Bluetooth è pronto, apri l'app Impostazioni su Apple Watch, tocca Bluetooth, quindi tocca il
+dispositivo quando viene visualizzato.
+Controlla la riproduzione. Scorri fino allo sguardo In riproduzione per un controllo rapido. Scorri verso l'alto sul quadrante
+dell'orologio, quindi scorri fino ai controlli di riproduzione. Puoi anche controllare la riproduzione utilizzando l'app Musica .
+Puoi utilizzare l'app Musica su iPhone per creare una playlist specifica per la musica che desideri ascoltare su Apple Watch.
+Capitolo 15 Musica 65
+Machine Translated by Google
+Il pulsante Remote viene
+visualizzato in iTunes dopo
+aver toccato Aggiungi
+dispositivo su Apple Watch.
+Controllare la musica su Mac o PC Puoi
+utilizzare l'app Remote su Apple Watch per riprodurre musica in iTunes su un computer
+sulla stessa rete Wi-Fi.
+16
+66
+Non cercare il pulsante Telecomando in iTunes prima di toccare Aggiungi dispositivo su Apple Watch: il pulsante
+viene visualizzato solo quando un telecomando sta tentando di connettersi. In iTunes 12 e versioni successive, il
+pulsante Remote si trova in alto a sinistra, sotto il cursore del volume. In iTunes 11 e versioni precedenti, il pulsante
+Remote si trova in alto a destra, sotto il campo Cerca.
+Scegli una libreria da cui riprodurre. Se hai solo una libreria, dovresti essere a posto. Se hai aggiunto più di una
+libreria, tocca quella desiderata quando apri Remote su Apple Watch.
+Aggiungi una libreria iTunes. Apri l'app Remote su Apple Watch, quindi tocca Aggiungi dispositivo +. In iTunes
+sul tuo computer, fai clic sul pulsante Telecomando nella parte superiore della finestra di iTunes, quindi inserisci il
+codice a 4 cifre visualizzato su Apple Watch.
+Se stai già riproducendo musica, tocca il pulsante Indietro nella parte superiore sinistra dei controlli di riproduzione,
+quindi tocca la libreria.
+Controlla la riproduzione. Usa i controlli di riproduzione nell'app Remote.
+Rimuovi una libreria. Nell'app Remote su Apple Watch, tocca il pulsante Indietro in alto a sinistra per visualizzare i
+tuoi dispositivi, premi con decisione il display, quindi tocca Modifica. Quando le icone del dispositivo oscillano, tocca
+x su quello che desideri rimuovere, quindi tocca Rimuovi. Se quello era il tuo unico dispositivo remoto, hai finito,
+altrimenti tocca il segno di spunta per terminare la modifica.
+Telecomando
+Machine Translated by Google
+Riproduci o metti in
+pausa la selezione.
+Scorri per spostarti tra le
+opzioni del menu di Apple TV;
+tocca per selezionare.
+Controlla un altro dispositivo.
+Tocca per tornare indietro o tocca e tieni
+premuto per tornare al menu principale.
+Toccare per scegliere l'elemento selezionato. Tocca il pulsante Menu per tornare indietro oppure toccalo e tienilo premuto per tornare
+al menu principale. Tocca il pulsante Riproduci/Pausa per mettere in pausa o riprendere la riproduzione.
+Disaccoppia e rimuovi Apple TV. Sulla tua Apple TV, vai su Impostazioni > Generali > Telecomandi, quindi seleziona il tuo
+Apple Watch in Telecomandi iOS per rimuoverlo. Quindi, apri l'app Remote su Apple Watch e, quando viene visualizzato il
+messaggio "connessione persa", tocca Rimuovi.
+Controlla l'Apple TV. Assicurati che Apple TV sia attiva. Apri l'app Remote su Apple Watch, scegli Apple TV, quindi scorri
+verso l'alto, il basso, a sinistra o a destra per spostarti tra le opzioni del menu di Apple TV.
+Accoppia Apple Watch con Apple TV. Se il tuo iPhone non è mai entrato nella rete Wi-Fi su cui è attiva Apple TV, unisciti ora. Quindi,
+apri l'app Remote su Apple Watch e tocca Aggiungi dispositivo +. Sulla tua Apple TV, vai su Impostazioni > Generali > Telecomandi,
+seleziona il tuo Apple Watch, quindi inserisci il codice visualizzato su Apple Watch.
+Quando l'icona di accoppiamento appare accanto ad Apple Watch, è pronto per controllare Apple TV.
+Capitolo 16 Telecomando 67
+Controllare Apple TV
+Puoi utilizzare Apple Watch come telecomando per Apple TV quando sei connesso
+alla stessa rete Wi-Fi.
+Machine Translated by Google
+Scorri verso sinistra o destra per
+vedere la foto successiva.
+Ruota per ingrandire.
+Tocca per visualizzare una foto. Tocca per visualizzare una foto.
+Tocca due volte per riempire lo
+schermo o vedere tutto.
+Trascina per eseguire la panoramica.
+Visualizzare le foto su Apple Watch Le foto
+dall'album iPhone di tua scelta vengono archiviate su Apple Watch e vengono visualizzate nell'app Foto
+su Apple Watch. Quando acquisti Apple Watch per la prima volta, è impostato per utilizzare il tuo album
+Preferiti, ovvero le foto che hai contrassegnato come preferite, ma puoi cambiare l'album che utilizza.
+17
+68
+Sfoglia le foto su Apple Watch. Apri l'app Foto su Apple Watch, quindi tocca una foto.
+Scorri verso sinistra o destra per vedere gli altri. Ruota la corona digitale per eseguire lo zoom o trascina per eseguire la panoramica. Ingrandisci
+completamente per vedere l'intero album.
+Fotografie
+Machine Translated by Google
+Imposta il
+limite per le
+foto su Apple Watch.
+Scegli l'album
+da includere
+su Apple
+Watch.
+Quante foto? Per vedere quante foto ci sono su Apple Watch, apri Impostazioni su Apple Watch, quindi
+vai su Generali > Informazioni. In alternativa, apri l'app Apple Watch su iPhone, tocca Apple Watch, quindi vai
+su Generali > Informazioni.
+Il numero effettivo di foto archiviate su Apple Watch dipende dallo spazio di archiviazione disponibile.
+Limita l'archiviazione delle foto. Apri l'app Apple Watch su iPhone, tocca Apple Watch, quindi vai su Foto >
+Limite foto. Guarda sotto Limite foto per vedere quanto spazio di archiviazione di Apple Watch è attualmente
+utilizzato dalle foto.
+Scegli l'album da archiviare su Apple Watch. Apri l'app Apple Watch su iPhone, tocca My Watch, vai su
+Foto > Album sincronizzato, quindi scegli l'album. Per creare un nuovo album per le foto di Apple Watch,
+utilizza l'app Foto su iPhone.
+Capitolo 17 Foto 69
+Gestire l'archiviazione delle foto
+Per risparmiare spazio su Apple Watch per brani o altri contenuti, puoi limitare il numero di foto
+memorizzate su Apple Watch.
+Scegli il tuo album Apple
+Watch archivia le foto da un singolo album fotografico sincronizzato sul tuo iPhone.
+Machine Translated by Google
+Tocca l'area per
+regolare l'esposizione.
+Tocca per rivedere
+l'ultimo scatto.
+Usa il mirino e l'otturatore remoti Se desideri posizionare
+l'iPhone per una foto e poi non toccarlo, o se non riesci a vedere il display dell'iPhone per inquadrare uno
+scatto, puoi utilizzare Apple Watch per visualizzare l'immagine della fotocamera dell'iPhone e toccare
+l'otturatore .
+Telecamera remota
+70
+Fare una foto. Apri l'app Fotocamera , quindi posiziona l'iPhone per inquadrare lo scatto utilizzando Apple Watch
+come mirino. Per regolare l'esposizione, tocca l'area chiave dello scatto nell'anteprima su Apple Watch. Per scattare la foto, tocca
+il pulsante dell'otturatore.
+La foto viene catturata in Foto sul tuo iPhone, ma puoi rivederla su Apple Watch.
+Per funzionare come telecomando della fotocamera, Apple Watch deve trovarsi all'interno della normale portata Bluetooth di
+iPhone (circa 33 piedi o 10 metri).
+Durante la visualizzazione di uno scatto, ruota la Digital Crown per eseguire lo zoom. Per eseguire la panoramica,
+trascina con il dito. Tocca un punto qualsiasi per nascondere o mostrare il pulsante Chiudi e il conteggio dei colpi. Tocca due
+volte per riempire lo schermo o vedere l'intera ripresa. Al termine, tocca Chiudi.
+Rivedi i tuoi scatti. Tocca la miniatura in basso a sinistra. Scorri verso destra o verso sinistra per vedere altri scatti.
+18
+Machine Translated by Google
+Tocca per catturare
+una raffica in 3
+secondi.
+Usa il timer dell'otturatore. Apri l'app Fotocamera , quindi tocca il pulsante Timer in basso a destra. Un
+segnale acustico, un tocco e i flash di iPhone ti informano quando aspettarti lo scatto.
+Il timer fa una raffica di scatti, quindi sei sicuro di averne uno buono. Per scegliere lo scatto migliore,
+visualizza la foto in Foto su iPhone, quindi tocca Seleziona (sotto la foto).
+Capitolo 18 Telecamera remota 71
+Utilizzare il timer dell'otturatore
+Puoi utilizzare Apple Watch per impostare un timer dell'otturatore per una foto di gruppo senza dover
+rientrare nell'inquadratura.
+Machine Translated by Google
+"Qual è stato il prezzo di chiusura di oggi per le azioni Apple?"
+Tieni traccia delle
+azioni Usa l'app Borsa su Apple Watch per vedere le informazioni sulle azioni che segui sul tuo iPhone.
+19
+72
+Ruota la Digital
+Crown per
+visualizzare maggiori dettagli.
+Passa a Azioni su iPhone. Mentre guardi l'app Borsa o lo sguardo Borsa su Apple Watch, scorri verso
+l'alto sull'icona Borsa nell'angolo in basso a sinistra della schermata di blocco dell'iPhone.
+Segui il mercato. Per sfogliare le tue azioni, apri l'app Borsa su Apple Watch.
+Scegli i dati che vedi. Apri l'app Azioni su iPhone, quindi tocca la variazione punti per qualsiasi azione per
+visualizzare la variazione percentuale o la capitalizzazione di mercato.
+Visualizza i dettagli su un'azione. Toccalo nell'elenco, quindi ruota la Digital Crown per scorrere. Tocca il
+grafico delle prestazioni (o gli indicatori temporali sotto di esso) per modificare la scala temporale. Tocca < in alto a
+sinistra per tornare all'elenco delle azioni.
+Aggiungi, elimina o riordina le scorte. Aggiungi, elimina o modifica l'ordine delle azioni utilizzando l'app Borsa su
+iPhone. Le modifiche apportate lì vengono riflesse su Apple Watch.
+Azioni
+Machine Translated by Google
+Capitolo 19 Azioni 73
+Tocca lo sguardo
+per aprire l'app Stock.
+Scegli
+l'azione
+mostrata nello
+sguardo sulle azioni.
+• Modulare (nome ticker e prezzo) • Utility
+(nome ticker, prezzo e cambio) • Topolino (nome
+ticker, prezzo e cambio)
+Scegli la tua scorta. Apri l'app Apple Watch su iPhone, tocca Il mio orologio, tocca Azioni, quindi scegli l'azione
+predefinita.
+Aggiungi informazioni sulle azioni a un quadrante. Mentre visualizzi il volto, premi con decisione il display,
+quindi tocca Personalizza. Scorri verso sinistra finché non puoi selezionare le singole caratteristiche del viso, tocca
+quella che desideri utilizzare, quindi ruota la Digital Crown per scegliere Azioni. Quando hai finito, premi la Digital Crown.
+Visualizza lo sguardo sulle azioni. Scorri verso l'alto sul quadrante dell'orologio, quindi scorri fino alle informazioni sulle azioni.
+Scegli lo stock mostrato sul quadrante dell'orologio. Apri l'app Apple Watch su iPhone, tocca Apple
+Watch, tocca Azioni, quindi scegli un'azione predefinita. Se scegli Mirror iPhone, il titolo mostrato sul quadrante
+dell'orologio è l'ultimo che hai evidenziato nell'app Borsa su iPhone.
+Puoi aggiungere informazioni sulle azioni a questi volti:
+Scegli i dati che vedi sul quadrante. Apri l'app Apple Watch su iPhone, tocca Apple Watch, tocca Azioni,
+quindi tocca Prezzo corrente, Variazione punti, Variazione percentuale o Capitalizzazione di mercato.
+Se non vedi lo sguardo sulle azioni, apri l'app Apple Watch su iPhone, quindi vai su Il mio orologio > Sguardi e
+aggiungilo al tuo elenco di sguardi.
+Controlla un titolo a colpo d'occhio Usa lo
+sguardo Titoli per controllare un titolo di particolare interesse.
+Aggiungi informazioni sulle azioni al quadrante dell'orologio
+Machine Translated by Google
+Tocca per
+visualizzare le previsioni
+di temperatura o
+precipitazioni.
+Scorri verso sinistra o verso
+destra per vedere altre città.
+Tocca colpo d'occhio per aprire
+l'app Meteo.
+Scorri verso il basso
+per visualizzare le
+previsioni a 10 giorni.
+74
+20
+"Quali sono le previsioni per domani per Honolulu?"
+Vedi maggiori dettagli e previsioni. Per la temperatura e le condizioni attuali, le previsioni orarie di
+temperatura, condizioni e precipitazioni e una previsione per 10 giorni, apri l'app Meteo su Apple Watch e
+tocca una città. Tocca ripetutamente il display Condizioni orarie per passare alle previsioni orarie delle
+precipitazioni o della temperatura. Scorri verso il basso per visualizzare una previsione a 10 giorni.
+Scegli la tua città predefinita. Apri l'app Apple Watch su iPhone, tocca Apple Watch, quindi vai su
+Meteo > Città predefinita. Le condizioni per quella città vengono mostrate nello sguardo Meteo e sul
+quadrante dell'orologio, se hai aggiunto il meteo al quadrante.
+Aggiungi una città. Apri l'app Meteo su iPhone, quindi tocca il segno + in fondo all'elenco delle città e
+seleziona una città. L'app Meteo su Apple Watch mostra le stesse città, nello stesso ordine, che aggiungi
+all'app Meteo su iPhone.
+Controlla il meteo Controlla
+le condizioni attuali. Per la temperatura attuale più un riepilogo delle condizioni attuali e le temperature
+massime e minime del giorno, controlla lo sguardo Meteo.
+Tempo metereologico
+Machine Translated by Google
+Capitolo 20 Meteo 75
+Apri l'app Meteo completa. Tocca la temperatura sul quadrante dell'orologio.
+Aggiungi il meteo al quadrante dell'orologio. Mentre visualizzi il volto, premi con decisione il display, quindi
+tocca Personalizza. Scorri verso sinistra finché non puoi selezionare le singole caratteristiche del viso, tocca quella in
+cui desideri visualizzare le informazioni meteo, quindi ruota la Digital Crown per scegliere Meteo. Quando hai finito,
+premi la Digital Crown.
+Scegli la città per il meteo del quadrante. Apri l'app Apple Watch su iPhone, tocca Apple Watch, quindi
+vai su Meteo > Città predefinita.
+Puoi includere informazioni meteo su questi quadranti:
+• Utilità (temperatura, o temperatura e condizioni) • Modulare
+(temperatura, o temperatura, condizioni, alta e bassa) • Semplice (temperatura) •
+Colore (temperatura) • Cronografo (temperatura) • Topolino (temperatura, o
+temperatura e condizioni )
+Tocca la
+temperatura per
+aprire l'app Meteo.
+Visualizza il meteo sul quadrante dell'orologio
+Machine Translated by Google
+"Attiva VoiceOver".
+VoiceOver
+VoiceOver ti aiuta a utilizzare Apple Watch anche se non riesci a vedere il display. Usa semplici gesti per
+spostarti sullo schermo e ascoltare mentre VoiceOver pronuncia ogni elemento selezionato.
+La scorciatoia per l'accessibilità Puoi
+impostare la corona digitale per attivare o disattivare VoiceOver o Zoom con un triplo clic.
+21
+76
+Attiva VoiceOver. Su Apple Watch, apri l'app Impostazioni , quindi attiva Generali > Accessibilità >
+VoiceOver. Puoi anche utilizzare iPhone per attivare VoiceOver per Apple Watch: apri l'app Apple Watch su iPhone,
+tocca Apple Watch, quindi tocca l'opzione VoiceOver in Generali > Accessibilità. In alternativa, utilizza la scorciatoia
+per l'accessibilità. E c'è sempre Siri:
+Torna indietro. Hai intrapreso un percorso che non ti aspettavi? Esegui uno scrub con due dita: usa due dita per
+tracciare una forma a "z" sul display.
+Esplora lo schermo. Muovi il dito sul display e ascolta mentre viene pronunciato il nome di ogni elemento che tocchi.
+Puoi anche toccare con un dito per selezionare un elemento o scorrere verso sinistra o destra con un dito per
+selezionare un elemento adiacente. Scorri verso sinistra o destra, verso l'alto o verso il basso con due dita per
+visualizzare altre pagine. (Ad esempio, scorri verso l'alto con due dita sul quadrante dell'orologio per vedere gli sguardi,
+quindi scorri verso sinistra o destra con due dita per vedere i diversi sguardi.)
+si seleziona un elemento. Scorri verso l'alto o verso il basso per scegliere un'azione, quindi tocca due volte per
+eseguirla. (Ad esempio, quando selezioni il quadrante dell'orologio, puoi scorrere verso l'alto o verso il basso per
+scegliere tra gli sguardi e le azioni del centro notifiche.)
+Usa la scorciatoia. Premi rapidamente la corona digitale tre volte. Fai di nuovo triplo clic sulla corona digitale per
+disattivare la funzione di accessibilità.
+Ad esempio, per disattivare VoiceOver, seleziona il pulsante VoiceOver, quindi tocca due volte un punto qualsiasi
+del display.
+Imposta la scorciatoia per l'accessibilità. Apri l'app Apple Watch su iPhone, tocca Apple Watch, vai in
+Generali > Accessibilità > Abbreviazioni accessibilità, quindi scegli VoiceOver o Zoom.
+Eseguire azioni aggiuntive. Alcuni elementi offrono diverse azioni: ascolta le "azioni disponibili" quando
+Agisci su un oggetto. Con VoiceOver attivo, usa un doppio tocco anziché un singolo tocco per aprire un'app,
+cambiare un'opzione o eseguire qualsiasi azione che normalmente verrebbe eseguita con un tocco. Seleziona
+l'icona di un'app o un'opzione toccandola o scorrendo su di essa, quindi tocca due volte per eseguire l'azione.
+Accessibilità e impostazioni correlate
+Machine Translated by Google
+2 Su Apple Watch, attiva VoiceOver facendo triplo clic sulla Digital Crown.
+Regola il volume di VoiceOver. Tocca due volte e tieni premuto con due dita, quindi scorri verso l'alto o verso il basso. In alternativa,
+apri l'app Apple Watch su iPhone, tocca Apple Watch, quindi vai su Generali > Accessibilità > VoiceOver e trascina il cursore.
+Regola la velocità di lettura. Apri l'app Apple Watch su iPhone, tocca Apple Watch, quindi vai su Generali > Accessibilità > VoiceOver e
+trascina i cursori.
+Quando senti la conferma dell'associazione, puoi saltare al passaggio 14. In caso di difcoltà, puoi provare l'associazione manuale, passaggi
+da 9 a 13.
+3 Scorrere verso destra o verso sinistra sul display per scegliere una lingua, quindi toccare due volte per selezionarla.
+Spegnere il display. Per motivi di privacy, attiva la tendina dello schermo in modo che nessuno possa vedere cosa c'è su Apple
+Watch mentre usi VoiceOver. Apri l'app Impostazioni su Apple Watch, quindi attiva Generali > Accessibilità > VoiceOver > Tenda schermo.
+4 Scorri verso destra per evidenziare il pulsante Avvia associazione, quindi tocca due volte.
+9 Scorri verso destra per selezionare il pulsante Associa Apple Watch manualmente, quindi tocca due volte.
+10 Su Apple Watch, trova il tuo ID Apple Watch: scorri verso destra fino al pulsante Informazioni sull'associazione manuale di Apple Watch,
+quindi tocca due volte. Scorri verso destra una volta per ascoltare l'identificatore univoco del tuo Apple Watch: sarà qualcosa come "Apple
+Watch 52345".
+5 Su iPhone, attiva VoiceOver andando in Impostazioni > Generali > Accessibilità > VoiceOver.
+Disattiva VoiceOver. Apri l'app Impostazioni , vai in Generali > Accessibilità > VoiceOver, quindi tocca il pulsante VoiceOver.
+11 Su iPhone, seleziona il tuo Apple Watch: scorri verso destra finché non senti lo stesso identificatore di Apple Watch
+che è stato appena visualizzato su Apple Watch, quindi tocca due volte.
+6 Per aprire l'app Apple Watch, vai alla schermata Home dell'iPhone, scorri verso destra per selezionare il
+VoiceOver per la configurazione. VoiceOver può aiutarti a configurare il tuo Apple Watch: premi tre volte la Digital Crown durante la
+configurazione.
+Configurare Apple Watch utilizzando VoiceOver VoiceOver può aiutarti a
+configurare Apple Watch e ad abbinarlo al tuo iPhone. Per evidenziare un pulsante o un altro elemento, scorri verso sinistra o verso destra sul
+display con un dito. Toccare per attivare l'elemento evidenziato.
+app Apple Watch, quindi tocca due volte.
+12 Per ottenere il codice di accoppiamento, su Apple Watch, scorri verso destra finché non senti il codice di accoppiamento a sei cifre.
+7 Per preparare l'iPhone per l'accoppiamento, scorri verso destra per selezionare il pulsante Avvia accoppiamento, quindi tocca due volte.
+Configura Apple Watch utilizzando VoiceOver
+Viene visualizzata la schermata "Tieni Apple Watch vicino alla fotocamera".
+13 Inserisci il codice di associazione da Apple Watch su iPhone utilizzando la tastiera.
+8 Per provare l'associazione automatica, punta la fotocamera dell'iPhone verso l'orologio da circa 6 pollici di distanza.
+Metti in pausa la lettura. Per fare in modo che VoiceOver interrompa la lettura, tocca il display con due dita. Tocca di nuovo con due dita
+per riprendere.
+1 Se Apple Watch non è acceso, accendilo tenendo premuto il pulsante laterale (sotto la Digital Crown).
+"Disattiva VoiceOver".
+Capitolo 21 Accessibilità e impostazioni correlate 77
+Machine Translated by Google
+14 Al termine dell'associazione, su iPhone, scorri verso destra fino al pulsante Configura Apple Watch, quindi
+Codice, quindi tocca due volte. Su Apple Watch, inserisci un codice di quattro cifre a tua scelta, quindi inseriscilo di nuovo
+per confermare. Scorri, tocca o trascina il dito sul display per selezionare un numero, quindi tocca due volte.
+doppio tocco.
+Apri un'app. Con il quadrante dell'orologio visualizzato, premi una volta la Digital Crown per andare alla schermata Home.
+Scorri verso sinistra o destra, tocca o trascina il dito per evidenziare un'app, quindi tocca due volte per aprirla. Oppure chiedi
+a Siri di aprirlo per te: tieni premuta la corona digitale finché non senti il doppio tocco, quindi pronuncia "avvia" seguito dal
+nome dell'app (ad esempio, "avvia Mail").
+21 Su Apple Watch, scegli se sbloccare Apple Watch quando sblocchi iPhone.
+15 Per scegliere la preferenza del polso, scorrere verso destra nella schermata Preferenze polso per selezionare Sinistra o
+22 Per scegliere se installare app aggiuntive su Apple Watch, scorri per evidenziare Installa tutto o Scegli dopo su iPhone,
+quindi tocca due volte.
+Leggi la posta. Con il quadrante dell'orologio visualizzato, premi una volta la Digital Crown per andare alla schermata Home.
+Scorri per evidenziare l'app Mail, quindi tocca due volte (o tieni premuta la Digital Crown, quindi chiedi a Siri di "avviare Mail").
+Quando si apre l'app Mail, scorri verso sinistra o verso destra per leggere i messaggi.
+Apple Watch si sincronizza con iPhone. Questa operazione richiede alcuni istanti: scorri fino a Sincronizza progressi su iPhone
+per ascoltare i progressi. Quando senti "sincronizzazione completata", Apple Watch è pronto per l'uso e mostra il quadrante.
+Scorri verso sinistra o verso destra per esplorare le funzioni del quadrante. Per informazioni sull'utilizzo di VoiceOver con Apple
+Watch, consulta VoiceOver a pagina 76.
+Destra, quindi tocca due volte.
+16 Rivedere i termini e le condizioni, scorrere verso destra nella schermata Termini e condizioni per selezionare Accetto,
+quindi effettuare un doppio tocco. Selezionare e toccare due volte Accetto nell'avviso visualizzato.
+Nozioni di base su Apple Watch con VoiceOver Cambia il
+quadrante dell'orologio. Durante la visualizzazione del quadrante dell'orologio corrente, premi con decisione il display,
+quindi scorri verso sinistra o verso destra con due dita per sfogliare i quadranti disponibili. Quando ne trovi uno che ti
+piace, tocca due volte per selezionarlo.
+17 Per inserire la password per il tuo ID Apple, scorri verso destra fino al pulsante Inserisci password, tocca due volte, quindi
+inserisci la password per l'ID Apple che usi sul tuo iPhone. Quindi tocca due volte il tasto Invio nell'angolo in basso a destra
+della tastiera.
+18 Per scegliere un'opzione Servizi di localizzazione, scorri fino alla scelta, quindi tocca due volte.
+Personalizza un quadrante. Mentre visualizzi il quadrante dell'orologio, premi con decisione il display, scorri verso il basso
+per scegliere Personalizza, quindi tocca due volte. Scorri verso sinistra o destra per sfogliare le funzioni personalizzabili. Ruota
+la Digital Crown per personalizzare la funzione selezionata. Al termine, premi la Digital Crown, quindi tocca due volte il quadrante
+per salvare le modifiche.
+Controlla le notifiche. Mentre visualizzi il quadrante dell'orologio, scorri verso il basso con due dita.
+19 Per scegliere un'opzione Siri, scorri fino alla scelta, quindi tocca due volte.
+Controlla gli sguardi. Mentre visualizzi il quadrante dell'orologio, scorri verso l'alto con due dita.
+Ascolta l'ora in cui alzi il polso. Apri l'app Apple Watch su iPhone, tocca Apple Watch, vai in Generali > Accessibilità >
+VoiceOver, quindi attiva “Parla quando alzi il polso”.
+Quando l'associazione ha esito positivo, sentirai "Il tuo Apple Watch è associato". Se l'associazione non riesce, tocca per
+rispondere agli avvisi, quindi Apple Watch e l'app Apple Watch su iPhone ripristinati in modo da poter riprovare.
+20 Per creare un passcode per Apple Watch, scorri verso destra nella schermata Passcode per selezionare Crea a
+Capitolo 21 Accessibilità e impostazioni correlate 78
+Machine Translated by Google
+Testo in
+grassetto Puoi semplificare la lettura del testo su Apple Watch visualizzandolo in grassetto.
+Zoom
+Usa Zoom per ingrandire il display dell'Apple Watch.
+Etichette pulsanti On/Off Attiva
+le etichette dei pulsanti per visualizzare un indicatore di posizione aggiuntivo. Con le etichette attivate,
+vedrai un uno (1) su qualsiasi opzione attiva e uno zero (0) su quelle disattivate.
+Audio mono e bilanciamento audio Se preferisci
+ascoltare un segnale audio sinistro+destro combinato da entrambi i canali audio sugli altoparlanti o sulle
+cuffie collegate ad Apple Watch, attiva Audio mono. Puoi anche regolare il bilanciamento sinistra-destra
+dell'audio di Apple Watch, stereo o mono.
+Zoom durante la configurazione. Tocca tre volte con due dita durante la configurazione di Apple Watch
+per vedere meglio.
+Ingrandisci o rimpicciolisci. Tocca due volte il display dell'Apple Watch con due dita.
+Attiva Zoom. Su Apple Watch, apri l'app Impostazioni , quindi attiva Generali > Accessibilità > Zoom. Puoi anche utilizzare
+iPhone per attivare Zoom per Apple Watch: apri l'app Apple Watch su iPhone, tocca Apple Watch, tocca Impostazioni,
+quindi tocca l'opzione in Generali > Accessibilità. Oppure usa la scorciatoia per l'accessibilità; vedere Scorciatoia per
+l'accessibilità a pagina 76.
+Passa all'audio mono. Apri l'app Apple Watch su iPhone, tocca Apple Watch, vai in Generali > Accessibilità, quindi
+attiva Audio mono.
+Spostati (panoramica). Trascina il display con due dita. Puoi anche ruotare la corona digitale per eseguire una
+panoramica dell'intera pagina, da sinistra a destra e dall'alto verso il basso. Il piccolo pulsante Zoom che appare ti
+mostra dove ti trovi sulla pagina.
+Regola l'equilibrio. Trascina il cursore sotto l'impostazione Audio mono.
+Usa la Digital Crown normalmente invece della panoramica. Tocca il display una volta con due dita per passare
+dall'utilizzo della Digital Crown per eseguire la panoramica all'utilizzo della Digital Crown nel modo in cui funziona
+senza Zoom attivo (ad esempio, per scorrere un elenco o ingrandire una mappa).
+Fai in modo che Apple Watch utilizzi il testo in grassetto. Su Apple Watch, apri l'app Impostazioni , vai in Generali
+> Accessibilità, quindi attiva Testo in grassetto. Dovrai riavviare Apple Watch affinché la modifica abbia effetto. Puoi
+anche utilizzare iPhone per attivare Testo in grassetto per Apple Watch: apri l'app Apple Watch su iPhone, tocca Apple
+Watch, vai in Generali > Accessibilità, quindi attiva Testo in grassetto.
+Aggiungi etichette ai pulsanti On/Off. Su Apple Watch, apri l'app Impostazioni , quindi attiva Generali >
+Accessibilità > Etichette On/Off. Puoi anche utilizzare iPhone per attivare le etichette per Apple Watch: apri
+l'app Apple Watch su iPhone, tocca Apple Watch, vai in Generali > Accessibilità, quindi attiva Etichette On/Off.
+Regola l'ingrandimento. Tocca due volte e tieni premuto con due dita, quindi trascina le dita verso l'alto o verso il
+basso sul display. Per limitare l'ingrandimento, apri l'app Apple Watch su iPhone, tocca Apple Watch, vai in Generali >
+Accessibilità > Zoom, quindi trascina il cursore Livello massimo di zoom.
+Capitolo 21 Accessibilità e impostazioni correlate 79
+Machine Translated by Google
+"Che genere di cose posso chiederti?"
+Regola la dimensione del testo. Apri Impostazioni su Apple Watch, vai su Luminosità e dimensioni testo > Dimensioni
+testo, quindi ruota la Digital Crown per regolare.
+Chiedi assistenza a Siri. Tieni premuta la corona digitale. Quando senti la vibrazione o vedi le onde sonore nella parte
+inferiore del display, pronuncia la tua richiesta, quindi rilascia la Digital Crown.
+Per perfezionare una richiesta o chiedere qualcosa di nuovo, tieni di nuovo premuta la Digital Crown, parla, quindi
+rilascia la Digital Crown. Quando hai finito, premi la corona per chiudere Siri.
+Capitolo 21 Accessibilità e impostazioni correlate 80
+Dimensione
+del testo Puoi regolare la dimensione del testo che appare in qualsiasi area di Apple Watch che supporta
+il tipo dinamico, come l'app Impostazioni.
+Siri
+Siri può aiutarti in molte situazioni: basta chiedere.
+Machine Translated by Google
+Importanti informazioni sulla sicurezza
+22
+Non incenerire la batteria. Per informazioni sull'assistenza e il riciclaggio della batteria,
+consulta www.apple.com/it/batteries/service-and-recycling.
+81
+Apple Watch contiene componenti elettronici sensibili e può essere danneggiato se lasciato cadere, bruciato, perforato o
+schiacciato. Non utilizzare un Apple Watch danneggiato, ad esempio uno con uno schermo rotto, infiltrazioni d'acqua
+visibili o un cinturino danneggiato, poiché potrebbe causare lesioni. Evitare una forte esposizione a polvere o sabbia.
+Riparazione Non aprire Apple Watch e non tentare di riparare Apple Watch da solo.
+• Apple Watch: acciaio inossidabile 316L, vetro zaffiro, ceramica • Apple
+Watch Sport: alluminio serie 7000, vetro Ion-X (vetro rinforzato), plastica • Apple Watch Edition: oro 18 carati,
+vetro zaffiro, ceramica
+ATTENZIONE: il mancato rispetto di queste istruzioni di sicurezza potrebbe causare incendi, scosse elettriche, lesioni o
+danni all'Apple Watch o ad altre proprietà. Leggi tutte le informazioni sulla sicurezza riportate di seguito prima di utilizzare
+Apple Watch.
+Batteria Non tentare di sostituire la batteria dell'Apple Watch da solo: potresti danneggiare la batteria e causare
+surriscaldamento e lesioni. La batteria agli ioni di litio di Apple Watch deve essere riparata solo da Apple o da un
+fornitore di servizi autorizzato. Potresti ricevere un Apple Watch sostitutivo (al posto del dispositivo originale)
+quando ordini il servizio di assistenza per la batteria. Le batterie devono essere riciclate o smaltite separatamente
+dai rifiuti domestici.
+Distrazione L'uso di Apple Watch in alcune circostanze può distrarti e può causare una situazione pericolosa
+(ad esempio, evita di inviare messaggi mentre guidi un'auto o di usare le cuffie mentre vai in bicicletta). Rispettare le
+regole che vietano o limitano l'uso di telefoni cellulari o cuffie (ad esempio, l'obbligo di utilizzare le opzioni vivavoce per
+effettuare chiamate durante la guida).
+Manipolazione Maneggia l'Apple Watch con cura. La custodia dell'Apple Watch è realizzata con vari materiali che
+includono:
+Lo smontaggio dell'Apple Watch potrebbe danneggiarlo, causare la perdita di resistenza all'acqua e
+causare lesioni personali. Se Apple Watch è danneggiato o non funziona correttamente, contatta
+Apple o un Centro Assistenza Autorizzato Apple. Puoi trovare ulteriori informazioni su come ottenere
+assistenza su www.apple.com/support/watch/service/faq.
+Sicurezza, gestione e supporto
+Machine Translated by Google
+Navigazione Mappe, indicazioni stradali e app basate sulla posizione dipendono dai servizi dati. Questi
+servizi dati sono soggetti a modifiche e potrebbero non essere disponibili in tutte le aree, con il risultato che
+mappe, indicazioni stradali o informazioni basate sulla posizione potrebbero non essere disponibili, imprecise
+o incomplete. Alcune funzionalità di Maps richiedono i servizi di localizzazione. Confronta le informazioni fornite
+su Apple Watch con l'ambiente circostante e fai riferimento ai segnali affissi per risolvere eventuali discrepanze.
+Non utilizzare questi servizi mentre svolgi attività che richiedono la tua completa attenzione. Rispetta sempre i
+segnali affissi e le leggi e i regolamenti nelle aree in cui utilizzi Apple Watch e utilizzalo sempre
+Ricarica Per caricare Apple Watch, utilizza solo il cavo di ricarica magnetico per Apple Watch e
+l'alimentatore incluso (e, per Apple Watch Edition, la custodia di ricarica magnetica per Apple Watch con
+cavo inclusa o il cavo di ricarica magnetico per Apple Watch incluso). È inoltre possibile utilizzare cavi
+Lightning di terze parti e adattatori di alimentazione da 5 W con logo MFi. È importante tenere Apple Watch,
+il cavo magnetico per la ricarica di Apple Watch e l'alimentatore in un'area ben ventilata durante la ricarica.
+Quando ricarichi Apple Watch Edition nella custodia di ricarica magnetica per Apple Watch, tieni la custodia
+aperta. L'utilizzo di un cavo di ricarica magnetico per Apple Watch o di una custodia di ricarica magnetica per
+Apple Watch danneggiati o la ricarica in presenza di umidità può causare incendi, scosse elettriche, lesioni o
+danni ad Apple Watch o ad altre proprietà. Assicurati che Apple Watch e il cavo di ricarica magnetico di Apple
+Watch o la custodia di ricarica magnetica di Apple Watch siano asciutti prima della ricarica. Quando utilizzi il
+cavo di ricarica magnetico di Apple Watch o la custodia di ricarica magnetica di Apple Watch per caricare
+Apple Watch, assicurati che la spina USB sia completamente inserita nell'adattatore prima di collegare
+l'adattatore a una presa di corrente. Evita di caricare Apple Watch alla luce diretta del sole. Non indossare
+Apple Watch mentre è in carica.
+Perdita dell'udito L' ascolto di suoni ad alto volume può danneggiare l'udito. Il rumore di fondo, così
+come l'esposizione continua a livelli di volume elevati, può far sembrare i suoni più bassi di quanto non
+siano in realtà. Attiva la riproduzione audio e controlla il volume prima di inserire un auricolare Bluetooth
+connesso nell'orecchio. Per ulteriori informazioni sulla perdita dell'udito, vedere www.apple.com/sound.
+Cavo e connettore Lightning Evitare il contatto prolungato della pelle con il connettore quando il cavo
+da Lightning a USB è collegato a una fonte di alimentazione perché potrebbe causare disagio o lesioni.
+Evitare di dormire o sedersi sul connettore Lightning.
+buon senso.
+AVVERTENZA: Per evitare possibili danni all'udito, non ascoltare ad alto volume per lunghi periodi.
+Esposizione prolungata al calore Apple Watch, il cavo magnetico di ricarica Apple Watch, la
+custodia magnetica di ricarica Apple Watch e l'alimentatore sono conformi agli standard e ai limiti di
+temperatura delle superfici applicabili. Tuttavia, anche entro questi limiti, il contatto prolungato con superfici
+calde per lunghi periodi di tempo può causare disagio o lesioni. Apple Watch, il cavo di ricarica magnetico
+di Apple Watch, la custodia di ricarica magnetica di Apple Watch e l'alimentatore si riscaldano quando vengono
+collegati a una fonte di alimentazione. Usa il buon senso per evitare situazioni in cui la tua pelle è a contatto
+con Apple Watch, il cavo magnetico di ricarica Apple Watch, la custodia magnetica di ricarica Apple Watch o
+l'alimentatore per lunghi periodi di tempo quando sono collegati. Ad esempio, mentre Apple Watch è in carica o
+mentre il cavo di ricarica magnetico di Apple Watch, la custodia di ricarica magnetica di Apple Watch o
+l'alimentatore sono collegati a una fonte di alimentazione, non dormire su di essi o posizionarli sotto una
+coperta, un cuscino o il tuo corpo . Prestare particolare attenzione se si dispone di una condizione fisica che
+influisce sulla capacità di rilevare il calore contro il corpo. Rimuovi l'Apple Watch se diventa troppo caldo.
+Capitolo 22 Sicurezza, manipolazione e supporto 82
+Machine Translated by Google
+Interferenza in radiofrequenza Osservare i segnali e gli avvisi che vietano o limitano l'uso di dispositivi elettronici (ad esempio,
+in strutture sanitarie o aree esplosive). Sebbene Apple Watch, il cavo magnetico di ricarica Apple Watch e la custodia magnetica di
+ricarica Apple Watch siano progettati, testati e prodotti per essere conformi alle normative che regolano le emissioni in radiofrequenza,
+tali emissioni da Apple Watch, il cavo magnetico di ricarica Apple Watch e il La custodia di ricarica magnetica dell'orologio può influire
+negativamente sul funzionamento di altre apparecchiature elettroniche, provocandone il malfunzionamento. Scollega il cavo di
+ricarica magnetico dell'Apple Watch e la custodia di ricarica magnetica dell'Apple Watch e spegni l'Apple Watch o utilizza la Modalità
+aereo quando l'uso è vietato, ad esempio durante i viaggi in aereo o quando richiesto dalle autorità.
+Non è un dispositivo medico Apple Watch, il sensore di frequenza cardiaca e le app Apple Watch incluse non sono dispositivi
+medici e sono destinati esclusivamente a scopi di fitness. Non sono progettati o destinati all'uso nella diagnosi di malattie o altre
+condizioni, o nella cura, mitigazione, trattamento o prevenzione delle malattie.
+Esposizione alle radiofrequenze Apple Watch utilizza i segnali radio per connettersi alle reti wireless.
+Per informazioni sull'energia in radiofrequenza (RF) risultante dai segnali radio e sui passaggi che puoi eseguire per ridurre al
+minimo l'esposizione, apri l'app Apple Watch su iPhone, tocca Apple Watch, quindi tocca Generali > Informazioni > Note legali >
+Esposizione RF o visita www.apple. com/legal/rfexposure.
+Interferenza con dispositivi medici Apple Watch contiene componenti e radio che emettono campi elettromagnetici.
+Apple Watch, alcuni cinturini, il cavo di ricarica magnetico per Apple Watch e la custodia di ricarica magnetica per Apple Watch
+contengono magneti. Questi campi e magneti elettromagnetici possono interferire con pacemaker, defibrillatori o altri dispositivi
+medici.
+Attività ad alto rischio Apple Watch non è destinato all'uso in cui il guasto del dispositivo potrebbe causare morte, lesioni
+personali o gravi danni ambientali.
+Condizioni mediche Prima di iniziare o modificare qualsiasi programma di allenamento utilizzando Apple Watch, consulta il
+tuo medico. Sii attento e attento durante l'allenamento. Smetti immediatamente di allenarti se senti dolore, svenimento, vertigini,
+spossatezza o respiro corto. Esercitandoti, ti assumi tutti i rischi intrinseci associati, inclusi eventuali infortuni che potrebbero
+derivare da tale attività. Se soffri di qualsiasi condizione medica che ritieni possa essere influenzata da Apple Watch (ad esempio,
+convulsioni, svenimenti, affaticamento degli occhi o mal di testa), consulta il tuo medico prima di utilizzare Apple Watch.
+Pericolo di soffocamento Alcuni cinturini per Apple Watch possono presentare un rischio di soffocamento per i bambini piccoli.
+Tieni questi cinturini lontano dalla portata dei bambini piccoli.
+Mantieni una distanza di sicurezza tra il tuo dispositivo medico e Apple Watch, i suoi cinturini, il cavo di ricarica magnetico di Apple
+Watch e la custodia di ricarica magnetica di Apple Watch.
+Atmosfere esplosive Ricaricare o utilizzare Apple Watch in qualsiasi area con un'atmosfera potenzialmente esplosiva, ad esempio
+in aree in cui l'aria contiene livelli elevati di sostanze chimiche, vapori o particelle infiammabili (come granelli, polvere o polveri
+metalliche), può essere pericoloso. Rispettare tutti i segnali e le istruzioni.
+Consultare il proprio medico e il produttore del dispositivo medico per informazioni specifiche sul proprio dispositivo medico. Smetti di
+usare Apple Watch, i suoi cinturini, il cavo di ricarica magnetico di Apple Watch e la custodia di ricarica magnetica di Apple Watch se
+sospetti che stiano interferendo con pacemaker, defibrillatore o qualsiasi altro dispositivo medico.
+Capitolo 22 Sicurezza, manipolazione e supporto 83
+Machine Translated by Google
+Sensibilità della pelle Alcune persone possono manifestare reazioni a determinati materiali utilizzati in
+gioielli, orologi e altri oggetti indossabili che rimangono a contatto prolungato con la loro pelle. Ciò può
+essere dovuto ad allergie, fattori ambientali, esposizione prolungata a sostanze irritanti come sapone,
+sudore o altre cause. Potresti avere maggiori probabilità di provare irritazione da qualsiasi dispositivo
+indossabile se soffri di allergie o altre sensibilità. Se conosci la sensibilità della pelle, presta particolare
+attenzione quando indossi Apple Watch. Potresti avere maggiori probabilità di provare irritazione da Apple
+Watch se lo indossi troppo stretto. Rimuovi periodicamente Apple Watch per consentire alla pelle di respirare.
+Informazioni importanti sulla manipolazione
+Esposizione a liquidi Apple Watch è resistente all'acqua ma non impermeabile. Ad esempio, puoi
+indossare e utilizzare Apple Watch durante l'attività fisica (l'esposizione al sudore va bene), sotto la
+pioggia e mentre ti lavi le mani. In caso di schizzi d'acqua sull'orologio, pulirlo con un panno non abrasivo
+e privo di lanugine. Cerca di ridurre al minimo l'esposizione di Apple Watch a queste sostanze e segui le
+istruzioni riportate di seguito nella sezione "Pulizia e cura" se Apple Watch entra in contatto con esse: •
+Sapone, detersivo, acidi o cibi acidi e qualsiasi liquido diverso dall'acqua dolce, come come acqua salata,
+acqua saponata, acqua della piscina, profumo, repellente per insetti, lozioni, creme solari, olio, solventi
+per adesivi, tinture per capelli o solventi.
+Se riscontri arrossamento, gonfiore, prurito o qualsiasi altra irritazione o fastidio sulla pelle attorno o sotto
+l'Apple Watch, rimuovi l'Apple Watch e consulta il tuo medico prima di riprendere a indossarlo. L'uso
+continuato, anche dopo che i sintomi si sono attenuati, può provocare un'irritazione rinnovata o aumentata.
+Mantenere Apple Watch e il cinturino puliti e asciutti ridurrà la possibilità di irritazione della pelle.
+Apple Watch, l'Apple Watch Sport grigio siderale, le parti in acciaio inossidabile di alcuni cinturini di Apple
+Watch e i magneti nell'orologio e nei cinturini contengono del nichel. L'esposizione al nichel da questi materiali
+è improbabile, ma i clienti con allergie note al nichel devono prestare attenzione quando li indossano fino a
+quando non possono determinare che non stanno vivendo una reazione allergica.
+• Indossare Apple Watch nella sauna o nel bagno turco.
+Non è consigliabile immergere l'Apple Watch. Apple Watch ha un grado di resistenza all'acqua IPX7
+secondo lo standard IEC 60529. I cinturini in pelle non sono resistenti all'acqua. L'impermeabilità non è una
+condizione permanente e l'impermeabilità dell'Apple Watch non può essere ricontrollata o richiusa.
+Apple Watch, i cinturini Milanese Loop, Modern Buckle e Leather Loop contengono tracce di metacrilati dagli
+adesivi. I metacrilati si trovano comunemente in molti prodotti di consumo che vengono a contatto con la pelle,
+comprese le bende adesive, ma alcune persone possono essere sensibili a loro o sviluppare sensibilità nel
+tempo. L'esposizione al metacrilato di Apple Watch e dei cinturini sopra elencati è improbabile, ma i clienti con
+allergie note al metacrilato devono prestare attenzione quando indossano i cinturini fino a quando non possono
+determinare che non stanno vivendo una reazione allergica.
+Quanto segue potrebbe influire sulla resistenza all'acqua di Apple Watch e dovrebbe essere
+evitato: • Far cadere Apple Watch o sottoporlo ad altri urti. • Immergere Apple Watch in acqua
+per lunghi periodi di tempo. • Nuotare o fare il bagno con Apple Watch. • Esporre Apple Watch
+ad acqua pressurizzata o ad alta velocità, ad esempio sotto la doccia, sci nautico, wakeboard,
+surf, moto d'acqua e così via.
+I materiali utilizzati per Apple Watch e i cinturini per Apple Watch soddisfano gli standard stabiliti per i
+gioielli dalla Consumer Product Safety Commission degli Stati Uniti, le normative europee applicabili e altri
+standard internazionali.
+Capitolo 22 Sicurezza, manipolazione e supporto 84
+Machine Translated by Google
+la destra.
+inumidire il panno con acqua fresca.
+Pulizia e cura Mantieni l'Apple Watch pulito e asciutto. Pulisci e asciuga l'Apple Watch, il cinturino e la pelle
+dopo l'allenamento o una forte sudorazione. Asciuga Apple Watch e il cinturino accuratamente se vengono
+esposti all'acqua dolce. Pulisci Apple Watch se entra in contatto con qualsiasi cosa che possa causare macchie
+o altri danni, come sporco o sabbia, trucco, inchiostro, sapone, detersivo, acidi o cibi acidi, o se entra in contatto
+con liquidi diversi dall'acqua dolce, inclusa quelli che possono provocare irritazione della pelle come: sudore,
+acqua salata, acqua saponata, acqua della piscina, profumo, repellente per insetti, lozioni, creme solari, olio,
+prodotti per la rimozione di adesivi, tinture per capelli o solventi. I colori dell'Apple Watch e del cinturino possono
+variare o sbiadire nel tempo.
+Come pulire Apple Watch: •
+Spegni Apple Watch. Tieni premuto il pulsante laterale, quindi trascina il cursore Power Of su
+• Premere i pulsanti di rilascio del cinturino e rimuovere il cinturino. Vedere Rimuovere, modificare e fissare
+La parte anteriore di Apple Watch è realizzata in vetro Ion-X (vetro rinforzato) o vetro zaffiro, ciascuno con un
+rivestimento oleorepellente (oleorepellente) resistente alle impronte digitali. Questo rivestimento si usura nel
+tempo con il normale utilizzo. Prodotti per la pulizia e materiali abrasivi diminuiranno ulteriormente il rivestimento
+e potrebbero graffiare il vetro o il vetro zaffiro.
+• Asciuga Apple Watch con un panno non abrasivo e privo di
+pelucchi. • I modelli Apple Watch Edition (oro) beneficiano maggiormente se li pulisci regolarmente. Pulisci
+con un panno non abrasivo e privo di pelucchi per rimuovere olio, profumi, lozioni e altre sostanze dalla
+superficie, soprattutto prima di riporre Apple Watch Edition.
+Utilizzo di pulsanti, corona digitale, connettori e porte Non applicare mai una pressione eccessiva a
+un pulsante o alla corona digitale su Apple Watch, né forzare un connettore di ricarica in una porta, perché ciò
+potrebbe causare danni non coperti dalla garanzia. Se il connettore e la porta non si uniscono con ragionevole
+facilità, probabilmente non corrispondono. Verificare la presenza di ostruzioni e assicurarsi che il connettore
+corrisponda alla porta e di aver posizionato correttamente il connettore rispetto alla porta.
+Alcuni modelli di utilizzo possono contribuire allo sfilacciamento o alla rottura dei cavi. Il cavo collegato a
+un'unità di ricarica, come qualsiasi altro cavo o filo metallico, è soggetto a indebolirsi o a infrangersi se piegato
+ripetutamente nello stesso punto. Punta a curve delicate invece che ad angoli nel cavo. Ispezionare regolarmente
+il cavo e il connettore per rilevare eventuali attorcigliamenti, rotture, piegature o altri danni. Se doveste riscontrare
+tali danni, interrompete l'uso del cavo.
+bande a pagina 87.
+Le seguenti cose non sono raccomandate nella cura del tuo Apple Watch: • Non pulire
+Apple Watch mentre è in carica. • Non asciugare Apple Watch oi cinturini utilizzando una
+fonte di calore esterna (ad esempio un asciugacapelli). • Non utilizzare prodotti per la pulizia o aria compressa
+durante la pulizia dell'Apple Watch.
+Cavo da Lightning a USB Lo scolorimento del connettore Lightning dopo un uso regolare è normale.
+Sporcizia, detriti ed esposizione all'umidità possono causare scolorimento. Se il cavo o il connettore
+Lightning si surriscalda durante l'uso o se Apple Watch non si ricarica o non si sincronizza, scollega il cavo
+dall'alimentatore e pulisci il connettore Lightning con un panno non abrasivo, asciutto e privo di lanugine. Non
+utilizzare liquidi o prodotti per la pulizia durante la pulizia del connettore Lightning.
+• Pulisci l'Apple Watch con un panno non abrasivo e privo di pelucchi. Se necessario, puoi anche leggermente
+Capitolo 22 Sicurezza, manipolazione e supporto 85
+Machine Translated by Google
+Importante: potresti non essere in grado di utilizzare Apple Watch mentre è visualizzata la schermata di avviso della
+temperatura. Se Apple Watch non è in grado di regolare la temperatura interna, passa alla modalità di riserva di carica
+o di sospensione fino a quando non si raffredda. Sposta Apple Watch in un luogo più fresco, lontano dalla luce solare
+diretta e attendi qualche minuto prima di provare a utilizzare nuovamente Apple Watch. Per ulteriori informazioni,
+vedere support.apple.com/kb/HT6621.
+Cavo di ricarica magnetico e custodia di ricarica magnetica Lo scolorimento della superficie di ricarica del cavo di
+ricarica magnetico dell'Apple Watch e della custodia di ricarica magnetica dell'Apple Watch può verificarsi dopo un uso
+regolare a causa di sporco e detriti che entrano in contatto con la superficie magnetica. E 'normale. La pulizia della
+superficie di ricarica magnetica può ridurre o prevenire tale scolorimento e contribuirà a prevenire danni al caricabatterie
+e all'Apple Watch. Per pulire la superficie di ricarica, scollega il caricabatterie sia dall'Apple Watch che dall'alimentatore
+e pulisci con un panno umido e non abrasivo. Asciugare con un panno non abrasivo e privo di lanugine prima di
+riprendere la ricarica. Non utilizzare prodotti per la pulizia durante la pulizia della superficie di ricarica.
+Pulisci le parti in pelle dei cinturini con un panno non abrasivo e privo di pelucchi, leggermente inumidito con acqua dolce
+(se necessario). Dopo la pulizia, lascia asciugare completamente il cinturino all'aria prima di riattaccarlo all'Apple Watch.
+Non conservare i cinturini in pelle alla luce diretta del sole, ad alte temperature o in condizioni di elevata umidità. Non
+immergere i cinturini in pelle nell'acqua. I cinturini in pelle non sono resistenti all'acqua.
+Temperatura operativa Apple Watch è progettato per funzionare al meglio a temperature ambiente comprese
+tra 0° e 35° C (32° e 95° F) e per essere conservato a temperature comprese tra -20° e 45° C (-4° e 113° F). Apple
+Watch può essere danneggiato e la durata della batteria ridotta se conservato o utilizzato al di fuori di questi intervalli di
+temperatura. Evita di esporre Apple Watch a forti sbalzi di temperatura o umidità. Se la temperatura interna di Apple Watch
+supera le normali temperature di funzionamento (ad esempio, in un'auto calda o sotto la luce diretta del sole per periodi di
+tempo prolungati), potresti riscontrare quanto segue mentre tenta di regolare la temperatura: • La ricarica potrebbe
+rallentare o interrompersi. • Il display potrebbe oscurarsi. • Potrebbe apparire una schermata di avvertenza della
+temperatura. • Alcuni trasferimenti di dati potrebbero essere sospesi o ritardati. • Alcune app potrebbero chiudersi.
+Magneti Tieni le tessere magnetiche e le carte di credito lontano da Apple Watch, dai cinturini, dal cavo di ricarica
+magnetico di Apple Watch e dalla custodia di ricarica magnetica di Apple Watch.
+Per tutti gli altri cinturini e fermagli, puliscili con un panno non abrasivo e privo di lanugine, leggermente inumidito
+con acqua dolce (se necessario). Asciuga accuratamente il cinturino con un panno non abrasivo e privo di pelucchi
+prima di riattaccarlo all'Apple Watch.
+Informazioni sulla cura del cinturino
+Utilizza solo cinturini a marchio Apple o autorizzati da Apple.
+Come pulire i cinturini Rimuovi il cinturino dall'Apple Watch prima di pulirlo. Vedi Rimuovere, cambiare e allacciare
+i cinturini, di seguito.
+Capitolo 22 Sicurezza, manipolazione e supporto 86
+Machine Translated by Google
+Pulsante di rilascio
+del cinturino
+I materiali del
+passante in pelle includono pelle con acciaio inossidabile; si adatta solo all'Apple Watch da 42 mm;
+contiene magneti. Per informazioni sui magneti, vedere "Interferenza del dispositivo medico" in Informazioni
+importanti sulla sicurezza a pagina 81.
+I materiali della
+fibbia classica includono pelle con acciaio inossidabile o oro 18 carati.
+Allaccia una fascia. Per prestazioni ottimali, l'Apple Watch dovrebbe stare vicino al tuo polso.
+Cambia bande. Premi il pulsante di rilascio del cinturino su Apple Watch, fai scorrere il cinturino per rimuoverlo,
+quindi inserisci il nuovo cinturino. Non forzare mai un cinturino nello slot. Se hai problemi a rimuovere o inserire un
+cinturino, premi di nuovo il pulsante di rilascio del cinturino.
+Per ottenere i migliori risultati, il retro di Apple Watch ha bisogno del contatto con la pelle per funzioni come il
+rilevamento del polso, le notifiche tattili e il sensore di frequenza cardiaca. Indossare Apple Watch con i piedi
+giusti, non troppo stretti, non troppo larghi e con spazio per far respirare la pelle, ti manterrà comodo e lascerà
+che i sensori facciano il loro lavoro. Potresti voler stringere l'Apple Watch per gli allenamenti, quindi allentare il
+cinturino quando hai finito. Inoltre, i sensori funzioneranno solo quando indossi Apple Watch sulla parte superiore
+del polso.
+Capitolo 22 Sicurezza, manipolazione e supporto 87
+Rimuovere, cambiare e allacciare i cinturini Segui
+queste istruzioni generali per rimuovere, cambiare e allacciare i cinturini, quindi trova le istruzioni per il tuo
+cinturino specifico più avanti in questa sezione. Assicurati di sostituire un cinturino con uno della stessa
+misura. I cinturini sono dimensionati in base alle dimensioni dell'Apple Watch e non devono essere usati in
+modo intercambiabile. Alcuni stili di cinturino sono realizzati solo per Apple Watch di dimensioni particolari.
+Machine Translated by Google
+I materiali del
+bracciale a maglie includono l'acciaio inossidabile.
+I materiali della fibbia
+moderna includono pelle con acciaio inossidabile o oro 18 carati; si adatta solo all'Apple Watch da 38 mm; contiene magneti. Per
+informazioni sui magneti, vedere "Interferenza del dispositivo medico" in Informazioni importanti sulla sicurezza a pagina 81.
+Importante: premere prima un pulsante di sgancio rapido in modo che il braccialetto a maglie sia diviso in due prima di tentare di
+rimuoverlo o ridimensionarlo.
+Milanese Loop I
+materiali includono acciaio inossidabile; contiene magneti. Per informazioni sui magneti, vedere "Interferenza del dispositivo medico" in
+Informazioni importanti sulla sicurezza a pagina 81.
+Dimensionamento Premi un pulsante di sgancio rapido
+all'interno del braccialetto e separalo per rimuovere un
+collegamento. Conservare le maglie sciolte nella custodia delle maglie.
+Sostituzione dei
+cinturini Premi un pulsante a sgancio rapido all'interno del
+bracciale e separalo. Premi il pulsante di rilascio del
+cinturino, fai scorrere il cinturino verso l'esterno, quindi
+inserisci il nuovo cinturino.
+Dimensionamento Spingere il cinturino in
+pelle verso l'alto e farlo scorrere a sinistra oa destra
+per selezionare un nuovo foro di dimensionamento.
+Capitolo 22 Sicurezza, manipolazione e supporto 88
+Machine Translated by Google
+Sito di supporto per Apple Watch Informazioni
+complete sul supporto sono disponibili online all'indirizzo www.apple.com/it/support/watch.
+Per contattare Apple per il supporto personalizzato (non disponibile in tutte le aree), vedere
+www.apple.com/support/contact.
+Ottieni informazioni sul tuo Apple Watch Visualizza le informazioni su
+Apple Watch. Su Apple Watch, apri l'app Impostazioni dalla schermata Home, quindi vai su Generali > Informazioni. Gli
+elementi che puoi visualizzare includono:
+• Nome
+• Numero di brani, foto e app • Capacità e spazio
+di archiviazione disponibile • Versione del software
+Riavvia Apple Watch Se qualcosa
+non funziona correttamente, prova a riavviare o ripristinare Apple Watch e il relativo iPhone associato.
+• Numero di modello
+Riavvia Apple Watch. Per spegnere Apple Watch, tieni premuto il pulsante laterale fino a quando non vengono
+visualizzati i cursori, quindi trascina il cursore Accensione verso destra. Per riaccendere Apple Watch, tieni premuto il
+pulsante laterale finché non viene visualizzato il logo Apple.
+Riavvia l'iPhone associato. Per spegnere iPhone, tieni premuto il pulsante Sospensione/Riattivazione finché non
+viene visualizzato il cursore, quindi trascina il cursore verso destra. Per riaccendere iPhone, tieni premuto il pulsante
+Standby/Riattiva fino a quando non viene visualizzato il logo Apple.
+• Numero di serie
+Se non riesci a spegnere Apple Watch o se il problema persiste, potresti dover forzare il riavvio di Apple Watch. Fallo solo se
+non riesci a riavviare il tuo Apple Watch.
+Forza il riavvio di Apple Watch. Tieni premuti contemporaneamente il tasto laterale e la Digital Crown per almeno
+dieci secondi, finché non compare il logo Apple.
+Ripristina le impostazioni di Apple Watch
+Ripristina le impostazioni di Apple Watch. Su Apple Watch, apri l'app Impostazioni dalla schermata Home, vai su
+Generali > Ripristina, quindi tocca Inizializza contenuto e impostazioni.
+I materiali dei
+cinturini sportivi includono fuoroelastomero con acciaio inossidabile o oro 18 carati.
+Al termine del ripristino e del riavvio di Apple Watch, devi accoppiare nuovamente Apple Watch con iPhone: apri l'app
+Apple Watch su iPhone, quindi segui le istruzioni mostrate su iPhone e Apple Watch.
+Capitolo 22 Sicurezza, manipolazione e supporto 89
+Machine Translated by Google
+• Indirizzi Wi-Fi e Bluetooth
+• SONO
+• Informazioni
+legali Per visualizzare i marchi normativi, apri Impostazioni , quindi vai su Generale > Normativa.
+Puoi anche visualizzare queste informazioni sull'iPhone associato: apri l'app Apple Watch su iPhone, tocca Apple
+Watch, quindi vai su Generali > Informazioni. Scorri fino in fondo e tocca Legale per visualizzare Note legali, Licenza,
+informazioni su dove trovare la Garanzia e informazioni sull'esposizione RF.
+Disaccoppia Apple Watch e iPhone. Apri l'app Apple Watch su iPhone, tocca Apple Watch, tocca Apple Watch,
+tocca Annulla abbinamento Apple Watch, quindi tocca Annulla abbinamento [nome orologio]. Anche l'Apple Watch
+viene rimosso dal tuo account iCloud.
+Controlla gli aggiornamenti del software. Apri l'app Apple Watch su iPhone, tocca My Watch, quindi vai
+su Generali > Aggiornamento software. Scarica il software sull'iPhone, quindi continua su Apple Watch.
+Vendi, regala o perdi Apple Watch Prima di vendere o
+regalare il tuo Apple Watch, assicurati di disaccoppiarlo dal tuo iPhone e di cancellarne il contenuto. Se il tuo
+iPhone e Apple Watch sono perfettamente funzionanti e connessi, puoi farlo semplicemente disaccoppiando
+l'orologio. Se il tuo Apple Watch viene smarrito o rubato, puoi rimuovere qualsiasi carta di credito o debito ad esso
+associata.
+Aggiornare il software di Apple Watch Puoi
+aggiornare il software di Apple Watch controllando la disponibilità di aggiornamenti nell'app Apple Watch su iPhone.
+Backup e ripristino di Apple Watch. Se associato a un iPhone, il backup dei contenuti di Apple Watch viene
+eseguito continuamente su iPhone. Se si annulla l'abbinamento dei dispositivi, viene eseguito prima un backup. Se
+ripari Apple Watch o ne ottieni uno nuovo, puoi scegliere Ripristina da backup e selezionare un backup archiviato
+sul tuo iPhone.
+Importante: se l'opzione Cancella dati è attiva, i dati sull'Apple Watch vengono cancellati dopo 10 tentativi falliti
+di inserimento del codice.
+Ripristinare Apple Watch da un backup I contenuti di Apple
+Watch vengono sottoposti a backup automaticamente sull'iPhone associato e puoi ripristinarli da un backup archiviato.
+I backup di Apple Watch sono inclusi come parte dei backup del tuo iPhone su iCloud o iTunes, ma non puoi
+visualizzare le informazioni nei backup in iCloud.
+Ripristina Apple Watch Se Apple
+Watch è disabilitato perché hai dimenticato il codice o hai inserito troppe volte un codice errato, puoi utilizzare l'app
+Apple Watch su iPhone per consentirti di inserire nuovamente il codice. Se ancora non ricordi il codice, puoi ripristinare
+Apple Watch e reimpostare il codice. Il ripristino cancella i contenuti e le impostazioni su Apple Watch, ma utilizza un
+backup per sostituire i dati e le impostazioni. Per ulteriori informazioni, consulta Aggiornare il software di Apple Watch,
+di seguito.
+Aggiorna in modalità wireless su Apple Watch. Segui le istruzioni su Apple Watch per installare l'aggiornamento
+software (o ripristinare il software, se necessario).
+Capitolo 22 Sicurezza, manipolazione e supporto 90
+Machine Translated by Google
+Cancella i contenuti su Apple Watch. Su Apple Watch, apri l'app Impostazioni dalla schermata Home, vai su Generali >
+Ripristina, quindi tocca Inizializza contenuto e impostazioni. Quindi disaccoppia Apple Watch da iPhone (se disponibile).
+Vai su www.apple.com/watch.
+Se provi a inizializzare Apple Watch quando è fuori portata dell'iPhone, verrà cancellato se rientra nel raggio d'azione.
+Vai su appleid.apple.com.
+Rimuovi le carte di pagamento in caso di smarrimento o furto dell'Apple Watch. Se il tuo Apple Watch viene smarrito o
+rubato, accedi al tuo account su iCloud.com e rimuovi le tue carte. Vai su Impostazioni > I miei dispositivi, scegli il dispositivo e
+fai clic su Rimuovi tutto. Puoi anche chiamare gli emittenti delle tue carte.
+Per prima cosa segui i consigli di questa guida. Quindi
+vai su www.apple.com/support/watch.
+Vai su help.apple.com/icloud.
+Ulteriori informazioni, assistenza e supporto Consulta le
+seguenti risorse per ottenere ulteriori informazioni su sicurezza, software e assistenza relative a Apple Watch.
+Vai su www.apple.com/support/watch.
+Se l'iPhone e l'Apple Watch non sono più connessi o se uno di essi non funziona come previsto, cancella prima i contenuti di
+Apple Watch, quindi annulla l'abbinamento utilizzando l'app Apple Watch su iPhone (se disponibile).
+Apri iTunes e scegli Aiuto > Aiuto iTunes. Per un tutorial
+iTunes online (potrebbe non essere disponibile in tutte le
+aree), vai su www.apple.com/support/itunes.
+91
+Servizio e supporto Apple Watch, suggerimenti, forum e
+download di software Apple
+Puoi trovare il numero di serie del tuo Apple Watch sulla confezione
+dell'Apple Watch. Oppure, su Apple Watch, apri l'app Impostazioni
+dalla schermata Home, quindi vai su Generali > Informazioni.
+Le ultime informazioni su Apple Watch
+Gestione del tuo account ID Apple
+Trovare il numero di serie del tuo Apple Watch
+Usando iCloud
+Su Apple Watch, apri l'app Impostazioni dalla schermata Home,
+quindi vai su Generali > Normative.
+Ottenere il servizio di garanzia
+Per conoscere
+Usando iTunes
+Utilizzo sicuro dell'Apple Watch
+Fai questo
+Visualizzazione delle informazioni sulle normative di Apple Watch
+Vedere Informazioni importanti sulla sicurezza a pagina 81.
+Servizio batteria
+Capitolo 22 Sicurezza, manipolazione e supporto
+Vai su www.apple.com/it/batteries/service-and-recycling.
+Machine Translated by Google
+Dichiarazione normativa canadese per Apple Watch, cavo di ricarica magnetico per Apple
+Watch e custodia di ricarica magnetica per Apple Watch Questo dispositivo è conforme agli standard
+RSS esenti da licenza di Industry Canada. Il funzionamento è soggetto alle seguenti due condizioni:
+(1) questo dispositivo non può causare interferenze e (2) questo dispositivo deve accettare qualsiasi
+interferenza, incluse le interferenze che potrebbero causare un funzionamento indesiderato del
+dispositivo.
+Dichiarazione di conformità FCC per Apple Watch, cavo di ricarica magnetico per Apple Watch e
+custodia di ricarica magnetica per Apple Watch Questo dispositivo è conforme alla parte 15 delle
+norme FCC. Il funzionamento è soggetto alle seguenti due condizioni: (1) questo dispositivo non
+può causare interferenze dannose e (2) questo dispositivo deve accettare qualsiasi interferenza
+ricevuta, incluse interferenze che potrebbero causare un funzionamento indesiderato.
+è connesso.
+Nota: questa apparecchiatura è stata testata e trovata conforme ai limiti per un dispositivo digitale di
+classe B, ai sensi della parte 15 delle norme FCC. Questi limiti sono progettati per fornire una protezione
+ragionevole contro interferenze dannose in un'installazione residenziale. Questa apparecchiatura genera,
+utilizza e può irradiare energia in radiofrequenza e, se non installata e utilizzata secondo le istruzioni, può
+causare interferenze dannose alle comunicazioni radio. Tuttavia, non vi è alcuna garanzia che non si
+verifichino interferenze in una particolare installazione. Se questa apparecchiatura causa interferenze
+dannose alla ricezione radio o televisiva, che possono essere determinate spegnendo e riaccendendo
+l'apparecchiatura, l'utente è invitato a cercare di correggere l'interferenza adottando una o più delle seguenti
+misure:
+• Consultare il rivenditore o un tecnico radio/TV esperto per assistenza.
+• Riorientare o riposizionare l'antenna ricevente. •
+Aumentare la distanza tra l'apparecchiatura e il ricevitore. • Collegare
+l'apparecchiatura a una presa su un circuito diverso da quello a cui è collegato il ricevitore
+CAN ICES-3 (B)/NMB-3 (B)
+Questo dispositivo è conforme agli standard RSS esenti da licenza di Industry Canada. Il
+funzionamento è soggetto alle seguenti due condizioni: (1) il dispositivo non può causare
+interferenze e (2) l'utente del dispositivo deve accettare qualsiasi interferenza ricevuta, anche se è
+probabile che l'interferenza comprometta il funzionamento.
+Importante: modifiche o modifiche a questo prodotto non autorizzate da Apple potrebbero
+invalidare la compatibilità elettromagnetica (EMC) e la conformità wireless e negare l'autorizzazione
+dell'utente a utilizzare il prodotto. Questo prodotto ha dimostrato la conformità EMC in condizioni che
+includevano l'uso di dispositivi periferici conformi e cavi schermati tra i componenti del sistema. È
+importante utilizzare dispositivi periferici conformi e cavi schermati tra i componenti del sistema per
+ridurre la possibilità di causare interferenze a radio, televisori e altri dispositivi elettronici.
+Capitolo 22 Sicurezza, manipolazione e supporto 92
+Machine Translated by Google
+Segni distintivi e segni di raffinatezza per Apple Watch Edition La cassa
+dell'orologio per Apple Watch Edition e le parti in oro dei suoi cinturini sono realizzate
+in oro 18 carati (750 parti per mille).
+I segni distintivi e i marchi di finezza possono variare in base al paese.
+Efcienza energetica del caricabatteria della California
+Dichiarazione sulla batteria in Cina
+I segni distintivi e i marchi di finezza per Apple Watch Edition si trovano su Apple Watch Edition sotto il cinturino. Rimuovi il cinturino per
+visualizzarli. I segni distintivi e i marchi di finezza sono disponibili anche su Apple Watch Edition. Apri l'app Impostazioni dalla schermata
+Home, quindi vai su Generale > Normativa. I segni distintivi per i cinturini Apple Watch Edition sono sui fermagli del cinturino o sulle anse.
+Punzoni e marchi di finezza:
+Turchia
+Repubblica di Turchia: conforme al regolamento WEEE.
+Informazioni sullo smaltimento e il riciclaggio Smaltimento e riciclaggio
+dell'Apple Watch: l'Apple Watch e/o la batteria non devono essere smaltiti insieme ai rifiuti domestici. Smaltisci l'Apple Watch e/o la
+batteria in conformità con le leggi e le linee guida ambientali locali. Per informazioni sul programma di riciclaggio presso Apple e sui
+punti di raccolta per il riciclaggio, visita www.apple.com/recycling. Per informazioni sulle sostanze soggette a restrizioni e su altre
+iniziative ambientali di Apple, visita www.apple.com/environment.
+Dichiarazione sulla batteria di Taiwan
+Sostituzione della batteria: la batteria agli ioni di litio di Apple Watch deve essere sostituita da Apple o da un fornitore
+di servizi autorizzato e deve essere riciclata o smaltita separatamente dai rifiuti domestici. Per ulteriori informazioni sui servizi
+di sostituzione della batteria, vai su www.apple.com/it/batteries/replacement-and-recycling.
+Capitolo 22 Sicurezza, manipolazione e supporto 93
+Machine Translated by Google
+Unione Europea: informazioni sullo smaltimento
+Unione Europea: informazioni sullo smaltimento: il simbolo sopra indica che, in base alle leggi e ai
+regolamenti locali, il prodotto e/o la sua batteria non devono essere smaltiti insieme ai rifiuti domestici.
+Quando il prodotto ha raggiunto la fine del suo ciclo di vita, deve essere portato in un centro di riciclaggio designato
+dalle autorità locali. Riciclando il prodotto fuori uso e/o la sua batteria, si contribuisce a risparmiare risorse naturali
+ea proteggere la salute e l'ambiente.
+Unione Europea: informazioni sullo smaltimento: il simbolo sopra indica che, in conformità con le
+leggi e le normative locali, è necessario smaltire il prodotto e/o la batteria separatamente dai rifiuti
+domestici. Quando questo prodotto raggiunge la fine del suo ciclo di vita, portarlo in un punto di raccolta
+designato dalle autorità locali. La raccolta e il riciclaggio separati del prodotto e/o della sua batteria quando
+viene smaltito contribuiranno a conservare le risorse naturali e garantire che venga riciclato in modo da proteggere
+la salute umana e l'ambiente.
+Il simbolo sopra indica che, in base alle leggi e ai regolamenti locali, il prodotto e/o la sua batteria devono essere
+smaltiti separatamente dai rifiuti domestici. Quando questo prodotto raggiunge la fine del suo ciclo di vita, portarlo
+in un punto di raccolta designato dalle autorità locali. La raccolta differenziata e il riciclaggio del prodotto e/o della
+sua batteria al momento dello smaltimento contribuirà a conservare le risorse naturali e garantire che venga
+riciclato in modo da proteggere la salute umana e l'ambiente.
+Unione Europea—Informazioni sullo smaltimento: il simbolo sopra indica che, in base alle leggi e alle normative
+locali, il prodotto e/o la batteria utilizzata con esso devono essere smaltiti separatamente dai rifiuti domestici.
+Portare questo prodotto presso un punto di raccolta ufficiale per lo smaltimento. La raccolta differenziata e il
+riciclaggio tutelano le riserve di materie prime e garantiscono il rispetto di tutte le normative sulla protezione della
+salute e dell'ambiente quando il prodotto e/o la batteria vengono riciclati.
+Brasile: informazioni sullo smaltimento e sul riciclaggio
+Unione Europea—informazioni per lo smaltimento: Il simbolo qui sopra signifca che, in base alle leggi e
+alle normative locali, il prodotto e/o la sua batteria dovrebbero essere riciclati separatamente dai rifuti domestici.
+Quando il prodotto diventa inutilizzabile, portalo nel punto di raccolta stabilito dalle autorità locali. La raccolta
+separata e il riciclaggio del prodotto e/o della sua batteria al momento dello smaltimento aiutano a conservare le
+risorse naturali e assicurano
+Il simbolo indica che questo prodotto e/o la sua batteria non devono essere smaltiti insieme ai rifiuti
+domestici. Quando si decide di smaltire questo prodotto e/o la sua batteria, si prega di farlo in conformità
+con le leggi e le linee guida ambientali locali. Per informazioni sulle sostanze a uso limitato, sul programma
+di riciclaggio di Apple, sui punti di raccolta e sul numero di telefono, visita www.apple.com/en/environment.
+che il riciclaggio avvenga nel rispetto della salute umana e dell’ambiente.
+Capitolo 22 Sicurezza, manipolazione e supporto 94
+Machine Translated by Google
+Apple e l'ambiente In Apple riconosciamo
+la nostra responsabilità di ridurre al minimo l'impatto ambientale delle nostre attività e dei
+nostri prodotti. Per ulteriori informazioni, vai su www.apple.com/environment.
+Informazioni sullo smaltimento e il riciclaggio dei rifiuti
+Il simbolo indica che questo prodotto e/o la sua batteria non devono essere smaltiti
+insieme ai rifiuti domestici. Quando si decide di smaltire questo prodotto e/o la sua batteria,
+si prega di farlo in conformità con le leggi e le linee guida ambientali locali. Per informazioni sul
+programma di riciclaggio di Apple, sui punti di raccolta del riciclaggio, sulle sostanze vietate e su
+altre iniziative ambientali, visita www.apple.com/la/environment.
+Capitolo 22 Sicurezza, manipolazione e supporto 95
+Machine Translated by Google
+KApple Inc. ©
+2015 Apple Inc. Tutti i diritti riservati.
+IOS è un marchio o un marchio registrato di Cisco negli Stati Uniti e in altri
+paesi ed è utilizzato su licenza.
+Apple Pay, Apple Watch, Handof, Lightning e Touch ID sono marchi di
+Apple Inc.
+App Store e iBooks Store sono marchi di servizio di Apple Inc.
+Alcune app non sono disponibili in tutte le aree. La disponibilità dell'app
+è soggetta a modifiche.
+Altri nomi di società e prodotti menzionati nel presente documento possono
+essere marchi delle rispettive società.
+019-00083/2015-04
+È stato fatto ogni sforzo per garantire che le informazioni contenute in
+questo manuale siano accurate. Apple non è responsabile per la stampa o
+errori materiali.
+Il marchio e i loghi Bluetooth® sono marchi registrati di proprietà
+di Bluetooth SIG, Inc. e qualsiasi uso di tali marchi da parte di Apple Inc. è
+concesso in licenza.
+Apple, il logo Apple, AirPlay, Apple TV, iBooks, iMessage, iPad, iPhone,
+iTunes, Mac, OS X, Passbook, Safari e Siri sono marchi di Apple Inc.,
+registrati negli Stati Uniti e in altri Paesi.
+iCloud è un marchio di servizio di Apple Inc., registrato negli Stati Uniti e in
+altri paesi.
+Apple
+1 Infinite Loop
+Cupertino, CA 95014-2084
+408-996-1010
+www.apple.com
+Machine Translated by Google
