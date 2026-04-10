@@ -1,0 +1,120 @@
+IMPOSTA SOSTITUTIVA AUMENTI CONTRATTUALI
+
+Legge 199/2025 art.1 comma 7                
+ Somme soggette    : Incrementi retributivi corrisposti nel 2026, in attuazione
+ 		     di rinnovi CCNL, sottoscritti negli anni 2024-2025-2026 
+		     che confluiscono nella retribuzione diretta.
+ LAV interessati   : dipendenti settore privato con reddito AP <= 33.000,00 euro
+ Tetto imponibile  : non previsto    
+ Aliquota          : 5 %
+ Codice tributo F24: 1075 (a debito) ovvero 1627 (a credito)
+
+IMPONIBILE  
+ 01 Tabelle
+ 12 Minimi contrattuali 
+ E' presente la colonna "Imponibile IS" nella quale viene indicato il valore
+ totale dell'incremento retributivo soggetto ad IS.
+ Per gli utenti SWING i valori vengono compilati automaticamente.
+
+ 01 Tabelle 
+ 13 Voci 
+ Le voci utili all'applicazione dell'IS sono caratterizzate dal campo 
+ 67 I.S.AUMENTI CONTRATTUALI, che prevede i seguenti valori:
+ 0 = no 
+ 1 = calcolo (da gruppi voci di base)
+ 2 = importo 
+ 3 = integrazione DL eventi
+ 4 = lordizzazione indennita' Enti 
+
+ANAGRAFICA LAVORATORE
+Campo  Descrizione         Valore/Note
+  91/1  I.S.AUMENTI CONTR.  0 = no
+                            1 = si
+                            7 = non applicazione, LAV senza dichiarazione
+                            8 = non applicazione, tass.ordinaria piu' favorevole
+                            9 = non applicazione, richiesta LAV
+
+ Per valorizzare massivamente il campo 91/1 eseguire il seguente programma:
+ 36 Altri moduli software
+ 05 Programmi vari 
+ 34 Variazioni Anagrafiche
+ 02 Variazioni Lavoratori
+ 15 Imposta I.S. (c.91)
+  2 Imposta I.S. L.199/2025
+    Tipologia imposta sostitutiva: 1 = aumenti contrattuali
+
+VOCI                  
+Voce  Descrizione            Fase elaborazione     Contenuto
+ 2707  I.F.AUM.CONTR.         Calcolo - automatica  Importo lordo soggetto a IS
+       (di cui 2001)
+
+ 2708  CTR L.AUM.CONTR.       Calcolo - automatica  Importo lordo soggetto a IS
+       (di cui 2042)                                (v.2707) * % CTR LAV
+
+ 2709  I.F.AUM.CONTR.ALTRO    Storico - input       I.F. quota imponib.da altro
+       RAPPORTO               manuale               DL (al netto di CTR LAV)
+
+ 2710  DED.I.F.AUM.CONTR.     Calcolo - automatica  2707 - 2708
+                                                    riduce voce 2050 I.F. NETTO
+
+ 2711  IMPOSTA SOST.AUM.CONTR Calcolo - automatica  Importo IS AUMENTI CONTR.   
+Voce  Descrizione            Fase elaborazione     Contenuto
+ 6819  LORDIZZ.IND.ENTI.      Calcolo - automatica  quota lordizzazione da 
+       I.S. AUM.	     		            sottrarre dall'imponib.IS
+
+ 6813  I.S.AUM.CONTR.virt     Registrazione manuale Importo da assoggettare a IS
+				
+Note
+ - Nel caso di eventi di malattia/maternita'/infortunio, con integrazione DL e
+   lordizzazione dell'indennita' c/ente, viene creata la voce 6819 LORDIZZ.
+   ENTI I.S.AUM., al fine di assoggettare ad IS la sola parte integrata dal DL,
+   con la seguente formula:
+      incidenza aumenti contrattuali =  (tot.integr.DL - tot.lordizz.)
+                                        ------------------------------ * 100
+					         tot.integr.DL       
+   Nel caso in cui la lordizzazione sia superiore all'integrazione, la quota 
+   da assoggettare non viene calcolata.
+ - Per i LAV con c.92/2 valorizzato ("impatriati") viene assoggettata la quota
+   di aumento in proporzione alla percentuale di reddito imponibile.
+ - Al termine del calcolo (menu' 05-02) il programma stampa un output di 
+   controllo contenente il dettaglio per LAV e per voce, del conteggio 
+   dell'I.S. AUMENTI CONTRATTUALI, con estrazione del supporto magnetico.
+   Lo stesso e' ristampabile dal punto: 05 - 07 - 22 - 1
+ - Al fine di esporre la quota di aumento contrattuale soggetta ad I.S. sul LUL
+   e' possibile compilare il campo 19 Esposizione aumento soggetto i.s. su LUL
+   nei parametri generali (menu' 02 - 01).
+
+ARRETRATI IMPOSTA SOSTITUTIVA                          
+    - eseguire le seguenti istruzioni:
+      36 Altri moduli software
+      05 Programmi vari
+      37 Variazione storico voci
+      10 Arretrati I.S. L. 199/2025
+         Imposta sostitutiva: Aumenti contrattuali 
+
+      1) Tipo elaborazione: Memorizza in storico (effetto immediato)
+	 il programma memorizza:
+	 - in storico i valori imponibili nelle voci 2707 e 2708
+	 - nelle registrazioni preliminari la voce 6871 = 1 al fine di 
+	   effettuare il conguaglio fiscale nelle prime elaborazioni utili 
+	
+      2) Tipo elaborazione: Memorizza in storico (effetto a conguaglio)
+	 il programma memorizza in storico i valori imponibili nelle voci 
+	 2707 e 2708.
+	 In fase di conguaglio il programma ricalcolera' le relative imposte.
+		 
+ N.B.: Il programma considera la tabella voci del mese corrente.
+
+VOCI PARTICOLARI
+ Per eseguire la forzatura del conguaglio utilizzare la voce 6871 FORZATURA 
+ CONG.I.S.AUM.CONTR. con i seguenti valori:
+ 1 = Forzatura conguaglio 
+ 8 = Esclusione applicazione
+ 9 = Esclusione conguaglio
+
+DICHIARAZIONE
+ Per stampare la dichiarazione da consegnare ai LAV, utile alla certificazione
+ del reddito AP occorre operare dal punto:
+ 04 Lavoratori 
+ 36 Dichiarazioni 
+ 18 Dich.I.S.Aumenti contr. coll

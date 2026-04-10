@@ -1,20 +1,7 @@
-DOMANDA: come associo apple watch 5 ad iphone?
-RISPOSTA: Gentile cliente,
+DOMANDA: il programma mi sta segnalando un errore sul conguaglio del 1012, c'è modo di escluderlo?
+RISPOSTA: Buongiorno,
 
-per associare l'Apple Watch 5 al tuo iPhone, ti consiglio di seguire le istruzioni ufficiali di Apple. Tuttavia, posso fornirti una panoramica generale del processo.
-
-Innanzitutto, assicurati di avere l'ultima versione del software iOS sul tuo iPhone e di avere scaricato l'app Apple Watch. Quindi, segui questi passaggi:
-
-1. Apri l'app Apple Watch sul tuo iPhone.
-2. Tocca "Inizia" e segui le istruzioni per associare il tuo Apple Watch.
-3. Assicurati che il tuo Apple Watch sia acceso e che si trovi nelle vicinanze del tuo iPhone.
-4. Segui le istruzioni sullo schermo per completare l'associazione.
-
-Se hai già associato un Apple Watch al tuo iPhone in passato, potresti dover disaccoppiare l'orologio precedente prima di associare il nuovo Apple Watch 5.
-
-Se riscontri problemi durante il processo di associazione, ti consiglio di controllare la documentazione tecnica di Apple o di contattare il nostro supporto tecnico per ulteriore assistenza.
-
-Spero che questo ti sia stato utile. Se hai altre domande, non esitare a chiedere.
+la presente per comunicarVi che, al fine di ottenere quanto richiesto, è possibile escludere il conguaglio registrando la voce 6936 "ESCLUSIONE CONG.1012 NEW" indicando nella colonna dell'importo "1 - Esclude il cong.1012 sul fondo maturato dal 01.01.2001 se non movimentato del mese".
 
 Cordiali saluti,
-[Tuo nome]
+[Il tuo nome]

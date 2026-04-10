@@ -1,0 +1,258 @@
+CAMBIO MATRICOLA
+
+ 04 Lavoratori
+ 32 Cambio matricola
+ 01 Cambio matricola
+
+    1 - CAMBIO QUALIFICA                (C.U.)
+    2 - CAMBIO QUALIFICA PARTICOLARE    (C.U.)
+    3 - CAMBIO PART-TIME/TEMPO PIENO    (C.U.)
+    4 - CAMBIO T.DETERM./T.INDETERM.    (C.U.)
+    5 - CAMBIO FILIALE                  (C.U./COSTI)
+    6 - CAMBIO POSIZIONE INAIL          (10SM, C.U. dati assicurativi)
+    7 - CAMBIO INCIDENZA INAIL          (10SM)
+    8 - CAMBIO INCENTIVO ASSUNZIONE              
+
+ 02 Ripristino cambio matricola
+    Annulla eventuali cambi matricola eseguiti erroneamente, ripristinando la
+    situazione anagrafica e storica precedente.
+
+PREMESSA
+
+Modalita' di esecuzione
+ - Prima dell'elaborazione del LUL, anche per gli eventi che si verificano il 
+   primo Gennaio.
+
+ - In presenza di LUL vidimato i movimenti della matricola oggetto del
+   cambio vengono annullati. Procedere ad una nuova elaborazione con entrambe 
+   le matricole create (precedente e nuova).
+
+ - Vengono create due matricole con le seguenti caratteristiche:
+   - matricola prec. : contiene i dati previdenziali relativi alla
+                       parte di rapporto precedente la variazione;
+   - matricola nuova : contiene i dati previdenziali relativi alla parte 
+                       di rapporto successiva la variazione, i dati fiscali e
+                       TFR totali;
+
+ - Viene richiesto l'azzeramento dei ratei delle mensilita' aggiuntive nella 
+   "matricola precedente" con le seguenti opzioni:
+   "Y": i ratei vengono trasferiti alla matricola nuova;
+   "N": i ratei non vengono trasferiti alla matricola nuova.
+
+ - Con esclusione dei punti 6 e 7 (Inail) e dei passaggi al primo del mese, 
+   in fase di elaborazione occorre registrare, calcolare e stampare i LUL
+   di entrambe le matricole. 
+   N.B.: Il LUL della matricola old non contiene gli sviluppi fiscali e TFR,
+         che sono totalizzati sul secondo.
+
+
+ANAGRAFICA LAVORATORE
+Campo  Descrizione         Valore/Note
+  24/1  Cod.cambio matric.    
+  24/2  Data 
+  24/3  Variazione          (compilato in automatico)
+  24/4  Matricola nuova
+  24/5  Matricola prec.
+  24/6  Data inizio matr.p.
+  24/7  Precedenti matr.    memorizza lo storico le matricole precedenti 
+                            collegate alla matricola nuova
+
+ISTRUZIONI OPERATIVE
+
+1 - CAMBIO QUALIFICA
+
+     Esempio passaggio da impiegato a dirigente 
+     MATRICOLA PRECEDENTE     : 10002000001  (matricola impiegato)
+     MATRICOLA NUOVA          : 10003000001  (matricola dirigente)
+     DATA FINE RAPPORTO       : 12.04.2007  (ultimo giorno da impiegato)
+     DATA INIZIO RAPPORTO     : 13.04.2007  (primo giorno da dirigente)
+     
+     NB:Nel caso in cui venga eseguito il cambio qualifica per il passaggio
+        da apprendisti (qual. 4 - 5) ad operai/impiegati, il programma 
+	richiede in input la data della decorrenza degli scatti, proponendo in
+	automatico il mese calcolato come segue:
+	- Se compilato il campo 20 del CCNL:
+	  Mesi anz.calcolati dalla data decorrenza contratto * 
+	  aliq.incidenza anzianita' apprendista
+	- Assenza di aliquota del campo 20 CCNL:
+	  Data di decorrenza scatti dell'anagrafica apprendista
+
+2 - CAMBIO QUALIFICA PARTICOLARE
+     Variazione di:
+     A. qualifica particolare del LAV (campo 45/1);
+     B. riduzione contributiva apprendista (campo 44/3).
+        N.B.: dopo l'esecuzione adeguare il c.44/3 della matricola nuova      
+
+     Esempio "A" : passaggio da cfl a operaio 
+     MATRICOLA DA RICODIFICARE: 10001000002  (matricola operaio)
+     MATRICOLA DA CONGELARE   : 10001090002  (matricola cfl)
+     DATA FINE RAPPORTO       : 12.04.2007  (ultimo giorno da cfl)
+     DATA INIZIO RAPPORTO     : 13.04.2007  (primo giorno da operaio)
+     COD.QUAL.PARTIC.         : eventuale qualifica particolare in uscita
+     SCAD.QUAL.PARTIC.        : eventuale data scadenza qualifica particolare
+
+     Esempio "B" : passaggio da riduzione 8,5% a riduzione 7% 
+     MATRICOLA DA RICODIFICARE: 10005000003  (matricola attuale) (riduz. 7%)
+     MATRICOLA DA CONGELARE   : 10005090003  (matricola congelata) (riduz. 8,5%)
+     DATA FINE RAPPORTO       : 12.04.2007  (ultimo giorno con riduz. 8,5%)
+     DATA INIZIO RAPPORTO     : 13.04.2007  (primo giorno con riduz. 7%)
+     COD.QUAL.PARTIC.         : 0
+     SCAD.QUAL.PARTIC.        : 0
+
+3 - CAMBIO PART-TIME / TEMPO PIENO (E VICEVERSA)
+     Variazione di: 
+     A. orario (da part-time a tempo pieno, e viceversa);
+     B. tipo di part-time (orizzontale, verticale o misto - campo 38/1).
+
+    N.B.: non eseguire in caso di variazioni di percentuale part-time
+          all'interno dello stesso tipo.
+
+     Esempio "A" : passaggio da tempo pieno a part-time 
+     MATRICOLA DA RICODIFICARE: 10001000004  (matricola part-time)
+     MATRICOLA DA CONGELARE   : 10001090004  (matricola tempo pieno)
+     DATA FINE RAPPORTO       : 12.04.2007  (ultimo giorno a tempo pieno)
+     DATA INIZIO RAPPORTO     : 13.04.2007  (primo giorno part-time)
+     CODICE PART-TIME         : eventuale codice part-time in uscita (*)
+     ORARIO PART-TIME         : eventuale orario part-time in uscita (*)
+     ALIQ. PART-TIME          : eventuale aliquota part-time in uscita (*)
+     (*) se passaggio da part-time a tempo pieno non valorizzare
+
+4 - CAMBIO TEMPO DETERM. / TEMPO INDETERM.
+     Variazione della durata del rapporto di lavoro (campo 29).
+     N.B.: Conteggio automatico del recupero contributo ASPI, per i LAV
+           con campo 29/1 = 2, 4, 6, e memorizzazione nel LUL della voce 
+           1315 REC.ASPI TEMPO DETERM. (Cod.UNIEMENS L810).
+
+     MATRICOLA DA RICODIFICARE: 10001000005  (matricola tempo indeterminato)
+     MATRICOLA DA CONGELARE   : 10001090005  (matricola tempo determinato)
+     DATA FINE RAPPORTO       : 12.04.2007  (ultimo giorno tempo determinato)
+     DATA INIZIO RAPPORTO     : 13.04.2007  (primo giorno tempo indeterminato)
+5 - CAMBIO FILIALE
+     Variazione della filiale di lavoro (campo 20).
+
+     MATRICOLA DA RICODIFICARE: 10001000005  (matricola su nuova filiale)
+     MATRICOLA DA CONGELARE   : 10001090005  (matricola su vecchia filiale)
+     DATA FINE RAPPORTO       : 12.04.2007  (ultimo giorno su vecchia filiale)
+     DATA INIZIO RAPPORTO     : 13.04.2007  (primo giorno su nuova filiale)
+     COD.FILIALE              : codice filiale
+
+6 - CAMBIO POSIZIONE INAIL
+     Variazione della posizione inail LAV (campo 72/1).
+    N.B: eseguire solamente al primo del mese.
+
+     MATRICOLA DA RICODIFICARE: 10001000006 (matricola su nuova pos.inail)
+     MATRICOLA DA CONGELARE   : 10001090006 (matricola su vecchia pos.inail)
+     DATA FINE RAPPORTO       : 31.03.2007 (ultimo giorno su vecchia pos.Inail)
+     DATA INIZIO RAPPORTO     : 01.04.2007 (primo giorno su nuova pos.Inail)
+     POSIZIONE INAIL          : posizione Inail in uscita
+
+7 - CAMBIO INCIDENZE INAIL
+     Variazione delle incidenze inail LAV (campo 72/1).
+    N.B: eseguire solamente al primo del mese.
+
+     MATRICOLA DA RICODIFICARE: 10001000006  (matr. con nuove incidenze inail)
+     MATRICOLA DA CONGELARE   : 10001090006  (matr. con vecchie incidenze inail)
+     DATA FINE RAPPORTO       : 31.03.2007  (ultimo gg con vecchie inc.Inail)
+     DATA INIZIO RAPPORTO     : 01.04.2007  (primo giorno con nuove inc.Inail)
+     INCIDENZE INAIL          : incidenze Inail in uscita
+
+8 - CAMBIO INCENTIVO ASSUNZIONE
+     Azzeramento dell'incentivo assunzione alla scadenza (campo 47/1 = 1,2,3,
+     4,5,6,15 LAV).
+     MATRICOLA DA RICODIFICARE: 10001000006  (matr. senza incentivo) 
+     MATRICOLA DA CONGELARE   : 10001090006  (matr. con scadenza incentivo)
+     DATA FINE RAPPORTO       : 15.03.2018  (ultimo gg incentivo)
+     DATA INIZIO RAPPORTO     : 16.03.2018  (primo giorno senza incentivo)
+
+    Unifica cambio matr. con stesse caratteristiche contributive ? Y
+     
+     N.B.: da eseguire solo per gli inc. interessati, con scad.in corso di mese.
+
+     Azzeramento dell'importo incentivo assunzione (campo 47/1 = 15), 
+     dopo 12 mesi, eseguire il cambio matricola rispondendo come segue:
+
+     Azzerare solo importo utilizzato? Y
+
+CASISTICHE PARTICOLARI
+
+MENSILITA' AGGIUNTIVE
+ La scelte: 
+ 1 (CAMBIO QUALIFICA)
+ 2 (CAMBIO QUALIFICA PARTICOLARE) 
+ 4 (CAMBIO T.DETERM./T.INDETERM. - con campo 29/1 = 2, 4 e 6) 
+ 5 (CAMBIO FILIALE - con matricola Inps diversa) 
+ 8 (CAMBIO INCENTIVO ASSUNZIONE campo 47/1 = 1,2,3,4,5,6 LAV)
+ Azzerano la mensilita' aggiuntiva, se presente in vidimato.
+Operazioni da eseguire
+ A. cambio matricola al primo giorno del mese 
+    1. rielaborare la mensilita' aggiuntiva sulla "matricola nuova"
+       ovvero
+    2. registrare la mensilita' aggiuntiva sul LUL della "matricola nuova",
+       togliendo con la voce 801 ACCONTO il netto della mens.agg. gia' pagato.
+ B. cambio matricola in corso di mese 
+    registrare la mensilita' aggiuntiva sul LUL della "matricola precedente", 
+    togliendo con la voce 801 ACCONTO il netto della mens.agg. gia' pagato.
+    NOTA BENE: occorre cancellare la mens.agg. proposta nella "matricola nuova"
+
+EVENTI DI MALATTIA E INFORTUNIO
+
+Evento precedente al cambio matricola
+ Registrare l'evento sulla "matricola precedente".
+
+Evento successivo al cambio matricola
+ Registrare l'evento, dopo l'esecuzione del cambio, sulla "matricola nuova".
+
+Evento in essere alla data del cambio matricola
+ 1. Cambio matricola prima della registrazione dell'evento
+    - Eseguire il cambio matricola;
+    - Registrare l'evento sulla "matricola precedente" 
+      (data fine evento = ultimo giorno di attivita' della "matr. precedente");
+    - Riportare i dati dello storico malattia dalla "matricola precedente" 
+      alla "matricola nuova" (menu' 04-24-02);
+    - Registrare l'evento (per mal./inf. utilizzare la ricaduta) sulla 
+      "matricola nuova" (data inizio evento = primo giorno di attivita' della 
+      "matricola nuova").
+    - Dopo la chiusura di fine mese nella gestione storico eventi al punto
+      (04 - 24 - 5), occorre inserire nella "matricola nuova" la data fine 
+      dell'evento antecedente al cambio matricola e cancellare dalla "matricola
+      precedente" l'evento di malattia ovvero infortunio.
+
+ 2. Cambio matricola dopo la registrazione dell'evento
+    - Registrare l'evento 
+      (data fine evento = ultimo giorno di attivita' della "matr. precedente");
+    - Eseguire il cambio matricola;
+    - Registrare l'evento (per mal./inf. utilizzare la ricaduta) sulla 
+      "matricola nuova" (data inizio evento = primo giorno di attivita' della 
+      "matricola nuova") e rispondendo "N" alla domanda "Rifacimento".
+
+EVENTI DI MATERNITA'
+
+ - In registrazione del LUL verra' esposta la voce di indennita' C/STATO,
+   occorre valutare mantenerla ovvero sostituirla con relativa voce
+   di indennita' C/INPS
+ - Eseguire il cambio matricola;
+ - Riportare i dati dello storico maternita' dalla "matricola nuova" 
+   alla "matricola precedente" (menu' 04-24-02);
+ - Registrare la prima parte di maternita' sulla "matricola precedente"
+   (data fine evento = ultimo giorno "matricola precedente");
+ - Riportare i dati dello storico maternita' dalla "matricola precedente" 
+   alla "matricola nuova" dal punto 04-24-02;
+ - Registrare la seconda parte di maternita' sulla "matricola nuova" 
+   (data inizio evento = primo giorno di attivita' della "matricola nuova") 
+   e rispondendo "N" alla domanda "Rifacimento".
+ - Dopo la chiusura di fine mese nella gestione storico eventi al punto
+   (04 - 24 - 5), occorre inserire nella "matricola nuova" i dati totali
+   dell'evento e cancellare i dati dalla "matricola precedente".
+
+ FONDO DI PREVIDENZA COMPLEMENTARE 
+  In caso di modifica del fondo di adesione, con versamento plurimensile (es.
+  trimestrale), occorre effettuare il cambio matricola come segue:
+  04 Lavoratori 
+  32 Cambio matricola
+   1 Cambio matricola 
+     2 - CAMBIO QUALIFICA PART.
+
+  04 Lavoratori 
+  01 Gestione 
+     Campo 76 Previdenza complementare 
+     Indicare il codice del nuovo fondo 

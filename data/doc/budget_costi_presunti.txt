@@ -1,0 +1,162 @@
+BUDGET - COSTI PRESUNTI
+
+BUDGET PLUS
+12 Budget - Costi presunti
+1 BUDGET PLUS
+Permette di elaborare, in modo agile e veloce, la previsione del costo del
+lavoro, considerando tutti gli elementi gia' noti (rinnovi ccnl, scatti di
+anzianita', scadenze contrattuali e/o agevolazioni, ecc.), nonche' eventuali
+elementi variabili scelti dall'utente (nuove assunzioni, cessazioni, varia-
+zioni di livello e/o retribuzione, premi, ecc.).
+L'analisi dei costi e' effettuata in modo analitico con facolta' di: - scelta del periodo di riferimento (mensile, bimestrale, semestrale,
+annuale); - aggregazione dei dati (per filiale, centro di costo, reparto ovvero
+singolo lavoratore); - selezione delle diverse tipologie di outputs, in base alle specifiche
+necessita'
+
+    Per ottenere maggiori informazioni, e' possibile consultare il manuale
+    operativo di BUDGET PLUS
+
+BUDGET
+12 Budget - Costi presunti
+2 Budget
+Copia l'archivio relativo ai DL selezionati in una directory parallela alla
+procedura Genius per elaborare il budget.
+
+^ ISTRUZIONI PER L'ELABORAZIONE
+Directory selezionata: inserire directory nella quale copiare gli archivi.
+E' possibile creare piu' directory per l'esecuzione di budget diversi.
+
+    01 Creazione archivi
+      1 Creazione archivi
+       Gli archivi vengono creati dalla directory corrente oppure a richiesta da
+       una directory dei mesi precedenti.
+       Il programma crea l'archivio, ponendo le seguenti domande:
+       - creazione completa o per DL
+       - riporto storici
+       - riporto movimenti del mese
+       Deve essere eseguita all'inizio dell'elaborazione.
+      2 Riporto dati da M.P.
+       Per maggiori specifiche occorre consultare il paragrafo
+       "UTILIZZO DELLA PROCEDURA BUDGET PER L'ELABORAZIONE DI PERIODI ARRETRATI"
+
+    02 Mese elaborazione              21 TFR accantonamento
+    03 Ccnl                           22 Ratei
+    04 Minimi contrattuali            23 Ferie/rol/festivita' soppr.
+    05 Datori lavoro                  24 Premio Inail
+    06 Lavoratori                     25 Riepilogo progressivo voci
+    07 Registrazioni preliminari      26 Riepilogo progressivo costi
+    08 Elaborazione L.U.L.            27 Riepilogo voci per lavoratore
+    09 Elaborazione mens.agg.         28 Riepilogo costi per lavoratore
+    10 Riepiloghi mensili             29 Prospetti per IRAP
+    11 Chiusura fine mese             30 Modello DS22
+                                      31 Retribuzione differita (ratei)
+                                      32 Variazioni elab. anticipata
+                                      33 Costo per voci selezionate
+                                      37 EVENTS - Libro matricola
+    Per le specifiche consultare i corrispondenti punti del manuale operativo.
+    38 Creazione archivi nuovo anno
+       Le operazioni descritte devono essere eseguite dopo avere impostato come
+       mese di elaborazione gennaio del nuovo anno.
+       1 RATEI MENS.AGG.E FERIE: calcola la voce 13 dello storico.
+         Inserire come data di calcolo il mese precedente la data di elaboraz.
+       2 FRANCHIGIA TFR: idem come punto 1 per voci 2321 e 2322.
+       3 DETRAZIONE TFR: idem come punto 1 per voci 2462 e 2463.
+       4 RIVALUTAZIONE TFR: calcola voci 2511-2519 e/o 2561-2569 e/o 2530-2539
+         dello storico, proiettando la retribuzione gia' accantonata per i mesi
+         rimanenti e rivalutando il tfr anni precedenti.
+       5 ADDIZ.IRPEF ANNO PREC.
+         Riporta le addizionali irpef e anticipazioni tfr dall'anno precedente.
+
+    39 Riporto archivi
+       Riporta gli archivi della partizione "Budget" negli archivi ordinari.
+     1 Datore lavoro completo
+       Il programma richiede la conferma della cancellazione prima di procedere
+       al riporto.
+     2 Lavoratore
+       Consente il riporto sia di lavoratori esistenti sia di lavoratori non
+       presenti negli archivi ordinari. I totali a livello Datore Lavoro che
+       variano in seguito al riporto dovranno essere modificati manualmente.
+
+UTILIZZO DELLA PROCEDURA "BUDGET" PER L'ELABORAZIONE
+DI PERIODI ARRETRATI
+
+    - Creazione dell'archivio budget
+      12 BUDGET - Costi presunti
+       2 Budget
+       Directory selezionata: /pup/cos (inserire un nome per la directory ovvero
+                                       confermare quello proposto dal programma)
+         01 Creazione archivi
+       1 Creazione archivi
+            "Conferma creazione (Y/N/D)?"    Y/N/D
+             Y = la creazione viene eseguita partendo dalla directory corrente
+             D = la creazione viene eseguita partendo dalla directory del mese
+             precedente selezionato
+            "Riporto storici memorizzati? "  Y/N
+            "Riporto movimenti del mese?  "  Y/N
+
+    - Impostare il mese e l'anno di elaborazione (02 Mese elaborazione) e
+      procedere con la registrazione (08 Elaborazione L.U.L. - 1 Registrazione)
+
+    - Stampare il L.U.L.(08 Elaborazione L.U.L. - 03/04 Memorizzazione con/senza
+                                                        stampa)
+      N.B.: la stampa richiede se utilizzare il L.U.L. vidimato ovvero con
+            conservazione elettronica
+
+    - Stampare i riepiloghi mensili (10 Riepiloghi mensili)
+
+    - Qualora sia stato elaborato tutto il DL e' possibile riportare l'archivio
+      nei mesi precedenti, le seguenti istruzioni sono da eseguire sempre prima
+      della chiusura del mese
+      12 BUDGET - Costi presunti
+         2 Budget
+      39 Riporto archivi
+       1 Datore lavoro completo
+         3 - Riporto in Mesi Precedenti
+         Mese/Anno riporto: il programma propone il mese/anno presenti in BUDGET
+         Conferma cancellazione ? (Y/N):  Y
+    - Chiudere il mese dal programma "Budget" (11 Chiusura fine mese)
+      e, se necessario, procedere con l'elaborazione del mese successivo
+      cambiando il mese di elaborazione (02 Mese Elaborazione)
+
+    - Nel caso di un elaborazione/rifacimento parziale, per piu' mesi arretrati
+      di uno o piu' LAV di un solo DL, e' possibile riportare tutto il DL M.P.,
+      con la funzione:
+      01 Creazione archivi - 2 Riporto dati da M.P.
+      In seguito e' possibile rielaborare solo il LAV interessato con le
+      indicazioni precedentemente indicate.
+
+    - Riporto archivi:
+      12 BUDGET - Costi presunti
+       2 Budget
+      39 Riporto archivi
+       1 Datore lavoro completo
+         1 - Riporto in anno corrente
+         2 - Riporto in anno precedente
+         N.B.: il programma richiede la conferma della cancellazione per poter
+               procedere al riporto.
+               (consigliamo di effettuare un salvataggio degli archivi)
+
+       2 Lavoratore
+         1 - Riporto in anno corrente
+         2 - Riporto in anno precedente
+         N.B.: occorre la modifica manuale dei totali a livello DL
+
+
+      Il riporto in anno corrente e' da eseguire solo nel momento in cui gli
+      archivi del BUDGET e dell'elaborazione normale sono allineati.
+      Il riporto in anno precedente e' da eseguire solo dopo la chiusura del
+      mese di dicembre dell'AP.
+
+UTILIZZO DELLA PROCEDURA "BUDGET" PER L'ELABORAZIONE DEL
+MESE SUCCESSIVO DI LUL NON VIDIMATI PRIMA DELLA CHIUSURA MESE
+
+       Consultare il QR "ANTICIPO ELABORAZIONI MESE SUCCESSIVO IN BUDGET".
+
+COSTI PRESUNTI
+12 Budget - Costi presunti
+3 Costi presunti
+Calcola e stampa la proiezione del costo del lavoro dell'anno corrente.
+I dati forniti dal relativo tabulato sono : - retr.mese : retribuzione lorda mensile - cost.retr.: costanti retributive (es.mensa) memorizzate in anagrafica lav.
+(cod.voci da 350 a 449) - rateo 13a : rateo 13a mensilita' - rateo 14a : rateo 14a mensilita' - rateo p.p.: rateo premio produzione - rateo a.m.: rateo altra mensilita' - rateo f.rs: rateo festivita' riposo settimanale - tot.retr. : totale retribuzione + ratei - retr.per. : retribuzione + ratei rettificati a mezzo parametro o importo
+(da input) - oneri ctr.: contributi a carico del datore di lavoro - riduz.inps: riduzione oneri sociali - tfr : tfr al netto del 0,50% + rival. - irap : contributo irap - tot.costo : costo del lavoro - ore lavor.: ore lavorabili meno ore di ferie,f.s.,r.o.l.,fest. e
+assenteismo (aliquota da input) - costo ora : costo orario (tot.costo/ore lav.) - retr.orar.: retr.mese + cost.retr./div.or. (div.or.= orar.sett. \* 52 / 12) - incidenza : costo orario / retrib. oraria

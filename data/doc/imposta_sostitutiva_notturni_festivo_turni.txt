@@ -1,0 +1,156 @@
+IMPOSTA SOSTITUTIVA SU LAVORO NOTTURNO/FESTIVO/TURNI
+
+
+
+Legge 199/2025 art.1 commi 10 e 11          
+
+ Somme soggette    : - Maggiorazioni e indennita' per lavoro notturno          
+                     - Maggiorazioni e indennita' per lavoro festivo e nei 
+		       giorni di riposo 
+		     - Indennita' di turno previste dal CCNL 
+ LAV interessati   : dipendenti settore privato con reddito AP <= 40.000,00 euro
+ Tetto imponibile  : 1.500,00        
+ Aliquota          : 15 %
+ Codice tributo F24: 1076 (a debito) ovvero 1627 (a credito)
+
+TABELLA VOCI INTERESSATE  
+ Le voci utili all'applicazione dell'IS sono identificate dal campo 32 TIPO
+ IMPOSTA SOSTITUTIVA = 2 notturno/festivo/turni.
+ Riportiamo di seguito criteri di applicazione per le principali voci:
+ ------------------------------------------------------------------------
+| Voce Descrizione               | Imponibile                          |
+ |----------------------------------------------------------------------|
+ | 307  FLESSIBILITA' LAVORATA    | Solo se in giorno festivo           |
+ | 327  MONTE ORE LAVORATE        |                                     |
+ |----------------------------------------------------------------------|
+ | 347  MAGG.LAVORO DOMENICALE    |                                     |
+ | 348  MAGG.LAVORO FESTIVO       | Importo totale                      |
+ | 349  MAGG.LAVORO NOTTURNO      |                                     |
+ |----------------------------------------------------------------------| 
+ | 353  STRAORDINARI N            |  Solo se tipo:                      |
+ | 354  STRAORDINARI S            |  902 = notturno                     | 
+ | 356  STRAORDINARI N            |  903 = festivo                      |
+ | 357  STRAORDINARI S            |  904 = festivo notturno             |
+ | 361  LAVORO FESTIVO            |        ovvero in giorno festivo     |
+ | 362  LAVORO SUPPLEMENTARE      |  Viene conteggiata solo la quota    |
+ | 363  PROLUNGAMENTO ORARIO      |  di maggiorazione (> 100%)          |
+ |----------------------------------------------------------------------|
+ |6353  STRAORDINARIO NOTTURNO N  |                                     |
+ |6354  STRAORDINARIO NOTTURNO S  |  Viene conteggiata solo la quota    |
+ |6361  STRAORDINARIO FESTIVO     |  di maggiorazione (> 100%)          |
+ |6362  LAVORO SUPPLEM. NOTTURNO  |                                     |
+ |----------------------------------------------------------------------|
+ | 365  MAGG.RIPOSO SETTIMANALE   |  Importo totale                     |
+ | 367  IND.TURNO                 |                                     |
+ | 370  IND.TURNO DIURNO          |                                     |
+ | 371  IND.TURNO NOTTURNO        |                                     |
+ | 372  IND.TURNO                 |                                     |
+ | 474  IND.PRES.DOMEN.AUTOLINEE  |                                     |
+ | 478  LAVORO FESTIVO AUTOLINEE  |                                     |
+ | 479  LAVORO NOTTURNO AUTOLINEE |                                     |
+ | 482  I.P.FEST.A.I.AUTOLINEE    |                                     |
+ |6815  I.S.NOT/FS/TU.virt.       |                                     |
+ |6816  I.S.NOT/FS/TU.virt.edile  |                                     |
+ ------------------------------------------------------------------------
+	
+ E' possibile inoltre indicare le sole aliquote di straordinario interessate 
+ dall'I.S., per una determinata voce, dal seguente punto: 
+ 03 Datori lavoro - 13 Altre gestioni - 08 Gestione voci automatiche DL
+ Selezionare la voce interessata (es.353 STRAORDINARI N)
+ Indicare Tipo = 9 classificazione voci i.s.
+ Indicare le aliquote relative al lavoro notturno/festivo/turni
+ANAGRAFICA LAVORATORE
+Campo  Descrizione         Valore/Note
+  91/2  I.S.NOTT/FEST/TURN  0 = no
+                            1 = si
+                            7 = non applicazione, LAV senza dichiarazione
+                            8 = non applicazione, tass.ordinaria piu' favorevole
+                            9 = non applicazione, richiesta LAV
+
+ Per valorizzare massivamente il campo 91/2 eseguire il seguente programma:
+ 36 Altri moduli software
+ 05 Programmi vari 
+ 34 Variazioni Anagrafiche
+ 02 Variazioni Lavoratori
+ 15 Imposta I.S. (c.91)
+  2 I.S. L.199/2025           
+    Tipologia imposta sostitutiva: 2 = notturno/festivo/turni
+
+STORICO LAVORATORE
+Voce  Descrizione          Fase elaborazione     Contenuto
+ 2717  I.F.NOT/FS/TURN.     Calcolo - automatica  Importo lordo soggetto a IS
+       (di cui 2001)
+
+ 2718  CTR L.NOT/FS/TURN.   Calcolo - automatica  Importo lordo soggetto a IS
+       (di cui 2042)                              (v.2717) * % CTR LAV
+
+ 2719  I.F.NOT/FS ALTRO     Storico - input       I.F. quota imponibile da 
+       RAPPORTO             manuale               altro DL (al netto di CTR
+                                                  LAV)
+
+ 2720  DED.I.F.NOT/FS/TURN  Calcolo - automatica  2717 - 2718 
+                                                  Tetto euro 1.500 
+						  riduce voce 2050 I.F. NETTO
+
+ 2721  IMPOSTA SOST.        Calcolo - automatica  Importo IS NOTT/FEST/TURN 
+       NOT/FS/TURN.
+
+ 6815  I.S.NOT/FS/TU.virt.  Calcolo - automatica  Quota STR con aliq.automatiche
+  						  da CCNL ovvero riposo settim.
+
+ 			    Registrazione manuale Importo da assoggettare a IS
+
+Note
+ - Al termine del calcolo (menu' 05-02) il programma stampa un output di
+   controllo contenente il dettaglio per LAV e per voce, del conteggio
+   dell'I.S. NOTT/FEST/TURN, con estrazione del supporto magnetico.
+   Lo stesso e' ristampabile dal punto: 05 - 07 - 22 - 2.
+ - Per i LAV con c.92/2 valorizzato ("impatriati") viene assoggettata la quota
+   di aumento in proporzione alla percentuale di reddito imponibile.
+ - Nel caso di voci con aliquota > 100 viene considerata imponibile IS solo la 
+   quota di maggiorazione rispetto alla retribuzione ordinaria.
+
+
+
+
+
+
+
+
+
+
+ARRETRATI IMPOSTA SOSTITUTIVA                          
+    - eseguire le seguenti istruzioni:
+      36 Altri moduli software
+      05 Programmi vari
+      37 Variazione storico voci
+      10 Arretrati I.S. L. 199/2025
+         Imposta sostitutiva: Notturno/Festivo/Turni
+
+      1) Tipo elaborazione: Memorizza in storico (effetto immediato)
+         il programma memorizza:
+         - in storico i valori imponibili nelle voci 2717 e 2718
+         - nelle registrazioni preliminari la voce 6872 = 1 al fine di
+           effettuare il conguaglio fiscale nelle prime elaborazioni utili
+
+
+      2) Tipo elaborazione: Memorizza in storico (effetto a conguaglio)
+         il programma memorizza in storico i valori imponibili nelle voci
+         2717 e 2718.
+         In fase di conguaglio il programma ricalcolera' le relative imposte.
+
+ N.B.: Il programma considera la tabella voci del mese corrente.
+
+VOCI PARTICOLARI
+ Per eseguire la forzatura del conguaglio utilizzare la voce 6872 FORZATURA 
+ CONG.I.S.NOT/FS/TU con i seguenti valori:
+ 1 = Forzatura conguaglio 
+ 8 = Esclusione applicazione
+ 9 = Esclusione conguaglio
+
+DICHIARAZIONE
+ Per stampare la dichiarazione da consegnare ai LAV, utile alla certificazione
+ del reddito AP occorre operare dal punto:
+  04 Lavoratori
+  36 Dichiarazioni
+  19 Dich.I.S.Lavoro nott/fest/turni

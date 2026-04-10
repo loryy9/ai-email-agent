@@ -1,0 +1,7 @@
+DOMANDA: il programma mi sta segnalando un errore sul conguaglio del 1012, c'è modo di escluderlo?
+RISPOSTA: Buongiorno,
+
+la presente per comunicarVi che, al fine di ottenere quanto richiesto è possibile escludere il conguaglio registrando la voce 6936 ESCLUSIONE CONG.1012 NEW indicando nella colonna dell’importo “1 - Esclude il cong.1012 sul fondo maturato dal 01.01.2001 se non movimentato del mese”
+
+Cordiali saluti,
+[Il tuo nome]

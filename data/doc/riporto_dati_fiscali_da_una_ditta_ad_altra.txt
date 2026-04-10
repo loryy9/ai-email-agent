@@ -1,0 +1,130 @@
+RIPORTO DATI FISCALI DA UNA DITTA A UN'ALTRA
+
+VARIAZIONE A INIZIO MESE
+   A. Nuovo Datore lavoro non esistente
+       Eseguire il seguente programma:
+       03 Datori lavoro
+       31 Variazione codice
+
+   B. Nuovo Datore lavoro gia' esistente
+       1. Trasportare i lavoratori interessati nel nuovo DL con il programma:
+          04 Lavoratori
+          33 Riporto matricola
+
+       2. Trasferire i dati fiscali ed eventualmente i dati tfr e ratei dal DL
+          old al DL new con il programma:
+          04 Lavoratori
+          10 Storico voci
+             07 Trasferimento dati fiscali
+	        N.B.: per le specifiche consultare il quesito ricorrente
+		      "TRASFERIMENTO STORICI"
+             08 Trasferimento dati tfr e ratei
+
+VARIAZIONE IN CORSO DI MESE (TRANNE DICEMBRE)
+    1. Caricare una nuova anagrafica datore lavoro se non esistente
+
+    2. Trasportare i lavoratori interessati nel nuovo DL con il programma:
+       04 Lavoratori
+       33 Riporto matricola
+
+    3. Elaborare le due buste paga
+       - Anagrafica dip. (old) : impostare il c.30 COD.RISOL.RAPPORTO = 30 o 40
+                                 e togliere le detrazioni familiari a carico (1)
+
+       - Anagrafica dip. (new) : impostare la nuova data di assunzione e
+                                 posizione rapporto
+
+       - Uniemens dip.   (new) : nel tipo quadro 1 compilare il campo "Tipo
+                                 assunzione" con 2T e la matricola INPS di
+                                 provenienza
+
+    4. Dopo chiusura fine mese (2) trasferire i dati fiscali ed eventualmente 
+       i dati tfr e ratei dalla ditta old alla ditta new con il programma:
+       04 Lavoratori
+       10 Storico voci
+          07 Trasferimento dati fiscali
+	     N.B.: per le specifiche consultare il quesito ricorrente
+	           "TRASFERIMENTO STORICI"
+          08 Trasferimento dati tfr e ratei
+               
+
+B1.VARIAZIONE IN DICEMBRE
+ (puo' essere utilizzata anche nei mesi diversi da dicembre qualora occorra
+  effettuare il conguaglio fiscale)
+
+    1. Caricare una nuova anagrafica datore lavoro se non esistente
+
+    2. Trasportare i lavoratori interessati nel nuovo DL con il programma:
+       04 Lavoratori
+       33 Riporto matricola
+
+    3. Elaborare la busta paga della ditta vecchia
+       - Anagrafica dip.(old): impostare il c.30 COD.RISOL.RAPPORTO = 30 o 40
+                               e togliere le detrazioni familiari a carico (1)
+
+       - Anagrafica dip.(new): impostare la nuova data di assunzione e
+                               posizione rapporto
+
+    4. Trasferire i dati fiscali dal DL old al DL new con il programma:
+       04 Lavoratori
+       10 Storico voci
+          07 Trasferimento dati fiscali
+             Rispondere "Y" a "Si vogliono trasferire i dati del mese"
+	     N.B.: per ulteriori specifiche consultare il quesito ricorrente
+	           "TRASFERIMENTO STORICI"
+
+    5. Elaborare la busta paga della ditta nuova
+
+    6. Dopo chiusura fine mese (2) trasferire i dati tfr e ratei dal DL old
+       al DL new con il programma:
+       04 Lavoratori
+       10 Storico voci
+          08 Trasferimento dati tfr e ratei
+
+      NOTA BENE
+       Se si configura l'ipotesi di "operazione societaria straordinaria"
+       compilare il campo 402 della ditta vecchia con le seguenti modalita':
+         - tipo conguaglio
+           1 = operazione societaria straordinaria con estinzione del sostituto
+               d'imposta e con conguaglio effettuato dal soggetto estinto
+           2 = operazione societaria straordinaria con estinzione del sostituto
+               d'imposta e con conguaglio effettuato dal soggetto che presenta
+               la dichiarazione
+           3 = operazione societaria straordinaria senza estinzione del
+               sostituto d'imposta
+         - codice ditta del Dichiarante del modello 770 in caso di operazioni
+           societarie straordinarie con estinzione del sostituto d'imposta
+           (tipo conguaglio = 1 o 2)
+
+       Si rammenta che nel caso di operazioni societarie straordinarie
+       avvenute dopo la creazione archivi nuovo anno, ma prima della
+       presentazione del modello 770 la variazione deve essere eseguita anche
+       sulla anagrafica anno precedente (tipo conguaglio = 1)
+
+       Per una verifica dei lavoratori che nella C.U. presentano la casella 572
+       valorizzata eseguire le seguenti istruzioni:
+       22 Adempimenti fine anno
+       11 Certificazione unica (C.U.)
+       18 Utilita' C.U.
+       11 Elenco C.U.Dip. 612 = 1
+
+ (1) Campo 30 Lav. = 30 Trasferimento d'azienda o cessione contratto
+     Questa impostazione del c.30 inserisce nell'Uniemens il cod.cessazione "2T"
+     In registrazione : - Blocca il L.P. e i giorni detrazione
+                        - Liq.automatica propone "N"
+                        - Non espone la liquidazione dei ratei di M.A. e
+                          Ferie/F.S./ROL
+                        - Espone una rata di addizionali irpef a.p.
+     In calcolo : - Non esegue il conguaglio fiscale
+    
+     Campo 30 Lav. = 40 Trasferimento d'azienda (con liquidazione competenze di
+     fine rapporto) no ASPI
+     In registrazione : - Blocca il L.P. e i giorni detrazione
+                        - Liq.automatica propone "Y"
+			- Espone la liquidazione dei ratei di M.A. e 
+			  Ferie/F.S./ROL
+			- Espone una rata di addizzionali irpef a.p.
+     In calcolo : - Non esegue il conguaglio fiscale
+
+ (2) in fase di chiusura del mese, la maturazione di Ferie, Rol e F.s., viene
+     spostata nel residuo AP delle rispettive voci 31, 32 e 33 dello storico   

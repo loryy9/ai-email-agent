@@ -1,0 +1,673 @@
+CIG/FIS TICKET
+                                   VOCI CIG                 
+ Cig iniziata dal 24.09.2015 (D.Lgs. 148/2015) 
+      Tipo pagamento:      ***        CONGUAGLIO         *** **   DIRETTO   **
+                           |   Mese Cig    |   Mese Aut.    |     Mese Cig
+                           |   (calend.)   |   (3a vid.)    |     (calend.)
+       -------------------------------------------------------------------------
+      1. CIG EFFETTUATA E GIA' AUTORIZZATA
+       -------------------------------------------------------------------------
+       ORDINARIA            |   6881 (*)    |                |       965
+       ORD.EDILIZIA no add. |    966 (1)    |                |       970
+       ORDINARIA no addiz.  |   6781        |                |       970
+       STRAORDINARIA        |   6551 (*)    |                |       975
+       STRAORDINARIA no add.|   6776        |                |        - 
+       STRAORD.con SOLID.   |   6556 (*)    |                |        -
+       DEROGA               |    976 (*)    |                |       980
+       -------------------------------------------------------------------------
+      2. CIG EFFETTUATA SENZA AUTORIZZAZIONE CON ANTICIPO C/DITTA
+       -------------------------------------------------------------------------
+       ORDINARIA            |    963        |     6884       |       965
+       ORD.EDILIZIA no add. |    968 (1)    |     6659       |       970
+       ORDINARIA no addiz.  |   6783        |     6785       |       970
+       STRAORDINARIA        |    973        |     6554       |       975
+       STRAORDINARIA no add.|   6778        |     6780       |        - 
+       STRAORD.con SOLID.   |    983        |     6559       |        -
+       DEROGA               |    978        |     6679       |       980
+       -------------------------------------------------------------------------
+      3. CIG EFFETTUATA SENZA AUTORIZZAZIONE SENZA ANTICIPO C/DITTA
+       -------------------------------------------------------------------------
+       ORDINARIA            |    962        |     6885       |       965
+       ORD.EDILIZIA no add. |    967 (1)    |     6652       |       970
+       ORDINARIA no addiz.  |   6782        |     6784       |       970
+       STRAORDINARIA        |    972        |     6555       |       975
+       STRAORDINARIA no add.|   6777        |     6779       |        - 
+       STRAORD.con SOLID.   |    982        |     6560       |        -
+       DEROGA               |    977        |     6672       |       980
+       -------------------------------------------------------------------------
+ (*) Voci da utilizzare (in relazione alle settimane/aliq.add. da applicare):
+	                       Dupl.imponibile               Dupl.contributo
+   Voce Descriz. Sett.        Voce Descrizione      Sett.   Voce Descriz. Sett.
+    6551 CIGS ADD.< 52         6898 IMPONIB.ADD.CIGS < 52    1477 ADD.CIGS < 52
+    6552 CIGS ADD.<104         6899 IMPONIB.ADD.CIGS <104    1478 ADD.CIGS <104
+    6553 CIGS ADD.>104         6900 IMPONIB.ADD.CIGS >104    1479 ADD.CIGS >104
+    6556 CIGS ADD.< 52(sol.)   6898 IMPONIB.ADD.CIGS < 52    1477 ADD.CIGS < 52
+    6557 CIGS ADD.<104(sol.)   6899 IMPONIB.ADD.CIGS <104    1478 ADD.CIGS <104
+    6558 CIGS ADD.>104(sol.)   6900 IMPONIB.ADD.CIGS >104    1479 ADD.CIGS >104
+    6881 CIGO ADD.< 52         6895 IMPONIB.ADD.CIGO < 52    1567 ADD.CIGO < 52
+    6882 CIGO ADD.<104         6896 IMPONIB.ADD.CIGO <104    1568 ADD.CIGO <104
+    6883 CIGO ADD.>104         6897 IMPONIB.ADD.CIGO >104    1569 ADD.CIGO >104
+     976 CIGD                  6889 IMPONIB.ADD.CIGD < 52    1393 ADD.CIGD < 52
+
+ Al fine di applicare l'aliquota addizionale ridotta, a seguito di specifica
+ indicazione presente nel decreto di concessione rilasciato dall'INPS, occorre
+ compilare il campo 71/6 "Riduzione addiz.CIG" dell'anagrafica DL. 
+ (Rif.Circ.INPS n.5/2025)
+
+
+
+
+ Riepiloghiamo di seguito le aliquote addizionali:
+ -----------------------------------------------------
+ |   Settimane   | Aliq.ordinaria  |  Aliq.ridotta   |
+ |   richieste   | (c.71/6 = 0 no) | (c.71/6 = 1 si) |
+ |---------------------------------------------------|
+ |     < 52      |       9%        |        6%       |
+ |---------------------------------------------------|
+ |  > 52  < 104  |      12%        |        9%       |
+ |---------------------------------------------------|
+ |     > 104     |      15%        | 15% (no riduz.) |  
+ -----------------------------------------------------
+ N.B.: (1) Per EDILIZIA con addiz.(eventi non met.) utilizzare le voci presenti
+           nel rigo "ORDINARIA" (st.cig Tipo = 1, Evento = 0).
+	   Per DL non EDILI con eventi oggettivamente non evitabili per i quali
+	   non e' dovuta l'addizionale, per utilizzare il tetto ordinario
+	   usare le voci ORDINARIA no addiz. (st.cig Tipo = 1, Evento = 13).
+
+                                   VOCI FIS                 
+      Tipo pagamento:      ***        CONGUAGLIO         *** **   DIRETTO   ** 
+                           |   Mese Fis    |   Mese Aut.    |     Mese Fis
+                           |   (calend.)   |   (3a vid.)    |     (calend.)
+       ------------------------------------------------------------------------
+      1. FIS EFFETTUATO E GIA' AUTORIZZATO
+       ------------------------------------------------------------------------
+       ORDINARIO            |   6751 (*)    |                |       6760
+       ORDINARIO no add.    |   6757        |                |       6760
+       SOLIDARIETA'         |   6761 (*)    |                |         -  
+       ------------------------------------------------------------------------
+      2. FIS EFFETTUATO SENZA AUTORIZZAZIONE CON ANTICIPO C/DITTA
+       ------------------------------------------------------------------------
+       ORDINARIO            |   6754        |     6752       |       6760
+       ORDINARIO no add.    |   6758        |     6769       |       6760
+       SOLIDARIETA'         |   6764        |     6762       |         -
+       ------------------------------------------------------------------------
+      3. FIS EFFETTUATO SENZA AUTORIZZAZIONE SENZA ANTICIPO C/DITTA
+       ------------------------------------------------------------------------
+       ORDINARIO            |   6755        |     6753       |       6760
+       ORDINARIO no add.    |   6759        |     6770       |       6760
+       SOLIDARIETA'         |   6765        |     6763       |         -
+       ------------------------------------------------------------------------
+      4. FIS FINANZIAMENTO                                            
+       ------------------------------------------------------------------------
+                            |               |     6750       |
+       ------------------------------------------------------------------------
+ (*) Voci da utilizzare (in relazione all'aliquota addizionale da applicare):
+	                         Dupl.imponibile              Dupl.contributo
+    Voce Descrizione            Voce Descrizione             Voce Descrizione
+     6751 FIS ord.               6756 IMPONIB.ADD.FIS ord.    1475 ADD.FIS ord.
+     6761 FIS sol.               6766 IMPONIB.ADD.FIS sol.    1480 ADD.FIS sol.
+ Al fine di applicare l'aliquota addizionale ridotta, a seguito di specifica
+ indicazione presente nel decreto di concessione rilasciato dall'INPS, occorre
+ compilare il campo 71/7 "Riduzione addiz.FIS" dell'anagrafica DL. 
+ (Rif.Circ.INPS n.5/2025)
+ Riepiloghiamo di seguito le aliquote addizionali:
+ -------------------------------------
+ | Aliq.ordinaria  |  Aliq.ridotta   |
+ | (c.71/7 = 0 no) | (c.71/7 = 1 si) |
+ |-----------------------------------|
+ |       4%        |        2,4%     |
+ -------------------------------------
+                                   VOCI FSBA
+
+      Tipo pagamento:      ***        CONGUAGLIO         *** 
+                           |   Mese FSBA   |   Mese Aut.    |
+                           |   (calend.)   |   (3a vid.)    |
+       -------------------------------------------------------
+       ASSEGNO INT.SAL.     |   6767        |   (**)         |
+       ASSEGNO CIGS         |   6768        |   (**)         |
+       -------------------------------------------------------
+ (**) Per il pagamento del conguaglio vi sono due casistiche:
+      - Assegno erogato al LAV con emissione della C.U.
+        Registrare in 3a videata la voce 674 "TASSAZIONE INDENN.ENTI" con
+	l'importo lordo, inserendo nella colonna unita' il partitario dell'Ente,
+        e nella colonna aliquota il codice causale conguaglio e la voce 2054 
+	per l'irpef.
+
+      - Assegno erogato al DL
+        Registrare in terza videata la voce 6394 "RIMBORSI PRESTAZIONI E.B."
+	(solo pagamento ed assoggettamento a fiscale) ovvero
+	6395 "RIMB.PRESTAZ.E.B. ESENTI" (solo pagamento).
+               
+
+                             VOCI AMMORTIZZATORE UNICO 
+
+      Tipo pagamento:      **   DIRETTO   ** 
+                           |   Mese a.u.   |
+                           |   (calend.)   |
+       --------------------------------------
+       AMMORTIZZATORE UNICO |    981        |
+
+                          VOCI INTEGRAZIONE SALARIALE UNICA
+
+      Tipo pagamento:      ***        CONGUAGLIO         *** **   DIRETTO   ** 
+                           |   Mese Fis    |   Mese Aut.    |     Mese Fis
+                           |   (calend.)   |   (3a vid.)    |     (calend.)
+       ------------------------------------------------------------------------
+      1. ISU EFFETTUATO E GIA' AUTORIZZATO
+       ------------------------------------------------------------------------
+       INT.SALARIALE UNICA  |     6730      |                |        979
+       ------------------------------------------------------------------------
+      2. ISU EFFETTUATO SENZA AUTORIZZAZIONE CON ANTICIPO C/DITTA
+       ------------------------------------------------------------------------
+       INT.SALARIALE UNICA  |     6732      |     6734       |        979
+       ------------------------------------------------------------------------
+      3. ISU EFFETTUATO SENZA AUTORIZZAZIONE SENZA ANTICIPO C/DITTA
+       ------------------------------------------------------------------------
+       INT.SALARIALE UNICA  |     6731      |     6733       |        979
+       ------------------------------------------------------------------------
+ Le modalita' di domanda Cig/Fis e relativa compilazione dell'Uniemens,
+ prevedono:
+ - il rilascio preventivo di un "ticket" che identifica ogni periodo di Cig/Fis,
+   tramite apposito servizio sul sito Inps. 
+   (il ticket verra' successivamente abbinato alla relativa autorizzazione) 
+ - l'esposizione giornaliera nell'Uniemens delle ore di Cig/Fis, con 
+   indicazione del relativo ticket ovvero autorizzazione;
+ - l'esposizione degli eventi mensili individuali nell'Uniemens, con indicazione
+   dell'eventuale pagamento diretto (compresi dati ANF, trattenuta pensione, 
+   trattenuta sindacale);
+
+
+                            ISTRUZIONI OPERATIVE
+
+CIG/FIS NON AUTORIZZATI 
+
+ 1. Inserimento del TICKET.
+    03 Datori Lavoro
+    27 CIG/FIS/FSBA IRAP
+    01 Gestione storico cig/fis/fsba - Uniemens
+
+    *** DATI DATORE LAVORO ***
+      - datore lavoro: codice D.L. interessato
+      - filiale: filiale interessata ovvero accentratrice
+      - nr.prog.: num. d'ordine per ciascun periodo di Cig/Fis (codif. interna)
+
+    *** DATI CIG/FIS/FSBA ***
+      - tipo cig:        1 = ordinaria
+                         - ev.:0 = ord.;1 = edil.; 10 = esente DL 4/2022
+			                           11 = DL 21/2022 limiti esaur.
+			                           12 = Es.DL 21/2022 art.11,2
+                         2 = straordinaria
+                         - solidarieta':  0 = no ; 1 = si
+                         3 = deroga
+                         4 = agricoltura
+        tipo fis/f.bil.: 5 = ordinario
+                         - ev.:0 = ord.; 1 = edil.; 7 = esente DL 4/2022
+			                            8 = DL 21/2022 limiti esaur.
+			                            9 = Es.DL 21/2022 art.11,2
+                         6 = solidarieta'
+        tipo fis:        7 = finanziamento
+        tipo fsba:       8 = FSBA Ordinaria
+	                 9 = FSBA Solidarieta'
+      - unita' produttiva: codice unita' produttiva 
+      - tipo pagamento:  3 - richiesta 
+      - data richiesta
+      - periodo:  (dal - al)
+      - numero ticket:  codice alfanumerico (16 caratteri) rilasciato
+                        dal sito web www.inps.it ovvero generato
+                        contestualmente alla presentazione della domanda
+
+    *** TIPO SELEZIONE ***
+      - filiali:     interessate ovvero 99 = tutte 
+      - c/costo:     interessati ovvero 999 = tutti 
+      - reparto:     interessati ovvero 999 = tutti 
+      - cantieri:    interessati ovvero 9999 = tutti
+      - qualifica:   interessata ovvero 9 = tutte 
+      - tipo orario: 1=pieno, 2=parz., 9=tutti
+   
+ 2. Creazione ed estrazione del file per la richiesta Cig/Fis. 
+    Ved. QR "CIG/FIS - ESTRAZIONE FILE PER ISTANZA D.Lgs 148/2015"
+
+ 3. Ricezione del ticket.
+    03 Datori Lavoro
+    27 CIG/FIS/FSBA IRAP
+    01 Gestione storico cig/fis/fsba - Uniemens
+
+    *** DATI DATORE LAVORO ***
+      - datore lavoro: codice D.L. interessato
+      - filiale: filiale interessata ovvero accentratrice
+      - nr.prog.: num. d'ordine per ciascun periodo di Cig/Fis (codif. interna)
+
+    *** DATI CIG/FIS/FSBA ***
+      tipo pagamento (1=dir.;2=cong.;3=rich.)..: 2 (per FSBA 1=diretto)
+      Numero ticket.................: 
+
+ 4. Registrare nel LUL le voci presenti nel paragrafo "VOCI", in base alla 
+    tipologia di Cig/Fis. (opzione 2 o 3, colonna "CONGUAGLIO - Mese Cig/Fis 
+    calend.")
+
+ 5. Ricezione dell'autorizzazione.
+    03 Datori Lavoro
+    27 CIG/Fis - IRAP
+    01 Gestione storico cig/fis/fsba - Uniemens
+
+    *** DATI DATORE LAVORO ***
+      - datore lavoro: codice D.L. interessato
+      - filiale: filiale interessata ovvero accentratrice
+      - nr.prog.: num. d'ordine per ciascun periodo di Cig/Fis (codif. interna)
+
+    *** DATI CIG/FIS/FSBA ***
+      - numero autorizzazione:
+      - mese conguaglio (mm.aaaa): periodo di conguaglio su LUL ed Uniemens
+                                   (all'atto dell'autorizzazione)
+      - Addizionale mese successivo: 0 nel mese corrente
+                                     1 nel mese successivo 
+
+    *** ORE/IMPORTI CIG/FIS/FSBA ***
+                              Riepiloghi mensili          Chiusura fine mese
+                              ------------------------------------------------
+      - ore storico:                                           automatico 
+                              ------------------------------------------------
+      - ore mese:              automatico in base al 
+                               periodo di Cig/Fis effettuati 
+                              ------------------------------------------------
+      - importo storico:                                       automatico
+                              ------------------------------------------------
+      - importo mese:          automatico in base al 
+                               periodo di Cig/Fis effettuati 
+			      ------------------------------------------------
+      - importo conguagliato:                                  automatico
+                                                           (contiene imp. gia'
+                                                            cong. su Uniemens)
+                              ------------------------------------------------
+      - importo addizionale:                                   automatico
+
+    *** TIPO SELEZIONE ***
+      - filiali:     interessate ovvero 99 = tutte 
+      - c/costo:     interessati ovvero 999 = tutti 
+      - reparto:     interessati ovvero 999 = tutti 
+      - cantieri:    interessati ovvero 9999 = tutti
+      - qualifica:   interessata ovvero 9 = tutte 
+      - tipo orario: 1=pieno, 2=parz., 9=tutti
+    Il programma memorizza (a richiesta) nel LUL, l'importo della Cig/Fis
+    utilizzata nei mesi precedenti, proponendo la voce di Cig/Fis (in base alla
+    tipologia), la voce di addizionale e il numero progressivo relativo al
+    periodo interessato.
+    Le scelte di memorizzazione sono le seguenti:
+    Y = memorizzazione totale CIG da conguagliare su una unica matricola
+    I = memorizzazione su ogni LAV del relativo importo CIG da conguagliare 
+        (scelta consigliata)
+    S = esegue solo stampa di controllo
+ 6. Registrazione LUL
+    Il programma propone, in 3a videata, la voce di conguaglio, 
+    impostando automaticamente il codice autorizzazione (in base al periodo
+    caricato precedentemente nel menu' 03-27-01)
+
+    N.B.: Nell'Uniemens l'abbinamento tra Cig/Fis registrata nel Lul e ticket 
+          inserito in storico cig/fis/fsba e' automatico, in base al periodo.
+
+ 7. Riepiloghi mensili
+    Il programma genera due output con le seguenti caratteristiche:
+    - DETTAGLIO CIG/FIS/FSBA CONGUAGLIO : suddivisione dei LAV per numero 
+                                          progr. Cig/Fis/fsba e relativi importi
+    - TOTALE CIG/FIS/FSBA CONGUAGLIO    : riepilogo dei totali Uniemens, per 
+                                          progressivo Cig/Fis/fsba.
+
+   NOTA BENE
+    A) Se l'importo totale della riga Arch.LUL e' uguale all'importo totale
+       della riga Arch.Cig/Fis, il programma ripartira' in automatico gli 
+       importi delle varie Cig/Fis nell'Uniemens, segnalando "mem." nella 
+       colonna Uniemens del tabulato.
+
+    B) Se l'importo totale della riga Arch.LUL e' diverso dall'importo totale
+       della riga Arch.Cig, il programma memorizza l'importo totale
+       nell'Uniemens contributivo, che dovra' essere suddiviso manualmente per
+       autorizzazione, in base alle risultanze del tabulato.
+
+CIG AUTORIZZATA
+
+ 03 Datori Lavoro
+ 27 CIG/FIS/FSBA IRAP
+    01 Gestione storico cig/fis/fsba - Uniemens
+
+    *** DATI DATORE LAVORO ***
+      - datore lavoro: codice D.L. interessato
+      - filiale: filiale interessata ovvero accentratrice
+      - nr.prog.: numero d'ordine per ciascun periodo di Cig (codifica interna)
+
+    *** DATI CIG/FIS/FSBA ***
+      - tipo cig:        1 = ordinaria
+                         - ev.:0 = ord.;1 = edil.; 10 = esente DL 4/2022
+			                           11 = DL 21/2022 limiti esaur.
+			                           12 = Es.DL 21/2022 art.11,2
+                         2 = straordinaria
+                         - solidarieta':  0 = no ; 1 = si
+                         3 = deroga
+                         4 = agricoltura
+        tipo fis/f.bil.: 5 = ordinario
+                         - ev.:0 = ord.; 1 = edil.; 7 = esente DL 4/2022
+			                            8 = DL 21/2022 limiti esaur.
+			                            9 = Es.DL 21/2022 art.11,2
+                         6 = solidarieta'
+        tipo fis:        7 = finanziamento
+      - unita' produttiva                
+      - tipo pagamento:  2 = conguaglio
+      - data richiesta
+        periodo:  (dal - al)
+
+      - numero ticket:  codice alfanumerico (16 caratteri) rilasciato
+                        dal sito web www.inps.it ovvero generato
+                        contestualmente alla presentazione della domanda
+      - numero autorizzazione: (quando noto)
+      - mese conguaglio:  periodo di conguaglio su Lul ed Uniemens
+                          (all'atto dell'autorizzazione)
+
+    *** TIPO SELEZIONE ***
+      - filiali:     interessate ovvero 99 = tutte 
+      - c/costo:     interessati ovvero 999 = tutti 
+      - reparto:     interessati ovvero 999 = tutti 
+      - cantieri:    interessati ovvero 9999 = tutti
+      - qualifica:   interessata ovvero 9 = tutte 
+      - tipo orario: 1=pieno, 2=parz., 9=tutti
+
+    Conguaglio CIG pregresse
+     Inserendo il numero di autorizzazione ed il relativo mese di conguaglio,
+     il programma propone la memorizzazione automatica in registrazione
+     movimenti, degli importi relativi alla CIG effettuata nei mesi precedenti.
+     Propone in input:
+     - l'importo totale che verra' recuperato e le relative addizionali;
+     - la voce che verra' memorizzata sul LUL;
+     - la matricola del dipendente sulla quale verra' memorizzata la voce
+       selezionata
+
+CIG PAGAMENTO DIRETTO
+  1. Inserire il numero di Ticket ovvero il numero di autorizzazione e il
+     periodo di Cig/Fis (menu' 03-27-01)
+     Valorizzare il campo "tipo pagamento" = 1 (diretto).
+
+  2. Registrare nel LUL le voci presenti nel paragrafo "VOCI", in base alla 
+     tipologia di Cig/Fis.
+     (colonna "PAG.DIRETTO - Mese Cig calend.")
+
+  3. Il programma durante l'elaborazione del LUL calcolera' in automatico:
+
+     - Mese di Cig/Fis intero
+       Trattenuta sindacale: non propone la voce in registrazione del LUL,
+                             memorizza il codice sindacato nell'Uniemens.
+       Assegno nucleo fam. : propone la voce 6635 (A.N.F. PAGAM.DIRETTO) 
+                             in luogo della 635.
+       Trattenuta pensione : propone la voce 6636 (TRATT.PENS.PAGAM.DIRETTO) 
+                             in luogo della 670.
+
+     - Mese di Cig/Fis frazionato
+       Trattenuta sindacale: espone la voce in registrazione del LUL,
+                             interamente a carico del Datore Lavoro.
+       Assegno nucleo fam. : riproporziona i giorni nella voce 635
+                             (ASSEGNO NUCLEO FAMILIARE) a carico DL e la voce 
+			     6635 (A.N.F. PAGAM.DIRETTO) a carico dell'Inps.
+
+       Trattenuta pensione : riproporziona i giorni/ore nella voce 670
+                             (TRATTENUTA PENSIONE) a carico DL e la voce 6636
+                             (TRATT.PENS.PAGAM.DIRETTO) a carico dell'Inps.
+
+     Determinera' inoltre la richiesta detrazioni lavoro dipendente all'Inps
+     qualora i giorni detrazione proposti in registrazione siano stati ridotti
+     per evento Cig/Fis, originando la voce 2648 (GIORNI DETRAZIONE CIG).
+
+
+  4. In caso di cessazione del rapporto di lavoro durante ovvero al termine del
+     periodo di Cig/Fis, inserire le voci 701 (con segno meno) e 2407, di 
+     importo pari alla somma del tfr maturato nel periodo di riferimento.
+                                VOCI PARTICOLARI
+
+  GESTIONE MINIMALE PER GIORNATE FRAZIONATE
+   Nel caso di giornate parzialmente coperte da cig/fis/fsba, per escludere il 
+   conteggio del minimale, registrare, solo per lavoratori a tempo pieno, 
+   le voci 6950 e 6990 = 1
+
+  ORE LAVORABILI DEL MESE < ORE CIG/FIS EFFETTUATA
+   E' possibile forzare il divisiore mobile da utilizzare nel mese inserendo,  
+   nelle registrazioni preliminari (05-38-02), la seguente voce:
+   6933 FORZAT.DIV.OR./SCAGL.CIG    campo unita' = divisore mobile forzato
+                                    (LAV PT = indicare div.mobile del full-time)
+   NB: 1. dopo aver inserito la suddetta voce occorre registrare il LUL (05-01)
+       2. in caso di elaborazione anticipata occorre correggere il campo 10/2
+          dell'inquadramento Uniemens MP e ritrasmettere il flusso
+
+  DIVISORE CIG FORZATO AUTOMATICAMENTE
+   Il programma, in applicazione della circolare INPS 197 del 02.12.2015,
+   calcola, per assunti/liquidati/CM nel mese, il divisore CIG con
+   la seguente formula:
+
+   (Ore settimanali CCNL / 6) * (giorni lavorabili mese + numero Sabati)
+
+   Durante il calcolo stipendi viene automaticamente generata la voce
+   6933 FORZAT.DIV.OR./SCAGL.CIG, riportando nelle unita' il divisore mobile
+   applicato.
+
+  TABULATO COSTI
+   La CIG/FIS/FSBA autorizzata e recuperata verra' esposta con le seguenti voci:
+   
+  Voce     Campo 48                      Voce    Campo 48
+   963      3021 (CIG/FIS ANTICIPATA)     6559    3450 (CIG/FIS RECUP. UNIEMENS)
+   968      3021 (CIG/FIS ANTICIPATA)     6649    3450 (CIG/FIS RECUP. UNIEMENS)
+   973      3021 (CIG/FIS ANTICIPATA)     6554    3450 (CIG/FIS RECUP. UNIEMENS)
+   978      3021 (CIG/FIS ANTICIPATA)     6659    3450 (CIG/FIS RECUP. UNIEMENS)
+   983      3021 (CIG/FIS ANTICIPATA)     6679    3450 (CIG/FIS RECUP. UNIEMENS)
+                                          6884    3450 (CIG/FIS RECUP. UNIEMENS)
+   6663     3021 (CIG/FIS ANTICIPATA)     6665    3450 (CIG/FIS RECUP. UNIEMENS)
+   6754     3021 (CIG/FIS ANTICIPATA)     6752    3450 (CIG/FIS RECUP. UNIEMENS)
+   6758     3021 (CIG/FIS ANTICIPATA)     6769    3450 (CIG/FIS RECUP. UNIEMENS)
+   6764     3021 (CIG/FIS ANTICIPATA)     6762    3450 (CIG/FIS RECUP. UNIEMENS)
+
+  CALCOLO TETTO CIG/FIS E PERCENTUALE
+
+  CALCOLO TETTO CIG/FIS
+   I valori sono inseriti nella tabella:
+   01 Tabelle
+   19 Importi tetti
+    1 CIG/FIS/FSBA                   
+      Il calcolo dello scaglione di appartenenza viene cosi' determinato:
+      Retribuzione lorda * n.mensilita' / 12
+      n.mensilita' = 12 + (ore 13a / divisore orario) +
+                          (ore 14a / divisore orario) +
+                          (importo premio / retribuzione lorda) +
+                          (ore premio / divisore orario)
+
+  CALCOLO TETTO CIG/FIS CON DIVISORE MOBILE
+   Ore giornaliere = ore settim. (campo 3 ccnl) / giorni settim. (campo 3 ccnl)
+   Divisore mobile = Ore giornaliere * giorni mensili (1)
+   (1) giorni settimanali = 5 conteggio da lunedi' a venerdi'
+   (1) giorni settimanali = 6 conteggio da lunedi' a sabato
+
+  CALCOLO DATO BASE ORARIO
+   Il calcolo del dato base orario viene maggiorato delle mensilita' aggiuntive.
+  CALCOLO AUTOMATICO DELLA PERCENTUALE
+   Durante la registrazione verranno esposte le voci con la percentuale
+   inserita in questa tabella:
+    01 Tabelle
+    14 Voci automatiche
+    02 Voci automatiche per aliquota
+
+       Voce  |  Percent.       Voce  |  Percent.        Voce  |  Percent.
+     =====================    ===================      ===================
+       961   |   75,33         983   |   75,33          6765  |   75,33         
+       962   |   75,33         6551  |   75,33          6881  |   75,33
+       963   |   75,33         6552  |   75,33          6882  |   75,33
+       966   |   75,33         6553  |   75,33          6883  |   75,33
+       967   |   75,33         6556  |   75,33          6757  |   75,33
+       968   |   75,33         6557  |   75,33          6758  |   75,33
+       972   |   75,33         6558  |   75,33          6759  |   75,33
+       973   |   75,33         6751  |   75,33          6781  |   75,33
+       976   |   75,33         6754  |   75,33          6782  |   75,33
+       977   |   75,33         6755  |   75,33          6783  |   75,33
+       978   |   75,33         6761  |   75,33
+       982   |   75,33         6764  |   75,33
+                        
+  RIDUZIONE RATEI
+   01 Tabelle
+   36 Voci presenze
+      Valorizzare gli istituti contrattuali della riga "incidenza riduzione
+      ratei...(r)" con le seguenti modalita':
+        0 = nessuna riduzione
+        1 = riduzione in proporzione
+        2 = rid. > 50% ore lavorabili mensili: esclude il rateo
+            rid. < 50% ore lavorabili mensili: calcola il rateo
+        9 = esclusione maturazione rateo
+
+       NOTA BENE
+        Per le voci di Cig/Fis solidarieta' la valorizzazione della riga
+        "incidenza riduzione ratei...(r)" e' automatica = 1
+
+
+   oppure
+   04 Lavoratori
+   01 Gestione
+      Valorizzare il campo 62/2 (SOSPENS.RATEI) con le seguenti
+      modalita':
+        1 = sospensione per m.a. e ferie, f.s., r.o.l.
+        2 = sospensione per m.a.
+        3 = sospensione per ferie, f.s., r.o.l.
+      e il 62/3 (MESI SOSPENS.RATEI) con :
+        nn = mesi
+        99 = sospensione senza limiti.
+
+  ESPOSIZIONE FESTIVITA' IN CIG/FIS/CIGD/FSBA
+  Ammortizzatore Tipo pag.    CIG con rid.    Sosp. attivita' (1)
+			       orario (1)      < 15 gg (1)     > 14 gg (1)
+   CIGO/FIS/CIGD  Mensilizzati DL - voce 301   INPS - voce     INPS - voce
+                                               CIG/FIS/CIGD    CIG/FIS/CIGD
+	          Pagati a ore DL - voce 301   DL - voce 301   INPS - voce
+		                                               CIG/FIS/CIGD (2)
+   FSBA	          Mensilizzati DL - voce 301   DL - voce 301   DL - voce 301
+	          Pagati a ore DL - voce 301   DL - voce 301   Non dovuta (2)
+
+   (1) Richiesta in input, per i LAV pagati a ore, durante la registrazione
+       stipendi (05-01), se CIG riduzione orario o sospensione < 15 gg
+   (2) Le festivita' del 25 aprile, 1 maggio, 2 giugno e (da 2026) 4 ottobre
+       sono sempre a carico DL.
+
+
+  ISTRUZIONI PARTICOLARI PER PATTO SOLIDARIETA'
+
+  RIDUZIONE CONTRIBUTIVA CONTRATTI DI SOLIDARIETA'
+   Anagr.Lav. - c. 67/6 :    1 = Contratto solidarieta' (Rid.35%-Uniemens:L929)
+                             9 = Contratto solidarieta' senza riduzione
+ 
+CALCOLO RIDUZIONE CONTRIBUTIVA SOLIDARIETA'
+ In seguito all'emanazione della circolare Inps, contenenti le istruzioni
+ operative occorre eseguire il seguente programma:
+ 36 Altri moduli software
+ 05 Programmi vari
+ 34 Variazioni Anagrafiche/Movimenti
+  4 Variazioni Movimenti
+    2 Calcolo riduzione ctr.solid.
+
+    Il programma richiede in input il periodo da elaborare e le voci di
+    solidarieta' utilizzate e fornisce un tabulato riepilogativo individuale,
+    ed un supporto magnetico a richiesta, dei conteggi effettuati, per i
+    lavoratori con riduzione orario di lavoro superiore al 20% dell'orario
+    contrattuale.
+    L'importo degli arretrati va inserito manualmente, nella registrazione
+    del LUL con la voce 1826, sul primo LAV disponibile.   
+
+                            RECUPERO TFR C/INPS
+   
+                                IMPORTANTE
+ Riteniamo opportuno precisare che per i contratti di solidarieta' successivi
+ al 24.09.2015, il trattamento di fine rapporto rimane a carico del datore 
+ lavoro nelle seguenti ipotesi:
+ - licenziamento per giustificato motivo oggettivo/licenziamento collettivo
+   entro 90 giorni dalla fine della solidarieta'
+ - licenziamento per giustificato motivo oggettivo/licenziamento collettivo 
+   entro l'eventuale CIGS successiva alla solidarieta'
+   (iniziata entro 120 gg dal termine della solidarieta')
+
+E' pertanto necessario che l'utente verifichi attentamente i requisiti di 
+ciascun lavoratore liquidato e provveda a rettificare la situazione storico
+nonche' le modalita' di pagamento del TFR adeguandole al singolo caso in esame.
+
+RECUPERO TFR DOPO AUTORIZZAZIONE                    
+ Il recupero degli arretrati di tfr del periodo autorizzato, puo' avvenire 
+ inserendo in registrazione del LUL, di ogni dipendente, la voce 6550 TFR 
+ c/INPS virt. (cod. Uniemens L045), con l'importo cosi' calcolato:
+ - tfr totale   : storico voci 2580 / 2581 / 2589 
+ - rivalutazione: (2581 + 2589) * aliquota Istat del mese
+
+ Il programma memorizza le somme erogate nella voce 2583 che abbatte il
+ fondo TFR c/INPS.
+
+RECUPERO MESE CORRENTE SOLIDARIETA' AUTORIZZATA
+ Le quote di TFR c/inps, relative al patto di Solidarieta', possono essere
+ recuperate attraverso l'Uniemens con codice L045 anche prima del pagamento
+ del TFR dei lavoratori interessati.
+ Per effettuare il recupero occorre personalizzare la voce 6550 TFR c/INPS virt. con le seguenti istruzioni:
+ 01 Tabelle
+ 13 Voci
+ 01 Voci personalizzate
+
+    Voce:         765 RETR.VIRT.TFR CIG  C/INPS
+    Cod.pers.:   xxxx 
+    c. 52 1a Duplicazione  :   6550
+    c. 53 1o coeff. duplic.:     41
+
+ La voce viene duplicata nel mese corrente per adeguare automaticamente lo
+ storico del lavoratore.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ISTRUZIONI PER CIG TICKET NON RICONOSCIUTA     
+ 
+ In caso di disconoscimento della Cig effettuata con anticipo c/ditta, occorre
+ eseguire le seguenti istruzioni:
+
+ - 04 Lavoratori ovvero 24 Lavoratori a.p.
+   10 Storico Lavoratori
+   01 Gestione 
+      Correggere manualmente l'imponibile delle seguenti voci aumentandolo 
+      dell'importo delle ore non riconosciute:
+      1001, 1401, 1923, 2601
+ 
+ - 04 Lavoratori ovvero 24 Lavoratori a.p.
+   19 Storico Uniemens
+   01 Gestione dati retributivi
+      mese:  - tipo lav.:  - tipo mese:  - tipo quadro: 1 - n.ordine:   
+      campo 9 : correggere l'imponibile
+      campo 44: azzerare (solo in caso di CIG non riconosciuta totalmente)
+
+      mese:  - tipo lav.:  - tipo mese:  - tipo quadro: 2 - n.ordine:   
+      campi da 3 a 7   : correggere la copertura delle settimane interessate 
+                         in copertura 9 (se non vi sono altri eventi nella
+			 settimana interessata)
+      campo dal 9 al 18: azzerare ovvero diminuire la differenza d'accredito 
+                         relativa alla cig non riconosciuta
+      campi da 21 a 51 : correggere i giorni interessati di CIG eliminando 
+                         le ore di CIG
+      
+   NB: precisiamo che variando l'imponibile, l'INPS emettera' note di 
+       rettifica per i contributi dei periodi di CIG; precisiamo che 
+       la differenza contributiva da inserire su modello F24 e' manuale.
+
+ - 05 Elaborazioni
+   01 Registrazione movimenti mensili
+      Voce 1795 (Ctr DL e LAV) = inserire i contributi da versare
+      Voce 411 = inserire l'importo lordo da corrispondere ai LAV, previo 
+                 accordo con il DL
+      Voce 415 = inserire l'importo delle ore non riconosciute, se e' stata
+                 utilizzata la voce di anticipo CIG
+
+ 

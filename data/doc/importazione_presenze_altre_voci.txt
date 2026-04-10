@@ -1,0 +1,647 @@
+IMPORTAZIONE PRESENZE / ALTRE VOCI
+
+
+
+ 05 Elaborazioni
+ 38 Registrazioni preliminari
+  6 Importazione presenze formato GENIUS
+
+    01 IMPORTAZIONE ARCHIVIO
+       Importa l'archivio conforme al tracciato standard C.L. SYSTEM, 
+       dalla cartella:
+      "/pup/dischi/import" 
+
+    02 ELENCO VOCI PRESENZA ARCHIVIO IMPORTATO
+       Stampa l'elenco delle voci presenza dell'archivio importato.
+
+    03 ELENCO ALTRE VOCI ARCHIVIO IMPORTATO
+       Stampa l'elenco delle altre voci dell'archivio importato.
+
+    05 ACCUMULO VOCE 300 MULTIPLA              (da concordare con C.L. SYSTEM)
+
+    06 ACCUMULO ALTRE VOCI NON TOTALIZZATE     (da concordare con C.L. SYSTEM)
+
+    20 MEMORIZZAZIONE PRES.IN GENIUS (FORZ.)
+
+    21 MEMORIZZAZIONE PRESENZE IN GENIUS
+       Rileva e memorizza le voci presenza (pag.4 e 5) contenute nell'archivio 
+       importato autocompilando il calendario.
+      N.B.: La ripartizione delle ore di presenza, tra matricola old e 
+            matricola new, e' automatica, sia in elaborazione anticipata sia
+            in elaborazione normale, ed e' fornito un tabulato di controllo.
+            Vedere APPENDICE a pagina 13.
+
+    22 STAMPA LIBRO PRESENZE
+       Stampa le presenze con selezione dell'archivio di origine.
+
+    23 MEMORIZZAZIONE ALTRE VOCI IN GENIUS 
+       Rileva e memorizza le seguenti tipologie di voci:
+       - voci di base            : nelle costanti retributive di base 
+                                   dell'anagrafica lavoratore
+       - voci di corpo/contrib./ : in registrazione movimenti mesili ovvero 
+         fiscali                   in registrazione mensilita' aggiuntive 
+			           (opzione richiesta in input)
+       - voci per parasubordinati: in registrazione movimenti mensili
+
+    24 STAMPA ALTRE VOCI 
+       Stampa le voci memorizzate al punto precedente.
+
+    25 MEMORIZZAZIONE EVENTI M/M/I IN GENIUS
+       Rileva gli eventi di malattia/maternita'/infortunio contenuti 
+       nell'archivio presenze e li memorizza eseguendo in modalita' 
+       "accelerata" il programma "MALATTIA/MATERNITA'/INFORTUNIO" 
+       (menu' GENIUS 04-22) e presumendo la prosecuzione dell'evento in caso 
+       di copertura dell' ultimo giorno del mese.
+      N.B.: consultare pagina 6 per le specifiche della compilazione del file.
+
+    26 ACQUISIZ.CERT.MALATTIA DA PULSE 
+       Importa il file XML dei certificati prodotto dalla procedura PULSE.
+
+
+
+    27 MEMOR. ALTRE VOCI POST REGISTRAZIONE 
+       Rileva e memorizza in registrazione preliminari e registrazione
+       movimenti mensili. N.B. Eseguire esclsivamente dopo aver gia' eseguito 
+       la registrazione movimenti mensili (05-01).
+
+    33 IMPORTAZIONE COMMESSE LAV.DOMICILIO
+       Importa l'archivio commesse lavoranti a domicilio, conforme al 
+       tracciato standard C.L. SYSTEM, dalla cartella:
+      "/pup/dischi/import" 
+
+    34 COMPATTA COMMESSE LAVORANTI DOM.
+       Compatta le commesse dei lavoranti a domicilio.
+
+    36 MEMORIZZAZIONE COMMESSE LAV.DOM.
+       Memorizza le commesse dei lavoranti a domicilio.
+
+ARCHIVIO VOCI PRESENZE / BASE / CORPO / CONTRIBUZIONE / PARASUBORDINATI.
+ Qui di seguito le caratteristiche tecniche per la composizione del file.
+
+ Codifica      : ASCII
+ Lungh.record  : 184 (esclusi i due caratteri finali)
+ Delimited     : Ultimi due byte con caratteri ASCII 'CR' e 'LF' (valori
+                 esadecimali '0d' e '0a')
+ Nome file     : a scelta; 
+                 E' consentita la fornitura di archivi distinti in base al 
+		 contenuto (PRESENZE, BASE/CORPO/CONTRIBUZIONE, PARASUBORDINATI)
+		 sebbene si consigli la generazione di un archivio unico.
+
+
+TRACCIATO RECORD VOCI PRESENZE
+
+Pos.    Descrizione     Lungh. Tipo  Note
+ 01-01   flag              1     X    "U"  = nuovo formato
+ 02-05   ditta             4     N    xxxx = codice identificativo della azienda
+                                      Deve essere uguale a quello utilizzato 
+				      dalla procedura GENIUS
+ 06-07   mese              2     N    xx   = mese cui si riferiscono le causali
+ 08-09   anno              2     N    xx   = anno cui si riferiscono le causali
+ 10-20   matricola        11     N    xxxxxxxxxxx = cod.identificativo
+                                                    del lavoratore nell'azienda
+                                      Deve essere uguale a quello utilizzato 
+				      dalla procedura GENIUS e cosi' suddiviso:
+                                      - prime 4 posizioni  = cod.ditta
+                                      - 5^ posizione       = qualifica  INPS
+                                      - ultime 6 posizioni = codice personale 
+				                             del lavoratore
+ 21-24   voce              4     N    xxxx = codice della causale relativa alle
+                                             ore di presenza/assenza
+                                      Attenersi alla TABELLA VOCI PRESENZE e 
+				      alla TABELLA EVENTI PARTICOLARI.
+ 25-29   aliquota          3,2   N    aliquota applicata alla voce.
+                                      Attenersi alla TABELLA VOCI PRESENZE.
+ 30-184  tab.giorni   31 x 3,2   N    tabella di 31 elementi corrispondenti ai 
+                                      giorni: in ciascun elemento indicare le 
+				      ore relative alla causale.
+				      Precisiamo che i decimali devono essere
+				      espressi in centesimi
+				      Es. 7 ore e 30 minuti -> 00750.
+				      Per i mesi con meno di 31 giorni le 
+				      posizioni della tabella in esubero devono
+				      essere valorizzate con zeri.
+
+
+TAB VOCI PRESENZE CL SYSTEM al 01/2026(verificare eventuali personalizzazioni)
+COD.  DESCRIZIONE     % |  COD.  DESCRIZIONE    % | COD.   DESCRIZIONE     %
+ ------------------------------------------------------------------------------
+ 300   LAVORO ORD        |  457   FF INF CE      < |  992(2)CONG.COVID f        
+ 301   FESTIVITA'        |  458   GN INF CE      < |  993(2)CONG.COVID d        
+ 302   FERIE             |  462   FF M/I ED.     < | 6300   SMART WORKING       
+ 303   FEST.SOPPR.       |  463   GN M/I ED.     < | 6303   PERMESSI ELETTOR.   
+ 304   R.O.L.            |  579   ROL CE MAL     < | 6304   PERMESSI LUTTO      
+ 305   PERM.RETR.        |  592   TR. MAL. a.    < | 6305   PERMESSI VISITA MED.
+ 306   PERM.SIND.        |  593   INT. MAL. v.   < | 6306   PERMESSI STUDIO     
+ 307   FLESS.LAV.      < |  594   TR. INF. a.    < | 6307   MT.ORE 2 LAV    <   
+ 308   FLESS.REC.        |  596   INT. INF. v.   < | 6308   MT.ORE 2 REC        
+ 309   INT. MAL.       < |  623   L.903          > | 6309   MAL.COVID       <   
+ 310   INT. INF.       < |  624   L.903 NET.     > | 6310   MAL.QUAR.D.     <   
+ 311   INT. MAT.       < |  626   DON.SAN.       > | 6311   PARTO PREM          
+ 312   TR. MAL.        < |  627   CON.MATR.(inps)< | 6312   MAL.QUAR.       <   
+ 313   TR. INF.        < |  641(4)MAT.FAC.       < | 6313   CONG.M.FG.
+ 314   CONG.MATR.DL.     |  646(4)MAT.FAC.       < | 6314   CONG.L.106          
+ 315   PER.ED.40H        |  651(4)MAT.FAC.       < | 6315   CONG.CURE       <   
+ 316   PER.ED.ROL        |  656(4)MAT.FAC.       < | 6316   L.106 ORE
+ 317   ASSEMBLEA         |  661(4)MAT.FAC.HH       | 6319   ASS.INGIUST.N.R.    
+ 319(4)MATER.FAC.      < |  662(4)MAT.FAC.HH       | 6325   ASSENZE CTR         
+ 320   ASSENZE           |  663(4)MAT.FAC.HH       | 6326   INIDON.D.SANG   
+ 321   SCIOPERO          |  664(4)MAT.FAC.HH       | 6345   SC.PROF.   
+ 322   ASS./ASP.         |  668   CONG.PADRE       | 6353   STR.NOTT.       >   
+ 323   SOSP.DISC.        |  682   MAT.L.104-L301   | 6354   STR.NOTT.S      >  
+ 324   RITARDI           |  687   L.104 (L054)   > | 6361   STR.RIP.        >
+ 325   ASS.CTR.          |  689   CIGS DER.(UE)  > | 6362(1)SUPPL.NOTT      >   
+ 326   PERM. NR          |  691   L.104 (L057)   > | 6381   TRAS.ITALIA v. (3)  
+ 327   MT.ORE +        < |  692   L.104 (L058)   > | 6382   TRAS.ESTERO v. (3)  
+ 328   MT.ORE -          |  693   MAL. PORT.       | 6391   PT L.208      
+ 329(6)FEST.R.S.         |  736   L.104 (L056)   > | 6626   PERM.DON.SANGUE INI.
+ 335   FERIE A.P.        |  739   ROL INF CE     < | 6861(5)MAT.FAC.
+ 336   FEST.SOPPR.A.P.   |  740   INT INF CE     < | 6862(5)MAT.FAC.
+ 337   R.O.L. A.P.       |  747   DON. M. O.     < | 6863(5)MAT.FAC.
+ 341   FLESS.REC. A.P.   |  770   INT. MAL. CE   > | 6909   MAL.COVID       <
+ 345   SC.PROF.          |  773   INT. MAL. CE   < | 6910   MAL.QUAR.D.     < 
+ 347   MAGG.DOM.       < |  774   INT. INF. CE   < | 6912   MAL.QUAR.       <
+ 348   MAGG.FEST.      < |  898   MAT. INPDAP    < |
+ 349   MAGG.NOTT.      < |  899   MAL. INPDAP    < |                          
+ 350   MAGGIOR.(si tfr)< |  909(2)MALATTIA         |                          
+ 351   MAGGIOR.(no tfr)< |  910(2)INFORTUNIO       |
+ 353(1)STRAORD.(no tfr)> |  911(2)MATERN.OBG       |                            
+ 354(1)STRAORD.(si tfr)> |  919(2)MATERN.FAC.      |                            
+ 356(1)STR > 48(no tfr)> |  929   RETT.CAL.        |                            
+ 357(1)STR > 48(si tfr)> |  931   PERM.FG<3        |                            
+ 359(1)STR 50%         > |  932   PERM.FG>3        |                            
+ 360   LAV.SUPPL.      < |  933   L.104 (L053)     |                            
+ 361   LAV.FEST.       > |  934   STR FORF.        |                            
+ 362(1)LAV.SUPPL.      > |  938   TRASFERTA        |                            
+ 363   PROL.ORAR.      > |  942   RIP.COMP.        |                            
+ 364   IND. DISPON.    < |  946   FERIE ECC.       |                            
+ 365   MAGG.R.S.       < |  947   ASSEN. ECC.      |                            
+ 366   CONG. PAREN.      |  948   R.O.L. ECC.      |
+ 373   ORE VIAGGIO     < |  949   PARTO PREM.      |
+ 449   ROL INF CE      < |  950(2)CONG.STR.L.388   |
+ 453   INT MAL CE        |  987   VIOL.DON.G       |
+ 454   INT INF CE      < |  988   VIOL.DON.O       |
+ 455   FF MAL CE       < |  990(4)MAT.FAC.HH       |
+ 456   GN MAL CE       < |                         |
+  COD.  DESCRIZIONE            %      |  COD.  DESCRIZIONE            %
+ Cig (con ticket)
+   961   CIGO                   <      |  6551  CIGS    (add.9%)       <
+   962   CIGO att.              <      |  6552  CIGS    (add.12%)      <
+   963   CIGO ant.              <      |  6553  CIGS    (add.15%)      <
+   964   CIGO dir.              <      |  6556  SOL. att. (add.9%)     <
+   965   CIGO dir.a             <      |  6557  SOL. ant. (add.12%)    <
+   966   CIGO                   <      |  6558  SOL. ant. (add.15%)    <
+   967   CIGO att.              <      |  6661  CIGO COVID             <
+   968   CIGO ant.              <      |  6662  CIGO COVID att.        <
+   969   CIGO dir.              <      |  6663  CIGO COVID ant.        <
+   970   CIGO dir.a             <      |  6881  CIGO    (add.9%)       <
+   972   CIGS att.              <      |  6882  CIGO    (add.12%)      <
+   973   CIGS ant.              <      |  6883  CIGO    (add.15%)      <
+   974   CIGS dir.              <      |  6771  SOL.COVID              <
+   975   CIGS dir.a             <      |  6772  SOL.COVID NON ANTIC.   <
+   976   CIGD                   <      |  6773  SOL.COVID ANTICIPO     <
+   977   CIGD att.              <      |  6776  CIGS ES.               <
+   978   CIGD ant.              <      |  6777  CIGS ES.NON ANTICIPATA <
+   979   CIGD dir.              <      |  6778  CIGS ES.ANTICIPO       <
+   980   CIGD dir.a             <      |  
+   982   SOL. att.              <      |                                
+   983   SOL. ant.              <      |  
+ Cig pag.diretto
+   918   CIG/FIS dir.                  |  6918  CIG deroga
+   940   CIG edilizia    
+ Fis
+   6751  FIS O.                 <      |  6759  FIS O.ES.att.          <
+   6754  FIS O.ant.             <      |  6761  FIS S.                 <
+   6755  FIS O.att.             <      |  6764  FIS S.ant.             <
+   6757  FIS O.ES.              <      |  6765  FIS S.att.             <
+   6758  FIS O.ES.ant.          <      |
+
+LEGENDA
+  <  : aliquota uguale o minore di 100   
+  >  : aliquota uguale o maggiore di 100
+ (1) : e' possibile valorizzare in automatico l'aliquota, a condizione che siano
+       compilati i campi 24,25,26,27,28 e 29 della tabella CCNL in GENIUS,
+       impostando i seguenti valori nel campo aliquota:
+           901 = straord. diurno      (% da c.24 CCNL)
+           902 = straord. notturno    (% da c.25 CCNL)
+           903 = straord. festivo     (% da c.26 CCNL)
+           904 = straord. fest/nott   (% da c.27 CCNL)
+           905 = straord. sabato      (% da c.28 CCNL)
+           906 = lavoro supplementare (% da c.29 CCNL)
+ (2) : voci per la forzatura degli eventi in fase di importazione
+ (3) : le ore indicate verranno sommate alle ore della voce 300 dello stesso
+       giorno.                      
+       Es: giorno 1
+           - voce 300  -> 2 ore
+           - voce 6381 -> 6 ore
+           Sul cedolino la voce 300 per il giorno 1 e' di 8 ore
+ (4) : voci 319/990 per evento maternita' facoltativa  < 6mesi   <6anni
+       voci 641/661 per evento maternita' facoltativa  < 6mesi   6-14anni
+       voci 646/662 per evento maternita' facoltativa  7-9mesi   < 14anni
+       voci 651/663 per evento maternita' facoltativa  10-11mesi < 8anni
+       voci 656/664 per evento maternita' facoltativa  10-11mesi 8-14anni
+ (5) : maternita' facoltativa L.197/22, L.213/23 e L.207/24
+ (6) : se non inserita nel file viene calcolata in fase di registrazione
+
+TABELLA EVENTI PARTICOLARI
+
+COD.  DESCRIZIONE                        ACQUIS.AUTOM.(3)    COD.FORZAT.(4)
+ 001   MALATTIA                                 SI                 909
+ 002   MATERNITA' OBBLIGATORIA                  SI                 911
+ 003   MATERNITA' FACOLTATIVA < 6mesi   <6anni  SI                 919
+ 004   MATERNITA' FAC.> 6 MESI  FINO A 03.2023  SI                 919
+ 005   PROL.MATER.FACOLTATIVA L.104/92 <8 anni  SI                 919
+ 007   MILITARE                                 -                   -
+ 008   SOSPESO                                  -                   -
+ 009   INFORTUNIO                               SI                 910
+ 011   RICADUTA MALATTIA                        SI                 909
+ 013   MALATTIA COVID                           SI                 909
+ 014   QUARANTENA DISABILE                      SI                 909
+ 015   QUARANTENA                               SI                 909
+ 016   CONGEDO COVID FIGLI < 12                 SI                 919
+ 017   CONGEDO COVID FIGLI DISABILI             SI                 919
+ 018   CONGEDO STRAORDINARIO Dlgs 151/2001      SI                 950
+ 019   RICADUTA INFORTUNIO                      SI                 910
+ 020   CONGEDO COVID FIGLI < 14 QUARANTENA      SI                 919
+ 022   MATERNITA' ANTICIPATA                    SI                 911
+ 023   MATERNITA' FACOLTATIVA < 6mesi 6-14anni  SI                 919
+ 025   PROL.MATER.FACOLTATIVA L.104/92 8-14anni SI                 919
+ 032   CONGEDO OBBLIGATORIO PADRE               SI                 911
+ 033   MATERNITA' FACOLTATIVA 7-9mesi < 14anni  SI                 919
+ 042   CONGEDO FACOLTATIVO PADRE  FINO A 03.2023SI                 911
+ 043   MATERNITA' FACOLTATIVA 10-11mesi < 8anni SI                 919
+ 052   MATERNITA' PARTO PREMATURO               SI                 911
+ 053   MATERNITA' FACOLTATIVA 10-11mesi 8-14anniSI                 919
+ 101   RICOVERO DURANTE MALATTIA                SI                 909
+ 111   RICOVERO DURANTE RICADUTA MALATTIA       SI                 909
+ 121   M.F.<6mesi <6anni L.197/22 FINO 12.2024  SI                 919
+ 122   M.F.<6mesi 6-12anni L.197/22 FINO 12.2024SI                 919
+ 123   MAT.FAC. < 6mesi < 6anni 80% (3 MESI)    SI                 919
+ 124   MAT.FAC. < 6mesi 6-14anni 80% (3 MESI)   SI                 919
+ 201   SOSPENSIONE MALATTIA                     SI                 909
+ 202   CEETIFICATO TARDIVO MALATTIA             SI                 909
+ 211   SOSPENSIONE RICADUTA MALATTIA            SI                 909
+ 212   CERTIFICATO TARDIVO RICADUTA MALATTIA    SI                 909
+
+(3) Possibilita' di acquisizione automatica degli eventi.
+    Per utilizzare la scelta "25 Memorizzazione eventi m/m/i in GENIUS" 
+    devono essere compilate tutte le giornate intercorrenti tra l'inizio
+    e la fine dell'evento, compresi i giorni di riposo settimanale.
+
+ (4) Possibilita' di forzare il profilo orario ai soli fini dell'integrazione
+     ditta. 
+     Riportiamo di seguito le istruzioni operative:
+     - per ogni evento da forzare deve essere presente un secondo record, con
+       il campo "voce" = "COD.FORZAT.", omettendo la compilazione dei giorni
+       corrispondenti ai riposi settimanali;
+     - il campo 153/3 ("Profilo orario m/m/i") anagrafica DL deve essere
+       valorizzato ad 1.
+
+TRACCIATO RECORD VOCE DESCRIZIONE SU LUL (MAX 4 VOCI PER OGNI MATRICOLA)
+
+Pos.    Descrizione     Lungh. Tipo  Note
+ 01-01   flag              1     X    "U" = nuovo formato
+ 02-05   ditta             4     N    xxxx = codice identificativo della azienda
+                                      Deve essere uguale a quello utilizzato 
+				      dalla procedura GENIUS.
+ 06-07   mese              2     N    xx   = mese cui si riferiscono le causali 
+ 08-09   anno              2     N    xx   = anno cui si riferiscono le causali 
+ 10-20   matricola        11     N    xxxxxxxxxxx = cod.identificativo del 
+                                                    lavoratore nell'azienda.
+                                      Deve essere uguale a quello utilizzato 
+				      dalla procedura GENIUS e cosi' suddiviso:
+                                      - prime 4 posizioni  = cod.ditta
+                                      - 5^ posizione       = qualifica  INPS
+                                      - ultime 6 posizioni = codice personale 
+				                             del lavoratore 
+ 21-24   voce              4     N    Inserire 1099 (voce fissa) 
+ 25-49   descrizione      25     X    Inserire la DESCRIZIONE desiderata 
+                                      (al massimo 4 record voci descrizione per
+				       ogni matricola)
+ 50-184  filler          134     N    Valorizzare a zero.
+
+
+TRACCIATO RECORD VOCI DI BASE / CORPO / CONTRIBUZIONE / FISCALI
+Pos.    Descrizione        Lungh. Tipo  Note
+  01-01  flag                 1     X    "U"  = nuovo formato
+  02-05  ditta                4     N    xxxx = codice identificativo della 
+                                                azienda. 
+				         Deve essere uguale a quello utilizzato
+					 dalla procedura GENIUS.
+  06-07  mese                 2     N    xx   = mese cui si riferiscono le
+                                                causali.
+  08-09  anno                 2     N    xx   = anno cui si riferiscono le
+                                                causali.
+  10-20  matricola           11     N    xxxxxxxxxxx = cod.identificativo del 
+                                                       lavoratore nell'azienda.
+                                         Deve essere uguale a quello utilizzato
+					 dalla procedura GENIUS e cosi' 
+					 suddiviso:
+                                         - prime 4 posizioni  = cod.ditta
+                                         - 5^ posizione       = qualifica  INPS
+                                         - ultime 6 posizioni = codice personale
+					                        del lavoratore.
+  21-24  voce                 4     N    xxxx = inserire il codice della voce 
+                                                interessata > di 1000 (mille).
+  25-29  aliquota             3,2   N    aliquota applicata alla voce.
+  30-34  unita'               3,2   N    inserire le UNITA' da moltiplicarsi per
+                                         il dato base.
+                                         Per unita' > 999,99 valorizzare con 
+					 zeri questo campo e utilizzare il 
+					 successivo unita2.
+  35-44  valore1              6,4   N    Inserire il VALORE1, iniziando la
+                                         valorizzazione da destra con la
+                                         4a cifra decimale (44^ posizione)
+                                        vedere esempio 
+  45-54  valore2              8,2   N    Inserire il VALORE2, iniziando la
+                                         valorizzazione da destra con la
+                                         2a cifra decimale (54^ posizione)
+                                        vedere esempio
+  55-59  identificativo       5     N    Part.Committ./Progr.CIG/Cod.Familiare/
+  					 Progr.Banca ore sol./Mese arretrato
+					 (per voci arr.CTR 0,80%)(ved.esempio)
+					 Prevale sul codice fam./pr.cig
+					 (posizione 179-180)
+  60-65  unita2               4,2   N    utilizzare per UNITA' > 999,99 da
+                                         moltiplicarsi per il dato base.
+  66-90  1a descr.agg.       25     X    1a descrizione aggiuntiva
+                                        (solo per VOCI DI CORPO) 
+                                         Valoriz.a zero (v.di BASE e CONTRIB.)
+  91-115 2a descr.agg.       25     X    Vedere 1a descrizione aggiuntiva
+ 116-140 3a descr.agg.       25     X    Vedere 1a descrizione aggiuntiva
+ 141-165 4a descr.agg.       25     X    Vedere 1a descrizione aggiuntiva
+ 166-166 segno unita/unita2   1     X    "-" = campo corrispondente negat.
+ 167-167 segno valore1        1     X    "-" = campo corrispondente negat.
+ 168-168 segno valore2        1     X    "-" = campo corrispondente negat.
+ 169-178 imponibile           8,2   N    Inserire l'IMPONIBILE, iniziando la
+                                         valorizzazione da destra con la
+                                         2a cifra decimale (178^ posizione)
+                                        (solo per VOCI DI CONTRIBUZIONE) 
+ 179-180 codice fam/pr.cig    2     N    Codice familiare / Progressivo CIG/
+                                         Mese arretrato (per voci arr.CTR 0,80%)
+ 181-183 codice cassa edile   3     N    Tabella cod.cassa edile
+ 184-184 filler               1     N    Valorizzare a zero.
+                  ESEMPI DI COMPILAZIONE VALORE1 E VALORE2    
+
+                      pos.35   pos.44                          pos.45   pos.54
+                         |        |                               |        |
+                         V........V                               V........v
+      VALORE1 = 7,8710   0000078710           VALORE2 = 1256,37   0000125637
+
+
+               VALORIZZAZIONE CAMPI IN FUNZIONE DEL CODICE VOCE
+
+                           -------------- C O D I C E   V O C E ---------------
+                          |  da 1100 a 1299   |da 1300 a 1999| da 2000 a 2999  |
+                          |                   |da 7300 a 7999|                 |
+   CAMPO                  |      BASE         |    CORPO     |  CONTRIBUZIONE  |
+   -----------------------|-------------------|--------------|-----------------|
+   aliquota               |       no          |   aliquota   |       no        |
+   unita' (se unita2=0)   |       no          |unita' < 1000 |       no        |
+   valore1                |       no          |   dato base  | importo Dat.Lav.|
+   valore2                |importo(0=cancella)|   importo    | importo Lavor.  |
+   unita2 (se unita'=0)   |       no          |unita' >999,99|       no        |
+   imponibile             |       no          |      no      | imponibile Lav. |
+   ----------------------------------------------------------------------------
+
+                           --- CODICE VOCE ---
+                          |  da 3000 a 3999   |
+   CAMPO                  |     FISCALI       |
+   -----------------------|-------------------|
+   aliquota               |       no          |
+   unita' (se unita2=0)   |       no          |
+   valore1                |       no          |
+   valore2                |     importo       |
+   unita2 (se unita'=0)   |       no          |
+   imponibile             |       no          |
+   -------------------------------------------
+
+
+TRACCIATO RECORD VOCI PER PARASUBORDINATI
+
+Pos.    Descrizione     Lungh. Tipo  Note
+ 01-01   flag              1     X    "U" = nuovo formato
+ 02-05   ditta             4     N    xxxx = codice identificativo della azienda
+                                      Deve essere uguale a quello utilizzato 
+				      dalla procedura GENIUS.
+ 06-07   mese              2     N    xx   = mese cui si riferiscono le causali 
+ 08-09   anno              2     N    xx   = anno cui si riferiscono le causali 
+ 10-20   matricola        11     N    xxxxxxxxxxx = cod.identificativo del
+                                                    lavoratore nell'azienda.
+                                      Deve essere uguale a quello utilizzato 
+				      dalla procedura GENIUS e cosi' suddiviso:
+                                      - prime 4 posizioni  = cod.ditta
+                                      - 5^ posizione       = qualifica  INPS
+                                      - ultime 6 posizioni = codice personale 
+				                             del lavoratore.
+ 21-24   voce              4     N    169x = importo compenso
+                                      1891 = inizio compenso
+                                      1892 = fine compenso
+                                      1893 = mesi compenso
+                                      1894 = giorni inail
+                                      1895 = giorni detrazione
+                                      1896 = giorni retribuiti
+ 25-29   filler            5     N    valorizzare a zero.
+ 30-32   codice causale    3     N    Inserire il codice causale ritenuta da 
+                                      tabella 26 (vedere quesito ricorrente
+					          "LAVORATORI PARASUBORDINATI")
+ 33-44   filler           12     N    valorizzare a zero.
+ 45-54   dati              8,2   N    Inserire i DATI, iniziando la 
+                                      valorizzazione da destra (54^ posizione)
+				      vedere esempi
+ 55-184  filler          130     N    Valorizzare a zero.
+
+               ESEMPI DI COMPILAZIONE DATI PER PARASUBORDINATI        
+
+cod.causale        dati                        voce     caus.     posizione
+                                            p.21  p.24 p.30 p.32 p.45     p.54
+                                               |  |       | |     |        |
+                                               V..V       V.V     V........V
+   002 (1)          importo   : 2.846,08        169x       002     0000284608
+                    inizio    : 01/01/2013      1891       000     0001012013
+                    fine      : 31/03/2013      1892       000     0031032013
+                    mesi      : 3               1893       000     0000000300
+                    gg inail  : 75              1894       000     0000007500
+                    gg detr.  : 90              1895       000     0000009000
+                    gg retrib.: 78              1896       000     0000007800
+
+  (1) Tabella causali ritenuta acconto (01-26) 
+      Inserire la causale con le seguenti specifiche:
+      Codice: 002   Descrizione: xxx   Cod.tributo: 1040   Aliquota: xxx
+      Tipo quadro 770: 1   Voce accumulo fisc.: 2156                       
+
+ARCHIVIO COMMESSE LAVORANTI A DOMICILIO
+ Qui di seguito le caratteristiche tecniche per la composizione del file.
+
+ Codifica      : ASCII
+ Lungh.rec     : 155 (esclusi i due caratteri finali)
+ Delimited     : Ultimi due byte con caratteri ASCII 'CR' e 'LF' (valori
+                 esadecimali '0d' e '0a')
+ Nome file     : a scelta (consigliato "commesse")
+
+TRACCIATO RECORD COMMESSE LAVORANTI A DOMICILIO
+
+Pos.    Descrizione       Lungh. Tipo  Note
+  01-11  matricola           11    N    xxxxxxxxxxx = cod.identificativo del  
+                                                      lavoratore nell'azienda.
+                                        Deve essere uguale a quello utilizzato 
+					dalla procedura GENIUS e cosi' 
+					suddiviso:
+                                        - prime 4 posizioni  = cod.ditta
+                                        - 5a posizione       = 6 (qualifica INPS
+					                          che identifica
+								  i lavoranti a
+								  domicilio)
+                                        - ultime 6 posizioni = codice personale
+					                       del lavoratore.
+  12-15  anno commessa        4    N    anno identificativo commessa
+  16-22  numero commessa      7    N    numero identificativo commessa
+  23-25  sequenza             3    N    numero riga nell'ambito della commessa,
+                                        riferito al singolo lavoro
+  26-30  voce tipo            5    N    voce che identifica il tipo di lavoro 
+                                        (ammesso zero se presente campo "descr.
+					 voce tipo")
+  31-60  descr.voce tipo     30    X    descrizione della voce che identifica il
+                                        tipo di lavoro (ammessi spazi se 
+					presente campo "voce tipo")
+  61-65  voce qualita'        5    N    codice della voce che identifica la 
+                                        qualita' del lavoro (ammesso zero se 
+					presente campo "descr. voce qualita'")
+  66-95  descr.voce qualita' 30    X    descrizione della voce che identifica 
+                                        la qualita' del lavoro (ammessi spazi 
+					se presente campo "voce qualita'")
+  96-103 data consegna        8    N    ggmmaaaa = data consegna lavoro
+ 104-107 ora consegna         4    N    hhmm     = ora e minuti di consegna
+                                                   del lavoro
+ 108-114 unita' consegna      7    N    unita' di lavoro consegnate (1)
+ 115-122 data ricons.teorica  8    N    ggmmaaaa = data riconsegna
+                                                   teorica del lavoro
+ 123-126 ora ricons.teorica   4    N    hhmm     = ora e minuti di riconsegna
+                                                   teorica del lavoro
+ 127-134 data riconsegna      8    N    ggmmaaaa = data riconsegna del
+                                                   lavoro
+ 135-138 ora riconsegna       4    N    hhmm     = ora e minuti di riconsegna
+                                                   del lavoro
+ 139-145 unita' riconsegna    7    N    unita' di lavoro riconsegnate (1)
+ 146-154 prezzo               5,4  N    importo unitario del lavoro eseguito; 
+                                       Es.: 12,3068 compilare 000123068
+ 155-155 test lavoro finito   1    N    1 = indicatore lavoro finito
+
+ (1) per inserire il valore nel formato 5,2 utilizzare la seq.maggiorata di 500.
+    Es.: 5,24 compilare 0000524  
+
+ARCHIVIO PRESENZE IN CANTIERE
+ Qui di seguito le caratteristiche tecniche per la composizione dei files.
+
+ Codifica      : ASCII
+ Lungh.rec     : 184 (esclusi i due caratteri finali)
+ Delimited     : Ultimi due byte con caratteri ASCII 'CR' e 'LF' (valori
+                 esadecimali '0d' e '0a')
+ Nome file     : a scelta 
+
+ 05 Elaborazioni
+ 38 Registrazioni preliminari
+ 09 Presenze in cantieri           
+ 03 Acquisizione file presenze
+
+TRACCIATO RECORD PRESENZE IN CANTIERE (ore giornaliere)
+
+Pos.    Descrizione     Lungh. Tipo  Note
+ 01-01   flag              1     X    "U" = nuovo formato
+ 02-05   ditta             4     N    xxxx = codice identificativo della azienda
+                                      Deve essere uguale a quello utilizzato 
+				      dalla procedura GENIUS.
+ 06-07   mese              2     N    xx   = mese cui si riferiscono le presenze
+ 08-09   anno              2     N    xx   = anno cui si riferiscono le presenze
+ 10-20   matricola        11     N    xxxxxxxxxxx = cod.identificativo del 
+                                                    lavoratore nell'azienda.
+                                      Deve essere uguale a quello utilizzato 
+				      dalla procedura GENIUS e cosi' suddiviso:
+                                      - prime 4 posizioni  = cod.ditta
+                                      - 5^ posizione       = qualifica  INPS
+                                      - ultime 6 posizioni = codice personale 
+				                             del lavoratore.
+ 21-24   cantiere          4     N    xxxx = codice cantiere           
+ 25-29   aliquota          3,2   N    valorizzare a zero            
+ 30-184  tab.giorni   31 x 3,2   N    tabella di 31 elementi corrispondenti ai 
+                                      giorni: in ciascun elemento indicare le 
+				      ore relative al cantiere. Per i mesi con 
+				      meno di 31 giorni le posizioni della
+                                      tabella in esubero devono essere 
+				      valorizzate con zeri.
+
+TRACCIATO RECORD PRESENZE IN CANTIERE (ore totali)
+
+Pos.    Descrizione     Lungh. Tipo  Note
+ 01-01   flag              1     X    "T" = ore totali
+ 02-05   ditta             4     N    xxxx = codice identificativo della azienda
+                                      Deve essere uguale a quello utilizzato 
+				      dalla procedura GENIUS.
+ 06-07   mese              2     N    xx   = mese cui si riferiscono le presenze
+ 08-09   anno              2     N    xx   = anno cui si riferiscono le presenze
+ 10-20   matricola        11     N    xxxxxxxxxxx = cod.identificativo del 
+                                                    lavoratore nell'azienda.
+                                      (per le specifiche ved. paragrafo prec.)
+ 21-24   cantiere          4     N    xxxx = codice cantiere           
+ 25-29   aliquota          3,2   N    valorizzare a zero            
+ 30-34   ore denuncia MUT  3,2   N    ore utili alla compilazione della denuncia
+                                      MUT (imponibile e/o accantonemento) 
+ 35-39   altre ore         3,2   N    altre ore utili alla rilevazione dei costi
+                                      per cantiere (straordinari, ferie, ecc..)
+ 40-184  filler            145   N    valorizzare a zero
+
+TABELLA APPENDICE
+ Legenda:        <MAP>     Matricola Archivio Presenze
+                 <GC>      Giorno Cambio
+                 <ME>      Mese Elaborazione
+	         <MP>      Mese Precedente
+	         <ElabNew> Attribuzione presenze a Matr.new
+	         <ElabOld> Attribuzione presenze a Matr.old
+	         <ElabRip> Ripartizione presenze su Matr.old e Matr.new
+
+Elaborazione  : Anticipata
+
+  Tipo cambio : Qualifica
+  - Data      : Primo giorno del mese
+     <MAP>       Situazione matr.     Acquisizione presenze     LUL <ME>
+     1.000100    Matr.New 2.000100    <ElabNew> + <Segn>        Presenze <MP>
+                 Matr.Old 1.000100                              Non elaborato
+
+  - Data      : In corso di mese
+     <MAP>       Situazione matr.     Acquisizione presenze     LUL <ME>
+     1.000200    Matr.New 2.000200    <ElabOld> + <Segn>        Senza presenze
+                 Matr.Old 1.000200                              Presenze <MP>
+
+  Tipo cambio : Altri cambi 
+  - Data      : In corso di mese
+     <MAP>       Situazione matr.     Acquisizione presenze     LUL <ME>
+     1.000300    Matr.New 2.000300    nessuna azione            Presenze <MP> 
+                 Matr.Old 1.000300                              Non elaborato
+
+  - Data      : In corso di mese
+     <MAP>       Situazione matr.     Acquisizione presenze     LUL <ME>
+     1.000400    Matr.New 2.000400    <ElabOld>                 Senza presenze
+                 Matr.Old 1.000400                              Presenze <MP>
+
+Elaborazione: Normale   
+
+  Tipo cambio : Qualifica
+  - Data      : Primo giorno del mese
+     <MAP>       Situazione matr.     Acquisizione presenze     LUL <ME>
+     1.000500    Matr.New 2.000500    <ElabNew> + <Segn>        Presenze <ME>
+                 Matr.Old 1.000500                              Non elaborato
+
+  - Data      : In corso di mese
+     <MAP>       Situazione matr.     Acquisizione presenze     LUL <ME>
+     1.000600    Matr.New 2.000600    <ElabRip> + <Segn>        Pres.dopo <GC>
+                 Matr.Old 1.000600                              Pres.fino <GC>
+
+  Tipo cambio : Altri cambi
+  - Data      : Primo giorno del mese
+     <MAP>       Situazione matr.     Acquisizione presenze     LUL <ME>
+     1.000700    Matr.New 2.000700    nessuna azione            Presenze <ME>
+                 Matr.Old 1.000700                              Non elaborato
+
+  - Data      : In corso di mese
+     <MAP>       Situazione matr.     Acquisizione presenze     LUL <ME>
+     1.000800    Matr.New 2.000800    <ElabRip>                 Pres.dopo <GC>
+                 Matr.Old 1.000800                              Pres.fino <GC>

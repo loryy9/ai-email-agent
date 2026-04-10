@@ -1,0 +1,180 @@
+VOCI PARTICOLARI
+
+
+ Le seguenti voci possono essere utilizzate in registrazione movimenti mensili
+ per ottenere le rispettive funzioni.
+ Dove non specificato l'attivazione avviene registrando "1" nell'importo.
+
+Cod. | Descrizione               |Funzione
+ -------------------------------------------------------------------------------
+ 0880 | NETTO GARANTITO           |Importo = netto in busta, il differenziale
+      |                           |e' calcolato con v.881, ovvero 882 per m.a.
+ 0883 | NETTO GARANTITO CON TFR   |Importo = netto in busta, il differenziale
+      |                           |e' calcolato con v.884, ovvero 885 per m.a.
+ 6788 | RETR.TEOR.AGG(NO D.ACCR.) |Importo = ret.teor. da sommare alla retr.
+      |                           |Uniemens (non adegua diff.accredito)
+ 6790 | RETR.TEORICA AGGIUNTIVA   |Importo = retribuzione teorica da sommare
+      |                           |alla retribuzione Uniemens
+ 6791 | AUM.RETR.CIGS SOLID.      |Importo = aumenti retributivi da togliere
+      |                           |dalla retribuzione teorica
+ 6871 | FORZAT.CONG.I.S.AUM.CONTR.|1 = Forzatura conguaglio  i.s. aum.contr. 
+      |                           |8 = Esclusione applicazione i.s. aum.contr.
+      |                           |9 = Esclusione conguaglio i.s. aum.contr.
+ 6872 | FORZAT.CONG.I.S.NOT/FS/TU |1 = Forzatura conguaglio  i.s.not/fs/turni
+      |                           |8 = Esclusione applicazione i.s.not/fs/turni
+      |                           |9 = Esclusione conguaglio i.s.not/fs/turni
+ 6873 | FORZAT.CONG.I.S.TEA-EP    |1 = Forzatura conguaglio  i.s. tea ep.    
+      |                           |8 = Esclusione applicazione i.s. tea ep.    
+      |                           |9 = Esclusione conguaglio i.s. tea ep.    
+ 6874 | FORZAT.CONG.I.S.STR.INF.  |1 = Forzatura conguaglio  i.s. str.inferm.
+      |                           |8 = Esclusione applicazione i.s. str.inferm.
+      |                           |9 = Esclusione conguaglio i.s. str.inferm.
+ 6894 | FORZATURA ALIQ.ADD.CIG    |Importo = aliq. add. Cig   
+ 6925 | ESCL.SUDDIV.LUL EREDI     |1 = esclusione calcolo automatico eredi
+ 6926 | ESCL.ARROTOND.MESE        |0 = nessuna esclusione
+      |                           |1 = esclusione a livello di LAV dell'
+      |                           |    arrotondamento nel mese (utile per 
+      |                           |    coniuge ANF,creditore pignoratizio,etc.)
+      |                           |8 = in caso di lav.liquidato con netto 
+      |                           |    negativo forza l'arrotondamento
+      |                           |9 = in caso di netto negativo non arrotonda
+ 6927 | ESCL.DIP.IN FORZA         |1 = esclusione forza lav.
+      |                           |2 = esclusione forza lav. e numero lav.
+ 6928 | ALIQ.DL ESCL.INCENT.ASS.  |Importo: aliquota da escludere
+      |                           |         99 = esclude conguaglio
+ 6929 | FORZ./ESCL.CTR 0,50 TFR   |1 = Forzatura calcolo contributo 0,50%
+      |                           |9 = Esclusione calcolo contributo 0,50%
+ 6930 | IMPOSIZIONE FISCALE       |Retribuzione convenzionale lorda 
+ 6931 | ADEG.DIFF.ACCR./RETR.TEOR |1 = abbatte differenze di accredito   
+      |                           |2 = aumenta retribuzione teorica      
+ 6933 | FORZAT.DIV.OR./SCAGL.CIG  |Unita' = divisore mobile del mese
+      |                           |Importo = scaglione tetto cig
+      |                           |N.B.: inserire la voce in anagrafica LAV
+      |                           |      ovvero nelle registrazioni preliminari
+      |                           |      (05-38-02) prima di elaborare il LUL
+ 6936 | ESCLUSIONE CONG.1012 NEW  |Unita'  = 1 - Forzatura rimborso credito 1012
+      |                           |Importo = 1 - Esclude il cong.1012 sul fondo
+      |                           |              maturato dal 01.01.2001 se non
+      |                           |              movimentato nel mese
+      |                           |Importo = 2 - Forzatura conguaglio 1012
+      |                           |
+Cod. | Descrizione               |Funzione
+ -------------------------------------------------------------------------------
+ 6938 | FORZ.ALIQ.IRPEF M.A.      |Importo : da 1 a 9 = scaglione irpef
+      |                           |          > 9      = aliquota irpef
+ 6939 | ALIQ.RIMB.I.S.5%          |Importo = percentuale di rimborso i.s. 5% 
+ 6940 | FORZ.ESTRAZ. P.C./BILAT.  |Importo = 1 - forzatura estraz.lav senza ctr
+ 6941 | FORZATURA SCAGL.ADD.COM.  |Importo = scaglione addizionale comunale
+ 6942 | FORZATURA SCAGL.ACC.COM.  |Importo = scaglione acc. addizionale comunale
+ 6943 | FORZAT.IMPON.CONV.AD ORE  |Importo = 1 - forzatura con accumulo ore da
+      |                           |              libro presenza
+      |                           |Importo > 1 - forzatura con utilizzo ore
+      |                           |              registrate
+ 6944 | FORZATURA I.S. MANCE      |1 = Forzatura tassazione ordinaria
+      |                           |8 = Forzatura conguaglio
+      |                           |9 = Esclusione conguaglio
+ 6945 | FORZAT.CONG.I.S.PR.RIS.   |1 = Forzatura conguaglio  i.s. premio ris.
+      |                           |8 = Esclusione applicazione i.s. premio ris.
+      |                           |9 = Esclusione conguaglio i.s. premio ris.
+ 6946 | ESCLUSIONE CONG.1012 OLD  |Esclude il conguaglio 1012 sul fondo maturato
+      |                           |al 31.12.2000 se non movimentato nel mese
+ 6950 | IMPOSIZIONE MINIMALE      |Importo = minimale giornaliero o orario
+ 6951 | IMPOS.MINIMALE INAIL P-T  |Importo = minimale inail orario per part-time
+ 6952 | IMPOSIZIONE IMPONIBILE    |Importo = imponibile contributivo (solo per
+      |                           |alcuni settori)
+ 6954 | ESCL.APPL.ES.FISC.SPORT.  |1 = esclusione applicazione esenzione irpef
+ 6973 | ESCLUSIONE CONG.P.C.DIR.  |Esclude il conguaglio Previndai
+ 6974 | ESCLUSIONE CONG.P.C.TFR   |Esclude il conguaglio Previndai Tfr
+ 6975 | ESCL./FORZ.CONG.INPS AGG. |1 = esclude il congualio ctr 1% aggiuntivo
+                                  |2 = forza il congualio ctr 1% aggiuntivo
+ 6976 | ESCLUSIONE CONG.INAIL PAR |Esclude il cong.Inail per i LAV parasub.
+ 6977 | CALCOLO REDD.RIF.< ANNO   |Calcola il reddito di riferimento per il
+      |                           |conteggio dell'aliq.1012 nel seguente modo
+      |                           |Tfr * 12
+ 6978 | FORZAT.SCAGL./ALIQ.IRPEF  |Importo : da 1 a 9 = scaglione irpef
+      |                           |          > 9      = aliquota irpef
+      |                           |          99       = esclusione calcolo irpef
+      |                           |                     lorda per mens.agg.
+ 6979 | FORZ.SCAGL/ALIQ.ADD.REG.  |Importo : da 1 a 9 = scaglione add.reg.
+      |                           |          > 100    = 100 + aliquota add.reg.
+      |                           |  (esempio per aliq.0,90 inserire 100,90)
+ 6980 | IRPEF PROGR.PER ARRETRATI |12 = conteggio irpef come dicembre
+      |                           |> 12 = conteggio scaglioni irpef con formula:
+      |                           |       scaglione annuale / valore inserito
+      |                           |< 12 = conteggio mini conguaglio
+ 6981 | ESCLUSIONE CONG.IRPEF     |Esclude il conguaglio irpef
+ 6982 | ESCLUSIONE RIMB.IRPEF     |Esclude il rimborso irpef
+ 6983 | CONG.IRPEF IN DICEMBRE    |Esegue il conguaglio irpef su busta dicembre
+      |                           |per DL con campo 122 = 1 o 2
+ 6984 | ESCL./TRAT. ADD.REG.IRPEF |1 = Esclude il conteggio dell'addiz.regionale
+      |                           |2 = Trattiene l'addiz.regionale calcolata
+ 6985 | ESCL./TRAT. ADD.COM.IRPEF |1 = Esclude il conteggio dell'addiz.comunale
+      |                           |2 = Trattiene l'addiz.comunale calcolata
+      |                           |3 = Trattiene l'addiz.comunale calcolata ed
+      |                           |    esclude il conteggio dell'acconto addiz.
+      |                           |    comunale (voce 2127)
+      |                           |9 = Esclude il conteggio dell'addiz.comunale
+      |                           |    anche nel controllo di fine anno
+ 6986 | FORZ./ESCL.RID.CTR.LAV.   |Consult.il QR "ESONERO 6,00% E 7% CONTRIBUTI
+      |                           |LAV"                                         
+      |                           |
+Cod. | Descrizione               |Funzione
+ -------------------------------------------------------------------------------
+ 6987 | PERIOD.CORRISP.PARASUB.   |Importo = periodicita' corrispettivo parasub.
+      |                           |per gestione addebiti con programma BUSINESS
+ 6989 | ESCL.DECONTRIBUZIONE      |1 = esclude conteggio decontribuzione
+ 6990 | DIFF.TRA GG.RETR.E GG.MIN |Espone i CTR nell'Uniemens con il codice "M"
+ 6992 | FORZ.BENI/SERV. BUONI CAR |1 = Forzatura assoggettamento mensile B/S 
+      |                           |    (no verifica tetto)
+      |                           |2 = Forzatura assoggettamento B/S anche a 
+      |                           |    conguaglio (no verifica tetto)
+      |                           |3 = Forzatura assoggettamento mensile B.C. 
+      |                           |    (no verifica tetto)
+      |                           |4 = Forzatura assoggettamento B.C. anche a 
+      |                           |    conguaglio (no verifica tetto)
+      |                           |5 = Forzatura assoggettamento mensile B/S e
+      |                           |    B.C. (no verifica tetto)
+      |                           |6 = Forzatura assoggettamento B/S e B.C.
+      |                           |    anche a conguaglio (no verifica tetto)
+      |                           |8 = Forzatura assogg.cong.B/S(no verif.tetto)
+      |                           |9 = Esclusione trasf.eccedenza B.C.in B/S
+ 6993 | ESCL.PREV.COMPL. LAV/DL   |1 = esclusione DL e LAV
+      |                           |2 = esclusione LAV
+      |                           |3 = esclusione DL
+ 6994 | FORZ./ESCL.TRATT. INTEGR. |1 = Forzatura conguaglio tratt. integrativo
+      |                           |2 = Esclusione attribuzione nel mese
+      |                           |8 = Esclusione recupero a rate
+      |                           |9 = Esclusione conguaglio tratt. integrativo
+ 6996 | FORZ./ESCL.BONUS-ULT.D.F. |1 = Forzatura conguaglio 
+      |                           |2 = Esclusione attribuzione nel mese
+      |                           |7 = Forzatura redd.presunto per applicazione
+      |                           |8 = Esclusione recupero a rate
+      |                           |9 = Esclusione conguaglio
+ 6997 | SOSP.PREST./PIGNORAM.     |Sospensione prestiti/pignoramenti
+      |                           |1 = per LAV c.58/2 = 1, 2
+      |                           |2 = per LAV c.58/2 = 3, 4
+      |                           |3 = per LAV c.58/2 > 0
+      |                           |N.B.: inserire la voce in anagrafica lavorat.
+      |                           |      ovvero nelle registrazioni preliminari
+      |                           |      prima di elaborare il LUL
+ 6998 | DIFF.TRA MINIM.E RETRIB.  |Automatica: adegua l'imponibile al minimale
+ 2130 | NR.RATE ADD.COM.acconto   |In storico: nr rate per il pagamento
+      |                           |            dell'acconto addiz.comunale
+ 2174 | ESCL.RIMB.D.F.FIGLI > 3   |Importo = 1 esclude il rimborso detr. FG > 3
+ 2175 | NR.RATE ADDIZIONALI       |In storico: nr rate per il pagam.addiz.a.p.
+ 2210 | ALIQUOTA MEDIA BIENNIO    |Importo = aliquota irpef 1002
+ 2311 | MESI PERIODO RIFERIM.TFR  |Importo = mesi totali periodo riferimento tfr
+      |                           |(in alternativa al codice 2411)
+ 2316 | MESI TFR fino al 2000     |Importo = mesi per.riferim.tfr al 31.12.2000
+ 2320 | ALIQUOTA IRPEF 1012       |Importo = aliquota irpef 1012 (in alternativa
+      |                           |al codice 2420)
+ 2411 | MESI PERIODO RIFERIM.TFR  |Importo = mesi totali periodo riferimento tfr
+ 2416 | MESI TFR     dal 2001     |Importo = mesi per.riferim.tfr dal 01.01.2001
+ 2418 | CONG.TFR PER LIQ.A.P.     |Titolo acconti e anticipazioni tfr su 770 = 3
+ 2420 | ALIQUOTA IRPEF 1012       |Aliquota irpef 1012
+ 2458 | FORZ.DETR.TFR             |1 = Forzatura detr. TFR in caso di altre
+      |                           |    indennita' con integrale destinazione    
+      |                           |    del TFR ai Fondi complementari         
+ 2459 | APPLIC.SALVAG.TFR         |9 = Forzat.non appl.clausola di salvaguardia 
+
+ Per codici particolari su Uniemens consultare il relativo quesito.

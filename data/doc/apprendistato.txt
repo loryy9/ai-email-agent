@@ -1,0 +1,171 @@
+APPRENDISTATO
+
+ANAGRAFICA LAVORATORE
+ Qualifica: 4 (apprendista impiegato)
+            5 (apprendista operaio) 
+
+Campo  Descrizione          Valore/Note
+ 33/1   Livello             
+
+ 44/1   Cod.tipo appr.       A = acquisizione qualifica e diploma professionale
+                             B = professionalizzante o contratto mestiere
+                             C = acquisizione alta formazione e ricerca  
+                             D = ex legge 196/97
+                             K = acquis.qual./dipl.prof.iscr.fondo minatori     
+			     L = profession./contr.mest.iscr.fondo minatori 
+			     M = acquis.alta form.e ric.iscr.fondo minatori
+
+ 44/2   Benef. mobil./disoc. 1 = si'                
+
+ 44/3   Riduzione ctr        (vedere nota ALIQUOTE CONTRIBUTIVE)
+
+ 44/4   Cod.progr.retr.      (vedere Ccnl campo 30)
+
+ 44/5   Decorrenza pr.retr.  (solo se e' stato compilato il campo 44/4)
+
+ 44/6   Scadenza            
+ALIQUOTE CONTRIBUTIVE
+ Tipo appr.     Riduz.ctr.            Uniemens  %LAV    %DL   %ASPI INAIL 0,50%
+ B,L,C,M        0 = no                   J0     5,84   10,00   1,61   NO   NO
+
+ B,L            0 = no                   Z0     5,84   10,00   1,61   SI   NO
+ (con c.44/2=1) 
+ B,L,C,M        1 = 8,50% (1o anno)      J1     5,84    1,50   1,61   NO   NO
+                    (DL <= 9 lav.)
+ B,L            1 = 8,50% (1o anno)      Z1     5,84    1,50   1,61   SI   NO
+ (con c.44/2=1)     (DL <= 9 lav.)
+ A,K            1 = 8,50% (1o anno)      Y1     5,84    1,50   0,00   NO   NO
+                    (DL <= 9 lav.)
+ B,L,C,M        2 = 7,00% (2o anno)      J2     5,84    3,00   1,61   NO   NO
+                    (DL <= 9 lav.)
+ B,L            2 = 7,00% (2o anno)      Z2     5,84    3,00   1,61   SI   NO
+ (con c.44/2=1)     (DL <= 9 lav.)
+ A,K            2 = 7,00% (2o anno)      Y2     5,84    3,00   0,00   NO   NO
+                    (DL <= 9 lav.)
+ B,L            3 = da liste mobilita'   J3     5,84   10,00   0,00   SI   NO
+                    L.223/1991 (18 mesi)
+ B,L            4 = da liste mobilita'   J4     5,84   10,00   0,00   SI   NO
+                    L.236/1993 (18 mesi)
+ B,L            5 = da liste mobilita'   J5     9,19(*) tot.   1,61   SI   SI
+                    (dopo 18 mesi)
+ tutti          6 = 10,00% (1o anno)     J6     5,84    0,00   1,61   NO   NO 
+                    ass.dal 2012 al 2016
+ tutti          7 = 10,00% (2o anno)     J7     5,84    0,00   1,61   NO   NO
+                    ass.dal 2012 al 2016
+ tutti          8 = 10,00% (3o anno)     J8     5,84    0,00   1,61   NO   NO
+                    ass.dal 2012 al 2016
+ A,K            9 = 5,00% + 1,61%        J9     5,84    5,00   0,00   NO   NO
+                    ass.dal 24.09.2015 
+
+ A,K           10 = 10,00% (1o anno)     JA     5,84    0,00   0,00   NO   NO
+                    ass.dal 2020 al 2022 (DL <= 9 LAV)
+ A,K           11 = 10,00% (2o anno)     JB     5,84    0,00   0,00   NO   NO
+                    ass.dal 2020 al 2022 (DL <= 9 LAV)
+ A,K           12 = 10,00% (3o anno)     JC     5,84    0,00   0,00   NO   NO
+                    ass.dal 2020 al 2022 (DL <= 9 LAV)
+
+ (*) Valorizzare il c. 68/9 con 3,35 per ottenere l'aliquota del 5,84.
+ Il D.Lgs. 148/2015 ha esteso il trattamento di integrazione salariale ai
+ LAV assunti con contratto di apprendistato con le seguenti modalita':
+Aliq.Cig  Settore                   Codice settore contributivo
+   0,90    Artigianato > 15          55, 56, 57			  (fino al 2021)
+   0,90    Commercio   > 50          160, 161, 162, 163           (fino al 2021)
+   0,27    Commercio   > 50          160, 161, 162, 163           (dal 2022)    
+   0,90    Commercio   > 50          160, 161, 162, 163           (dal 2023)    
+   0,90    Ind. Grafica              347, 348, 355, 356, 365, 366 (dal 2018) 
+   0,90    Industria   < 50          350, 351                     (dal 2022)
+   0,90    Industria   > 50          360, 361                     (dal 2022)
+   0,90    Ind.edile   < 50          375, 376                     (dal 2022)
+   0,90    Ind.edile   > 50          378, 379                     (dal 2022)
+   0,90    Ind.lapidei < 50          385, 386                     (dal 2022)
+   0,90    Ind.lapidei > 50          388, 389                     (dal 2022)
+   0,90    Mense appal.> 15          510, 511, 512                (fino al 2021)
+   0,27    Mense appal.> 15          510, 511, 512                (dal 2022)
+   0,90    Mense appal.> 15          510, 511, 512                (dal 2023)
+   0,27    Commercio   > 15          155, 156, 157, 158, 159      (dal 2022)
+   0,90    Commercio   > 15          155, 156, 157, 158, 159      (dal 2023)
+   0,27    Prof.artisti> 15          405                          (dal 2022)
+   0,90    Prof.artisti> 15          405                          (dal 2023)
+   0,27    Assoc.categ.> 15          415, 416, 417, 418           (dal 2022)
+   0,90    Assoc.categ.> 15          415, 416, 417, 418           (dal 2023)
+   0,27    Pubbl.eserci> 15          505, 506, 507                (dal 2022)
+   0,90    Pubbl.eserci> 15          505, 506, 507                (dal 2023)
+   1,70    Industria fino a 50 dip.  345, 346, 347, 348, 350, 351, 355, 356
+   2,00    Industria oltre 50 dip.   360, 361, 365, 366
+   3,30    Ind. e art. lapidei       70, 71, 72, 75, 76, 77, 380, 381, 385, 
+   				     386, 388, 389
+   4,70    Ind. e art. edile         60, 61, 62, 65, 66, 67, 370, 371, 375, 
+   				     376, 378, 379
+
+VARIAZIONE RIDUZIONE CONTRIBUTIVA
+ Eseguire il cambio matricola (LAV 04-32) con opzione 02-CAMBIO QUALIFICA PART.
+ Viene richiesto il nuovo codice di riduzione, che verra' inserito al campo 44/3
+ della matricola che prosegue con le elaborazioni.
+
+ORE FORMAZIONE (Apprendisti non professionalizzanti)
+Tipologia     Voce    Input                     %
+ ESTERNA        945    Libro presenza            -
+ INTERNA       6345    Libro presenza    10 % ovvero altra %
+AGEVOLAZIONE CTR PER PASSAGGIO A LAVORATORE QUALIFICATO
+1. Scadenza primo/secondo anno  
+    04 Lavoratori
+    32 Cambio matricola
+     1 Cambio matricola
+       2 - CAMBIO QUALIFICA PART.
+    04 Lavoratori
+    01 Gestione
+      Campo  Descrizione         Valore/Note
+       45/1   Cod.qualif.partic.  0
+2. Scadenza terzo anno
+    04 Lavoratori
+    32 Cambio matricola
+     1 Cambio matricola
+       1 - CAMBIO QUALIFICA
+           Richiede la matricola precedente (qualifica 4 o 5) e la matricola 
+	   nuova (qualifica 1 o 2).
+    
+    04 Lavoratori
+    01 Gestione
+      Campo  Descrizione         Valore/Note
+       45/1   Cod.qualif.partic.  6 = apprendisti qualific. e diplomati corsi
+       45/5   Data scad.qual.par  (max 12 mesi)
+
+CALCOLO DELLA RETRIBUZIONE
+1. In percentuale 
+    A. Tabella CCNL         : Campo 30 = 1 
+
+	                      TABELLA PROGRESSIONI RETRIBUTIVE
+                              Cod.progr.retrib.:  xxx    Tipo progressione: 8
+	                      Eta':  xx   Descrizione: xxx
+	                      mm.anz.  % progr.retrib.
+
+    B. Anagrafica lavoratore: Campo 33/1 = livello qualificato
+                              Campo 44/3 = codice progressione 
+			              /4 = data decorrenza 
+                                      /5 = data scadenza 
+    C. Aggiornamento retrib.: Automatico
+
+2. A livelli
+    A. Tabella CCNL         : Campo 30 = 1 
+     			      
+			      TABELLA PROGRESSIONI RETRIBUTIVE
+                              Cod.progr.retrib.:  xxx    Tipo progressione: 1
+                              Eta':  xx   Descrizione: xxx
+                              mm.anz.  % progr.retrib.
+    B. Tabella minimi       : Inserimento livelli specifici.
+    C. Anagrafica lavoratore: Campo 33/1 = livello specifico
+                              Campo 44/5 = data scadenza
+    D. Aggiornamento retrib.: Automatico
+
+ N.B.: Se il campo in anagrafica LAV 33/1 = 999 la gestione retributiva e'
+       manuale.
+ Eventuali prolungamenti (es. servizio militare) o riduzioni (es. precedenti
+ periodi di apprendistato) vengono gestiti intervenendo sulle date contenute
+ nel campo 44 della anagrafica lavoratore.
+
+
+TIPOLOGIE CONTRIBUTIVE PARTICOLARI
+Esposizione con codice 5xxM su uniemens in caso di malattia.
+ Registrare la voce 6990 = 1 
+ NOTA BENE: Riteniamo che la stampa di detto codice non sia utile in quanto 
+            l'apprendista non e' tenuto al rispetto del minimale.
