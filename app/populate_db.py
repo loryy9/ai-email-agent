@@ -1,14 +1,45 @@
 import os
+import shutil
 import json
+from dotenv import load_dotenv
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
+load_dotenv()
+
 DB_PATH = "./chroma_db_local"
 FEEDBACK_FILE = "./data/feedback/errate.jsonl"
 
-embeddings = HuggingFaceEmbeddings(model_name="BAAI/bge-m3")
+EMBED_MODEL = os.getenv("EMBED_MODEL", "BAAI/bge-m3")
+CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", "600"))
+CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", "100"))
+
+
+def _env_bool(name: str, default: bool) -> bool:
+    value = os.getenv(name)
+    if value is None:
+        return default
+    return value.strip().lower() in {"1", "true", "yes", "y", "on"}
+
+
+EMBED_NORMALIZE = _env_bool("EMBED_NORMALIZE", True)
+RESET_DB_ON_POPULATE = _env_bool("RESET_DB_ON_POPULATE", False)
+
+embeddings = HuggingFaceEmbeddings(
+    model_name=EMBED_MODEL,
+    encode_kwargs={"normalize_embeddings": EMBED_NORMALIZE}
+)
+
+
+def reset_db_if_requested():
+    if not RESET_DB_ON_POPULATE:
+        return
+
+    if os.path.exists(DB_PATH):
+        shutil.rmtree(DB_PATH)
+        print(f"🧹 DB resettato: {DB_PATH}")
 
 def importa_feedback():
     if not os.path.exists(FEEDBACK_FILE):
@@ -83,7 +114,7 @@ def carica_dati(cartella, nome_collezione):
 
     # Leggiamo i file .txt
     documenti = []
-    for nome_file in os.listdir(cartella):
+    for nome_file in sorted(os.listdir(cartella)):
         if nome_file.endswith(".txt"):
             percorso = os.path.join(cartella, nome_file)
             with open(percorso, "r", encoding="utf-8") as f:
@@ -95,7 +126,7 @@ def carica_dati(cartella, nome_collezione):
         return
 
     # Dividiamo il testo in piccoli pezzi (Chunking)
-    splitter = RecursiveCharacterTextSplitter(chunk_size=600, chunk_overlap=100)
+    splitter = RecursiveCharacterTextSplitter(chunk_size=CHUNK_SIZE, chunk_overlap=CHUNK_OVERLAP)
     pezzi = splitter.split_documents(documenti)
 
     # Salviamo nel Database locale
@@ -109,6 +140,7 @@ def carica_dati(cartella, nome_collezione):
 
 if __name__ == "__main__":
     print("Inizio popolamento database...")
+    reset_db_if_requested()
     carica_dati("./data/doc", "documentazione")
     carica_dati("./data/risposte", "storico_risposte")
     importa_feedback()

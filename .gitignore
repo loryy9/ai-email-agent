@@ -1,5 +1,6 @@
 # Ambiente virtuale (troppo pesante, si ricrea con requirements.txt)
 venv/
+.venv/
 
 # Chiavi segrete (NON caricarle mai su internet!)
 .env
