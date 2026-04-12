@@ -3,5 +3,6 @@ langchain-groq
 langchain-huggingface
 langchain-chroma
 langchain-community
+langchain-text-splitters
 python-dotenv
 sentence-transformers
