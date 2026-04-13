@@ -1,0 +1,18 @@
+DOMANDA: Come faccio a creare un nuovo budget per elaborare delle buste di prova?
+RISPOSTA: Per creare un nuovo budget per elaborare delle buste di prova, segui questi passaggi:
+
+1. **Seleziona la directory**: vai al menu **12 Budget - Costi presunti** e seleziona **2 Budget**. Inserisci la directory nella quale vuoi creare il nuovo budget.
+2. **Crea il nuovo budget**: seleziona **01 Creazione archivi** e conferma la creazione del nuovo budget.
+3. **Imposta il mese e l'anno di elaborazione**: vai al menu **02 Mese elaborazione** e imposta il mese e l'anno di elaborazione desiderati.
+4. **Elabora il budget**: vai al menu **08 Elaborazione L.U.L.** e seleziona **1 Registrazione** per elaborare il budget.
+
+Ecco la tabella riassuntiva dei passaggi:
+
+| Passo | Azione | Menu |
+| --- | --- | --- |
+| 1 | Seleziona la directory | 12 Budget - Costi presunti > 2 Budget |
+| 2 | Crea il nuovo budget | 01 Creazione archivi |
+| 3 | Imposta il mese e l'anno di elaborazione | 02 Mese elaborazione |
+| 4 | Elabora il budget | 08 Elaborazione L.U.L. > 1 Registrazione |
+
+Seguendo questi passaggi, potrai creare un nuovo budget per elaborare delle buste di prova. Se hai ulteriori domande o necessiti di ulteriore assistenza, non esitare a contattarci.

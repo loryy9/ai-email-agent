@@ -1,0 +1,25 @@
+DOMANDA: Come faccio un cambio matricola?
+RISPOSTA: Gentile cliente,
+
+per eseguire un cambio matricola, è necessario seguire la procedura indicata nel manuale tecnico. Di seguito, sono riportati i passaggi da eseguire:
+
+### Procedura di Cambio Matricola
+
+1. **Selezionare il lavoratore**: selezionare il lavoratore interessato al cambio matricola.
+2. **Eseguire il cambio matricola**: eseguire il cambio matricola utilizzando il menu **04 Lavoratori** e selezionando l'opzione **32 Cambio matricola**.
+3. **Selezionare il tipo di cambio**: selezionare il tipo di cambio matricola da eseguire (ad esempio, **Qualifica** o **Altri cambi**).
+4. **Inserire la data del cambio**: inserire la data del cambio matricola.
+5. **Confermare le informazioni**: confermare le informazioni relative al cambio matricola.
+
+### Esempio di Cambio Matricola
+
+| Menu | Opzione | Descrizione |
+| --- | --- | --- |
+| 04 Lavoratori | 32 Cambio matricola | Eseguire il cambio matricola |
+|  | 1 Cambio matricola | Selezionare il tipo di cambio matricola |
+|  | 2 - CAMBIO QUALIFICA PART. | Selezionare il tipo di cambio qualifica |
+
+Per ulteriori informazioni, si prega di consultare il manuale tecnico o di contattare il nostro servizio di assistenza.
+
+Cordiali saluti,
+[Il tuo nome]

@@ -1,5 +1,5 @@
-import os
 import json
+import os
 from datetime import datetime
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
@@ -9,179 +9,104 @@ from langchain_core.documents import Document
 
 load_dotenv()
 
-# Setup costanti
-DB_PATH = "./chroma_db_local"
+# Config
+EMBED_MODEL = os.getenv("EMBED_MODEL", "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
+DB_PATH = os.getenv("DB_PATH", "./chroma_db_pro")
 RISPOSTE_DIR = "./data/risposte"
-FEEDBACK_DIR = "./data/feedback"
-FEEDBACK_FILE = os.path.join(FEEDBACK_DIR, "errate.jsonl")
+FEEDBACK_FILE = "./data/feedback/errate.jsonl"
+DB_CFG = {"hnsw:space": "cosine"}
 
-LLM_MODEL = os.getenv("LLM_MODEL", "llama-3.3-70b-versatile")
-EMBED_MODEL = os.getenv("EMBED_MODEL", "BAAI/bge-m3")
-DOC_K = int(os.getenv("DOC_K", "6"))
-DOC_SCORE_MIN = float(os.getenv("DOC_SCORE_MIN", "0.35"))
-
-embeddings = HuggingFaceEmbeddings(
-    model_name=EMBED_MODEL,
-    encode_kwargs={"normalize_embeddings": True}
-)
-llm = ChatGroq(model=LLM_MODEL, temperature=0)
-
-
-def _append_jsonl(path, record: dict):
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "a", encoding="utf-8") as f:
-        f.write(json.dumps(record, ensure_ascii=False) + "\n")
-
+embeddings = HuggingFaceEmbeddings(model_name=EMBED_MODEL)
+llm = ChatGroq(model=os.getenv("LLM_MODEL", "llama3-70b-8192"), temperature=0)
 
 def salva_risposta_corretta(domanda, risposta):
-    """Salva la risposta approvata nel DB e su file .txt"""
-    if not os.path.exists(RISPOSTE_DIR):
-        os.makedirs(RISPOSTE_DIR)
-
-    filename = f"risposta_{len(os.listdir(RISPOSTE_DIR)) + 1}.txt"
+    # 1. Backup su file
+    os.makedirs(RISPOSTE_DIR, exist_ok=True)
+    filename = f"risposta_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
     with open(os.path.join(RISPOSTE_DIR, filename), "w", encoding="utf-8") as f:
         f.write(f"DOMANDA: {domanda}\nRISPOSTA: {risposta}")
 
-    db_risp = Chroma(
-        collection_name="storico_risposte",
-        embedding_function=embeddings,
-        persist_directory=DB_PATH
-    )
-    db_risp.add_documents([
-        Document(
-            page_content=f"D: {domanda}\nR: {risposta}",
-            metadata={"fonte": filename}
-        )
-    ])
-    print(f"\n✅ Memoria aggiornata! Creata fonte: {filename}")
+    # 2. Iniezione Live nel DB
+    db = Chroma(collection_name="storico_risposte", embedding_function=embeddings, persist_directory=DB_PATH, collection_metadata=DB_CFG)
+    db.add_documents([Document(page_content=f"D: {domanda}\nR: {risposta}", metadata={"fonte": filename})])
+    print(f"✨ [LIVE MEMORY] Risposta salvata e imparata.")
 
+def salva_feedback_errato(domanda, risposta_agente, motivazione, corretta=None):
+    # 1. Backup su JSONL
+    os.makedirs(os.path.dirname(FEEDBACK_FILE), exist_ok=True)
+    record = {"timestamp": datetime.now().isoformat(), "domanda": domanda, "risposta_agente": risposta_agente, "motivazione": motivazione, "risposta_corretta": corretta}
+    
+    with open(FEEDBACK_FILE, "a", encoding="utf-8") as f:
+        f.write(json.dumps(record, ensure_ascii=False) + "\n")
 
-def salva_feedback_errato(domanda, risposta_agente, motivazione, risposta_corretta=None):
-    """Salva feedback negativo + motivazione su file e su DB vettoriale."""
-    record = {
-        "timestamp": datetime.now().isoformat(),
-        "domanda": domanda,
-        "risposta_agente": risposta_agente,
-        "motivazione": motivazione,
-        "risposta_corretta": risposta_corretta or ""
-    }
-    _append_jsonl(FEEDBACK_FILE, record)
-
-    db_err = Chroma(
-        collection_name="feedback_errori",
-        embedding_function=embeddings,
-        persist_directory=DB_PATH
-    )
-    testo = (
-        f"DOMANDA: {domanda}\n"
-        f"RISPOSTA_SBAGLIATA: {risposta_agente}\n"
-        f"MOTIVO_ERRORE: {motivazione}\n"
-        f"RISPOSTA_CORRETTA: {risposta_corretta or 'N/D'}"
-    )
-    db_err.add_documents([
-        Document(page_content=testo, metadata={"tipo": "errore"})
-    ])
-    print("📝 Feedback errato salvato (file + memoria vettoriale).")
-
+    # 2. Iniezione Live nel DB Errori
+    db = Chroma(collection_name="feedback_errori", embedding_function=embeddings, persist_directory=DB_PATH, collection_metadata=DB_CFG)
+    db.add_documents([Document(page_content=f"DOMANDA: {domanda}\nERRORE: {risposta_agente}\nMOTIVO: {motivazione}", metadata={"tipo": "errore"})])
+    print(f"🚫 [LIVE MEMORY] Errore registrato. Non lo ripeterò.")
 
 def cerca_contesto(query):
-    # 1) Cerca nello storico risposte corrette (priorità alta)
-    db_risp = Chroma(
-        collection_name="storico_risposte",
-        embedding_function=embeddings,
-        persist_directory=DB_PATH
-    )
-    risultati = db_risp.similarity_search_with_relevance_scores(query, k=2)
-    if risultati and risultati[0][1] > 0.70:
-        return risultati[0][0].page_content, "STORICO RISPOSTE"
+    # Ricerca incrociata (Storico + Documentazione)
+    db_risp = Chroma(collection_name="storico_risposte", embedding_function=embeddings, persist_directory=DB_PATH, collection_metadata=DB_CFG)
+    db_doc = Chroma(collection_name="documentazione", embedding_function=embeddings, persist_directory=DB_PATH, collection_metadata=DB_CFG)
+    
+    # Prendiamo k=10 dalla doc per non perdere le voci nelle tabelle
+    res_risp = db_risp.similarity_search_with_relevance_scores(query, k=2)
+    res_doc = db_doc.similarity_search_with_relevance_scores(query, k=10)
 
-    # 2) Cerca nella documentazione
-    db_doc = Chroma(
-        collection_name="documentazione",
-        embedding_function=embeddings,
-        persist_directory=DB_PATH
-    )
-    risultati_doc = db_doc.similarity_search_with_relevance_scores(query, k=DOC_K)
-    validi = [doc for doc, score in risultati_doc if score >= DOC_SCORE_MIN]
-    contesto = "\n---\n".join([d.page_content for d in validi]) if validi else ""
-    return contesto, "DOCUMENTAZIONE TECNICA"
+    # Debug in console
+    if res_doc: print(f"🔍 [DEBUG] Top Doc Score: {res_doc[0][1]:.4f} ({res_doc[0][0].metadata.get('source')})")
 
+    storico = [d[0].page_content for d in res_risp if d[1] > 0.80]
+    manuali = [d[0].page_content for d in res_doc if d[1] > 0.20]
 
-def recupera_errori_simili(query, k=2):
-    db_err = Chroma(
-        collection_name="feedback_errori",
-        embedding_function=embeddings,
-        persist_directory=DB_PATH
-    )
-    docs = db_err.similarity_search(query, k=k)
-    if not docs:
-        return "Nessun errore simile registrato."
-    return "\n\n".join([d.page_content for d in docs])
+    contesto = ""
+    if storico: contesto += "--- RISPOSTE CORRETTE PASSATE ---\n" + "\n".join(storico) + "\n\n"
+    if manuali: contesto += "--- ESTRATTI MANUALI TECNICI ---\n" + "\n".join(manuali)
+    
+    return contesto
 
+def recupera_errori(query):
+    db = Chroma(collection_name="feedback_errori", embedding_function=embeddings, persist_directory=DB_PATH, collection_metadata=DB_CFG)
+    res = db.similarity_search(query, k=2)
+    return "\n\n".join([d.page_content for d in res]) if res else "Nessun errore simile."
 
-def esegui_agente(mail_cliente):
-    contesto, fonte = cerca_contesto(mail_cliente)
-    errori_simili = recupera_errori_simili(mail_cliente, k=2)
+def esegui_agente(mail):
+    contesto = cerca_contesto(mail)
+    errori = recupera_errori(mail)
 
-    prompt = f"""
-Sei un assistente tecnico email.
-Rispondi SOLO usando il CONTESTO. Non inventare.
+    prompt = f"""Sei l'assistente tecnico senior di CL SYSTEM. Rispondi alla MAIL usando il CONTESTO.
 
-Regole obbligatorie:
-1) Se il contesto è vuoto o insufficiente, rispondi esattamente: ESCALATE
-2) Usa prima il CONTESTO e poi, solo se coerente, lo STORICO.
-3) Evita gli errori nel blocco ERRORI DA EVITARE.
-4) Se dai una procedura:
-codice menu - descrizione menu
-- passo 1
-- passo 2
-- passo 3
-5) Chiudi con: "Fonte usata: <STORICO RISPOSTE|DOCUMENTAZIONE TECNICA>"
+### REGOLE OBBLIGATORIE:
+1. Usa **TABELLE MARKDOWN** per codici voce o tracciati record.
+2. Sii schematico e usa il **grassetto** per i codici (es. **0880**).
+3. Se il CONTESTO non contiene la soluzione, rispondi: **ESCALATE**.
+4. NON ripetere gli errori elencati in 'ERRORI DA EVITARE'.
 
-ERRORI DA EVITARE:
-{errori_simili}
+### ERRORI DA EVITARE:
+{errori}
 
-CONTESTO ({fonte}):
-{contesto}
+### CONTESTO:
+{contesto if contesto else "VUOTO - Rispondi ESCALATE"}
 
-MAIL CLIENTE:
-{mail_cliente}
+### MAIL CLIENTE:
+{mail}
 
-RISPOSTA PROFESSIONALE:
-"""
-    risposta = llm.invoke(prompt).content
-    return risposta, fonte
+RISPOSTA PROFESSIONALE:"""
 
+    return llm.invoke(prompt).content
 
 if __name__ == "__main__":
-    mail_test = input("\n📧 Inserisci il testo della mail ricevuto: ")
-
-    print("\n... L'agente sta studiando la risposta ...")
-    bozza, fonte = esegui_agente(mail_test)
-
-    print(f"\n--- PROPOSTA DELL'AGENTE (Fonte: {fonte}) ---")
-    print(bozza)
-    print("-" * 40)
-
-    feedback = input("\n❓ Questa risposta è 'corretta' o 'errata'? ").strip().lower()
-
-    if feedback == "corretta":
+    mail_test = input("\n📩 Mail cliente: ")
+    print("... Studio in corso ...")
+    
+    bozza = esegui_agente(mail_test)
+    print(f"\n--- PROPOSTA ---\n\n{bozza}\n\n{'-'*40}")
+    
+    f = input("\n❓ Corretta (c) o Errata (e)? ").lower().strip()
+    if f == 'c':
         salva_risposta_corretta(mail_test, bozza)
-        print("Ottimo! La prossima volta saprò già cosa rispondere.")
-    else:
-        motivo = input("✍️ Perché è errata? (obbligatorio): ").strip()
-        corretta = input("✅ Se vuoi, incolla qui una risposta corretta (opzionale): ").strip()
-
-        salva_feedback_errato(
-            domanda=mail_test,
-            risposta_agente=bozza,
-            motivazione=motivo if motivo else "Motivazione non fornita",
-            risposta_corretta=corretta if corretta else None
-        )
-
-        # Se l'operatore fornisce la risposta corretta, la salviamo anche come memoria positiva
-        if corretta:
-            salva_risposta_corretta(mail_test, corretta)
-            print("✅ Salvata anche la risposta corretta suggerita dall'operatore.")
-        else:
-            print("❌ Risposta non salvata come corretta (mancava testo corretto).")
+    elif f == 'e':
+        m = input("✍️ Motivo errore: ")
+        c = input("✅ Risposta corretta (opzionale): ")
+        salva_feedback_errato(mail_test, bozza, m, c if c else None)
+        if c: salva_risposta_corretta(mail_test, c)
